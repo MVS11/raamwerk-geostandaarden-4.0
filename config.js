@@ -40,13 +40,13 @@ var respecConfig =
 {
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
   //specStatus: "GN-BASIS",             // Basis Document
-  specStatus: "GN-WV",              // Werk Versie
-  //specStatus: "GN-CV",              // Consultatie Versie
-  //specStatus: "GN-VV",              // Vaststellings Versie
-  //specStatus: "GN-DEF",             // Definitieve Versie
+  specStatus: "GN-WV",                  // Werk Versie
+  //specStatus: "GN-CV",                // Consultatie Versie
+  //specStatus: "GN-VV",                // Vaststellings Versie
+  //specStatus: "GN-DEF",               // Definitieve Versie
   //-- specType is verplicht bij alle andere dan BASIS ---------------------------------
   //specType: "NO",                   // Norm
-  specType: "ST",                   // Standaard
+  specType: "ST",                       // Standaard
   //specType: "IM",                   // Informatie Model
   //specType: "PR",                   // Praktijkrichtlijn
   //specType: "HR",                   // HandReiking
@@ -68,12 +68,12 @@ var respecConfig =
   editors: 
  [
     {
-      name:       "Naam Editor-1",
+      name:       "Jan van Gelder",
       company:    "Geonovum",
       companyURL: "https://www.geonovum.nl"
     }, 
     {
-      name:       "Naam Editor-n",
+      name:       "Michel Grothe",
       company:    "Geonovum",
       companyURL: "https://www.geonovum.nl"
     }, 
@@ -83,18 +83,23 @@ var respecConfig =
   authors: 
   [
     {
-      name:       "Naam Auteur-1",
+      name:       "Michel Grothe",
       company:    "Geonovum",
       companyURL: "https://www.geonovum.nl"
     }, 
     {
-      name:       "Naam Auteur-2",
+      name:       "Yvonne Verdonk ",
       company:    "Geonovum",
       companyURL: "https://www.geonovum.nl"
     }, 
-  ],
+    {
+     name:       "Tanen Nouwens ",
+     company:    "Geonovum",
+     companyURL: "https://www.geonovum.nl"
+   }, 
+ ],
   //-- shortName is verplicht! (komt in de URL: kies logische naam) --------------------
-  shortName: "et",  	              // Wordt gebruikt in de document URL
+  shortName: "rw",  	              // Wordt gebruikt in de document URL
   //-- pubDomain is verplicht! (komt in de URL: Activeer 1 van de volgende) ------------
   pubDomain: "et", 	              // Energie transitie
   //pubDomain: "mim", 	            // Metamodel Informatie Modellering
