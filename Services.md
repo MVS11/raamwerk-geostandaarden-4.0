@@ -34,7 +34,7 @@ Onderstaande indeling gaat uit van de bij de API toegepaste 'language' style:
 
 -   Event-based Style: MQ, WebSub, MQTT, XMPP, AMQP, Kafka, AsyncAPI
 
-Geostandaarden voor application programming interfaces …
+Ook de geo-standaarden voor API’s kennen een diverse oorsprong en ‘taal’. Zo treffen we in het overzicht van de API geo-standaarden nagenoeg alle API taalstijlen aan: tunnelstijl (OGC WMS en OGC WFS), resource style met de OGC API Features enzo, hypermedia style (INSPIRE ATOM feeds voor bulkdownload), Query style (geoSPARQL) en Even-based APi zoals de SensorThings API die MQTT ondersteunt (INSPIRE good practise). In de volgende paragraaf zijn de verschillende API geo-standaarden kort (functioneel) toegelicht.
 
 ## Overzicht geo-standaarden API’s
 
