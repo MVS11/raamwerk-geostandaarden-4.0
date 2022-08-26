@@ -25,17 +25,18 @@ services. Er zijn verschillende soorten services, bijvoorbeeld
 Onderstaande indeling gaat uit van de bij de API toegepaste 'language' style:
 
 -   Tunnel Style: XML-RPC, SOAP, gRPC, Avro
-
 -   Resource Style: OpenAPI/Swagger, RAML, API Blueprint
-
 -   Hypermedia Style: HAL, Siren, Atom, HATEOAS
-
 -   Query Style: GraphQL, OData, SPARQL
-
 -   Event-based Style: MQ, WebSub, MQTT, XMPP, AMQP, Kafka, AsyncAPI
 
-Ook de geo-standaarden voor API’s kennen een diverse oorsprong en ‘taal’. Zo treffen we in het overzicht van de API geo-standaarden nagenoeg alle API taalstijlen aan: tunnelstijl (OGC WMS en OGC WFS), resource style met de OGC API Features enzo, hypermedia style (INSPIRE ATOM feeds voor bulkdownload), Query style (geoSPARQL) en Even-based APi zoals de SensorThings API die MQTT ondersteunt (INSPIRE good practise). In de volgende paragraaf zijn de verschillende API geo-standaarden kort (functioneel) toegelicht.
-
+Ook de geo-standaarden voor API’s kennen een diverse oorsprong en ‘taal’. Zo
+treffen we in het overzicht van de API geo-standaarden nagenoeg alle API
+taalstijlen aan: tunnelstijl (OGC WMS en OGC WFS), resource style met de OGC API
+Features enzo, hypermedia style (INSPIRE ATOM feeds voor bulkdownload), Query
+style (geoSPARQL) en Even-based APi zoals de SensorThings API die MQTT
+ondersteunt (INSPIRE good practise). In de volgende paragraaf zijn de
+verschillende API geo-standaarden kort (functioneel) toegelicht.
 
 ## Overzicht geo-standaarden API’s
 
@@ -69,11 +70,9 @@ De WMS-standaard definieert de volgende drie operaties:
     gevraagd. Het antwoord wordt als een XML bericht verstuurd. Dit antwoord
     bevat bijvoorbeeld het gehanteerde coördinatensysteem en de aanwezige
     kaartlagen (layers) van de aangeboden WMS.
-
 -   De kaart wordt verkregen met de *GetMap*-operatie. Parameters zijn onder
     andere beeldgrootte, rasterformaat, coördinatensysteem en kaartlagen
     (layers).
-
 -   De optionele *GetFeatureInfo* dient ervoor om attribuutinformatie van een
     geo-object (feature) op te vragen. Hoewel WMS-GetMap een rasterbeeld
     oplevert kan de individuele eigenschappen van een object in de rasterkaart
@@ -81,7 +80,7 @@ De WMS-standaard definieert de volgende drie operaties:
 
 OGC heeft momenteel een aantal implementatiespecificaties van de WMS geschreven
 (versies 1.0 t/m 1.3). WMS 1.3.0 is ingediend bij ISO en is gelijk aan ISO
-19128. Omdat er een aantal vrijheidsgraden en een aantal specifiek landelijke
+19128\. Omdat er een aantal vrijheidsgraden en een aantal specifiek landelijke
 zaken zijn voor gebruik van de WMS-specificatie, is er een Nederlands profiel
 ontwikkeld voor WMS. Hierin zijn zaken beschreven als: het bestandsformaat (in
 ieder geval PNG) en het coördinaatstelsel (Rijksdriehoekstelsel).
@@ -94,9 +93,9 @@ Nederlandse WMS profiel 1.0 op ISO 19128 (WMS 1.3.0).
 
 Tabel 11- Standaarden en specificaties voor WMS
 
-| **Internationale standaarden/specificaties**                                                                                                                           | **Europese profielen**                                                                                                            | **Nederlandse profielen**                                                                                                            |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
-| OpenGIS Implementation Specification, OpenGIS® Web Map Server Implementation Specification, version 1.3.0 (= ISO 19128 Geographic Information – Web Map Service (WMS)) | Technical Guidance for the implementation of Inspire View Service op pagina: <http://inspire.jrc.ec.europa.eu/index.cfm/pageid/5> | [./media/image8.jpeg](./media/image8.jpeg) Nederlands profiel op ISO 19128 Geographic information — Web Map Server Interface versie  |
+| **Internationale standaarden/specificaties**                                                                                                                           | **Europese profielen**                                                                                                            | **Nederlandse profielen**                                                                                      |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
+| OpenGIS Implementation Specification, OpenGIS® Web Map Server Implementation Specification, version 1.3.0 (= ISO 19128 Geographic Information – Web Map Service (WMS)) | Technical Guidance for the implementation of Inspire View Service op pagina: <http://inspire.jrc.ec.europa.eu/index.cfm/pageid/5> | <./media/image8.jpeg> Nederlands profiel op ISO 19128 Geographic information — Web Map Server Interface versie |
 
 ![](media/efbeb6ab2cf90da2c00b333536bcf12c.png)
 
@@ -146,21 +145,19 @@ ontwikkeld voor de basic WFS, gebaseerd op WFS 2.0 en WFS 1.1.
 
 Tabel 12 - standaarden en specificaties voor WFS
 
-| **Internationale standaarden/specificaties**                                                                                                                                                                                                                                                                                                              | **Europese profielen**                                                                                                                                                                             | **Nederlandse profielen**                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| OpenGIS Web Feature Service (WFS) Implementation Specification, version 1.1.0 OpenGIS Web Feature Service (WFS) Implementation Specification (corrigendum 1.1.0) ISO 19142, Geographic information - Web Feature Service (= WFS 2.0) OpenGIS Filter Encoding Implementation Specification, versie 1.1 ISO 19143, Geographic information – Filter encoding | [./media/image8.jpeg](./media/image8.jpeg) Technical Guidance for the implementation of Inspire Download Services, zie <http://inspire.jrc.ec.europa.eu/index.cfm/pageid/5> voor de laatste versie | [./media/image8.jpeg](./media/image8.jpeg) Nederlands profiel op ISO 19142, <http://www.geonovum.nl/sites/default/files/nederlands_profiel_op_iso_19142_wfs_2.0_-_versie_1.0.1.pdf> Nederlands WFS Profiel 1.0 op OGC WFS 1.1.0, <http://www.geonovum.nl/wegwijzer/standaarden/nederlands-wfs-profiel-10-op-ogc-standaard-wfs-versie-110> Het Nederlandse WFS profiel 1.0 op OGC standaard WFS versie 1.1.0 vervalt na verloop van tijd (zie website). |
+| **Internationale standaarden/specificaties**                                                                                                                                                                                                                                                                                                              | **Europese profielen**                                                                                                                                                        | **Nederlandse profielen**                                                                                                                                                                                                                                                                                                                                                                                                         |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| OpenGIS Web Feature Service (WFS) Implementation Specification, version 1.1.0 OpenGIS Web Feature Service (WFS) Implementation Specification (corrigendum 1.1.0) ISO 19142, Geographic information - Web Feature Service (= WFS 2.0) OpenGIS Filter Encoding Implementation Specification, versie 1.1 ISO 19143, Geographic information – Filter encoding | <./media/image8.jpeg> Technical Guidance for the implementation of Inspire Download Services, zie <http://inspire.jrc.ec.europa.eu/index.cfm/pageid/5> voor de laatste versie | <./media/image8.jpeg> Nederlands profiel op ISO 19142, <http://www.geonovum.nl/sites/default/files/nederlands_profiel_op_iso_19142_wfs_2.0_-_versie_1.0.1.pdf> Nederlands WFS Profiel 1.0 op OGC WFS 1.1.0, <http://www.geonovum.nl/wegwijzer/standaarden/nederlands-wfs-profiel-10-op-ogc-standaard-wfs-versie-110> Het Nederlandse WFS profiel 1.0 op OGC standaard WFS versie 1.1.0 vervalt na verloop van tijd (zie website). |
 
 ## Web Coverage Service
 
-De Web Coverage[^7] Service (WCS) is het protocol voor de open uitwisseling van
+De Web Coverage[^1] Service (WCS) is het protocol voor de open uitwisseling van
 geografische rasterdata, die fenomenen met ruimtelijke variabiliteit
 representeren zoals bijvoorbeeld temperatuur- en hoogtemodellen. De Web Coverage
 is vooral geschikt voor grote images. Voorbeelden zijn satellietbeelden,
 digitale hoogte modellen (DEM) en TIN’s.
 
-[^7]: Coverage: feature that acts as a function to return one or more feature
-attribute values for any direct position within its spatiotemporal domain
-[19123].
+[^1]: Coverage: feature that acts as a function to return one or more feature
 
 De WCS is in de praktijk nog beperkt geïmplementeerd.
 
@@ -169,12 +166,11 @@ rendering en coverages met meerdere waarden (multi-valued).
 
 Figuur 10 - WCS operaties
 
-  
 Tabel 14 - Standaarden en specificaties voor WCS
 
-| **Internationale standaarden/specificaties** | **Europese profielen**                                                                                                                                                                                                               | **Nederlandse profielen** |
-|----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
-| Web Coverage Service (WCS), version 2.0      | [./media/image8.jpeg](./media/image8.jpeg) Technical Guidance for the implementation of Inspire Download Services using Web Coverage Services (WCS), zie <http://inspire.jrc.ec.europa.eu/index.cfm/pageid/5> voor de laatste versie |                           |
+| **Internationale standaarden/specificaties** | **Europese profielen**                                                                                                                                                                                          | **Nederlandse profielen** |
+|----------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
+| Web Coverage Service (WCS), version 2.0      | <./media/image8.jpeg> Technical Guidance for the implementation of Inspire Download Services using Web Coverage Services (WCS), zie <http://inspire.jrc.ec.europa.eu/index.cfm/pageid/5> voor de laatste versie |                           |
 
 ### Bulkdownloads via ATOM feeds
 
@@ -216,9 +212,9 @@ Op de INSPIRE wiki van Geonovum staat meer informatie over Atom feeds:
 
 Tabel 13 - standaarden en specificaties voor ATOM Feeds
 
-| **Internationale standaarden/specificaties** | **Europese profielen**                                                                                                                                                                             | **Nederlandse profielen** |
-|----------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
-| http://georss.org/                           | [./media/image8.jpeg](./media/image8.jpeg) Technical Guidance for the implementation of Inspire Download Services, zie <http://inspire.jrc.ec.europa.eu/index.cfm/pageid/5> voor de laatste versie |                           |
+| **Internationale standaarden/specificaties** | **Europese profielen**                                                                                                                                                        | **Nederlandse profielen** |
+|----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
+| http://georss.org/                           | <./media/image8.jpeg> Technical Guidance for the implementation of Inspire Download Services, zie <http://inspire.jrc.ec.europa.eu/index.cfm/pageid/5> voor de laatste versie |                           |
 
 ### Catalogue service for the Web (CSW)
 
@@ -234,7 +230,7 @@ Tabel 15 - Standaarden en specificaties voor de catalogue service
 
 | **Internationale standaarden/specificaties**                                                                                                                                                                                                                        | **Europese profielen**                                                                                                                                    | **Nederlandse profielen** |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
-| OpenGIS Catalogues Service Implementation Specification, Version 2.0.2 Revision Notes for Corrigendum for OpenGIS 07-006 : Catalogue Services, version 2.0.2 (1.0) OpenGIS Catalogue Services Specification 2.0.2 - ISO Metadata Application Profile, version 1.0.0 | Technical Guidance for the implementation of Inspire Discovery Services, zie <http://inspire.jrc.ec.europa.eu/index.cfm/pageid/5> voor de laatste versie. | Hetzelfde als INSPIRE.    |
+| OpenGIS Catalogues Service Implementation Specification, Version 2.0.2 Revision Notes for Corrigendum for OpenGIS 07-006 : Catalogue Services, version 2.0.2 (1.0) OpenGIS Catalogue Services Specification 2.0.2 - ISO Metadata Application Profile, version 1.0.0 | Technical Guidance for the implementation of Inspire Discovery Services, zie <http://inspire.jrc.ec.europa.eu/index.cfm/pageid/5> voor de laatste versie. | Hetzelfde als INSPIRE.    |
 
 ### Sensor observatie services (SOS)
 
@@ -283,13 +279,10 @@ de volgende mogelijkheden beschikbaar:
 1.  WPS (Web Processing Service) aangevuld met coordinaat transformatie
     (<http://inspire.jrc.ec.europa.eu/documents/Network_Services/INSPIRE_Draft_Technical_Guidance_Coordinate_Transformation_Services_(version_2%201).pdf>
     )
-
 2.  Pre-processing met ETL (Extract, Transform en Load)-tools. Hierbij wordt de
     data al op voorhand getransformeerd naar een afgeleide database, en vanuit
     deze database geserveerd.
-
 3.  In de data worden 2 coördinatenparen opgeslagen, bijvoorbeeld RD en ETRS89.
-
 4.  On-the-fly transformatie bij het opvragen via een Web Feature Service.
 
 Afhankelijk van de situatie zal 1 t/m 4 toegepast worden, waarbij mogelijkheid 2
@@ -429,17 +422,11 @@ Een register bevat alle informatie die nodig is om de betekenis van een gegeven
 te omschrijven. Denk hierbij aan bijvoorbeeld:
 
 -   Feature catalogues
-
 -   Applicatie schema’s
-
 -   Codelijsten
-
 -   Coördinaat referentiesystemen
-
 -   Namespaces voor unieke objectidentificatie
-
 -   Visualisatieregels
-
 -   Symbolen
 
 Deze informatie bevindt zich in ‘registers’ met een goed beschreven beheermodel
@@ -506,9 +493,9 @@ Deze kwaliteit komt terug in de conformiteittoetsing uit 4.16.
 
 ## Ontsluiten via open (REST) API’s
 
-### Wat is een REST API? 
+### Wat is een REST API?
 
-### OGC API familie 
+### OGC API familie
 
 o
 
@@ -518,9 +505,9 @@ o
 
 ### OGC Sensor Things API
 
-### OGC API Environmental Data Retrieval 
+### OGC API Environmental Data Retrieval
 
-### OGC API Records 
+### OGC API Records
 
 ### OGC API Tiles
 
@@ -537,16 +524,14 @@ belangrijkste punten zijn:
     om vector tiles te maken en OGC API Tiles
     ([[OGC-API-Tiles-Core](https://geonovum.github.io/praktijkrichtlijn-vector-tiling/#bib-ogc-api-tiles-core)])
     voor het publiceren en documenteren via een API.
-
--   biedt vector tiles aan in tenminste één van de *TileMatrixSets* voor Web
+-   biedt vector tiles aan in tenminste één van de *TileMatrixSets* voor Web
     Mercator (EPSG:3857), ETRS89 in een projectie Lambert Azimuthal Equal Area
     (EPSG:3035) of het Rijksdriehoekstelsel (EPSG:28992)
-
 -   lever styling aan conform
     [[OGC-API-Styles](https://geonovum.github.io/praktijkrichtlijn-vector-tiling/#bib-ogc-api-styles)]
     en biedt een standaard stijl aan.
 
-Aanvullend op de praktijkrichtlijn is er een document met [Best
+Aanvullend op de praktijkrichtlijn is er een document met [Best
 practices](https://geonovum.github.io/vector-tiling-best-practices/).
 
 ## Kwaliteit van API’s
