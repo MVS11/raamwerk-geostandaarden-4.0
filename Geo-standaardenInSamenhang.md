@@ -1,4 +1,4 @@
-# Geo-standaarden in samenhang 
+# Geo-standaarden in samenhang
 
 Het doel van het Raamwerk van geo-standaarden is om uit de grote verscheidenheid
 aan standaarden die er zijn voor geo-informatie, de juiste set te kiezen. In
@@ -93,7 +93,7 @@ Conceptplaat weer opnemen?
 
 Pm
 
-## Geo-standaarden in samenhang 
+## Geo-standaarden in samenhang
 
 Voor het beantwoorden van ruimtelijke vragen zoals de voorbeelden in de vorige
 paragraaf, is het meestal nodig om informatiebronnen van verschillende
@@ -169,6 +169,52 @@ Om mijn data te laten gebruiken, moet ik:
 \- mijn data in kaartvorm eenduidig interpreteerbaar maken
 
 \- mijn data aan de juiste plek op aarde relateren
+
+## ‘Pas toe of leg uit’ lijst met open standaarden
+
+De geo-standaarden, die op de pas toe of leg uit lijst staan zijn:
+
+-   [ISO 19136:2007 Geographic information - Geography Markup Language
+    (GML](http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=32554))
+-   [NEN 3610:2011 (nl) Basismodel Geo-informatie - Termen, definities, relatie
+    s en algemene regels voor de uitwisseling van informatie over aan de aarde
+    gerelateerde ruimtelijke
+    objecten](http://www.nen.nl/web/Normshop/Norm/NEN-36102011-nl.htm)
+-   [Nederlands profiel op ISO 19142 Geographic information - Web Feature
+    Service, versie
+    1.0.1](http://www.geonovum.nl/sites/default/files/nederlands_profiel_op_iso_19142_wfs_2.0_-_versie_1.0.1.pdf)
+-   [Nederlands profiel op ISO 19128 Geographic information - Web Map Server
+    Interface, versie
+    1.0](http://www.geonovum.nl/sites/default/files/nederlands_profiel_op_iso_19128_wms_1.3_-_versie_1.0.pdf)
+-   [Nederlands profiel op ISO 19115 voor geografie, versie
+    1.2](http://www.geonovum.nl/sites/default/files/Nederlands%20metadata%20profiel%20op%20ISO%2019115%20voor%20geografie%20-%20v1%203%201%20def_0.pdf)
+-   [Nederlands metadata profiel op ISO 19119 voor services, versie
+    1.1](http://www.geonovum.nl/sites/default/files/Nederlands%20metadata%20profiel%20op%20ISO%2019119%20voor%20services%20-%20v1%202%201%20def.pdf)
+
+Deze geo-standaarden zijn van primair belang in het aansluiten van
+geo-informatie op de eOverheid. Bij het forum loopt een procedure om de huidige
+versies op de pas toe of leg uit lijst te krijgen.
+
+## Hiërarchie geo-standaarden
+
+Voor nationale standaarden geldt dat deze ontwikkeld zijn op basis van Europese
+en internationale standaarden met de voor Nederland geldende specifieke eisen.
+
+In het raamwerk van geo-standaarden is dit op onderstaande manier aangegeven.
+
+Tabel 2 - hierarchie standaarden
+
+| **Internationale standaarden/specificaties** | **Europese profielen** | **Nederlandse profielen** |
+|----------------------------------------------|------------------------|---------------------------|
+|                                              |                        |                           |
+
+Op het moment dat een nationale standaard is ontwikkeld geldt dat een nationale
+standaard of specificatie leidend is. Is er geen nationale standaard, dan geldt
+de Europese standaard en bij gebrek daaraan of omdat de internationale standaard
+de Europese of nationale behoefte afdekt geldt een internationale, wereldwijde
+standaard.
+
+## 
 
 ## Verkenning
 
