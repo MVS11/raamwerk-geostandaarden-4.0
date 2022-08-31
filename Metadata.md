@@ -22,12 +22,11 @@ meegenomen.
 
 Tabel 9 - Standaarden en specificaties met betrekking tot metadata standaarden
 
-| **Internationale standaarden/specificaties**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | **Europese profielen**                                                                                                                                                                                                                         | **Nederlandse profielen**                                                                                                   |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
-| **ISO 19115:2005**, Geographic information - Metadata1  ISO 19115/Cor.1:2006, Geographic information – Metadata, Technical Corrigendum 1 ISO 19115-2:2009, Geographic information – Metadata – Part 2: Extensions for imagery and gridded data  **ISO 19119:2005**, Geographic information – Services ISO 19119:2005/Amd 1:2008, Extensions of the service metadata model  **ISO/TS 19139**:2007, Geographic information - Metadata – XML Schema Implementation  **CSW2 AP ISO**, Catalogue Services Specification 2.0.2 –  **ISO Metadata Application** **Profile**, Version 1.0.0, OGC 07-045, 2007  **ISO 15836**: 2004, Information and documentation – The Dublin Core metadata element set | **Implementing Rule INSPIRE – Metadata** [INS IR MD]  **Corrigendum to metadata regulation** [INS C IR MD]  **Technical Guidelines** based on EN ISO 19115 and EN ISO 19119 [INS IR MDTG]  **GeoDCAT-AP** Good practise document. [GeoDCAT AP] | **Nederlands profiel ISO 19115** voor geografie, versie 1.3.1  **Nederlands profiel ISO 19119** voor services, versie 1.2.1 |
+| **Internationale standaarden/specificaties**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | **Europese profielen**                                                                                                                                                                                                                                                                                                                         | **Nederlandse profielen**                                                                                                                            |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ISO 19115:2005, Geographic information - Metadata1 **[ISO19115-2005]** ISO 19115/Cor.1:2006, Geographic information – Metadata, Technical Corrigendum 1 **[ISO19115-2006]** ISO 19115-2:2009, Geographic information – Metadata – Part 2: Extensions for imagery and gridded data **[ISO19115-2009]** ISO 19119:2005, Geographic information – Services ISO 19119:2005/Amd 1:2008, Extensions of the service metadata model **[ISO19119-2005]** ISO/TS 19139:2007, Geographic information - Metadata – XML Schema Implementation **[ISO 19139]** ISO 15836: 2004, Information and documentation – The Dublin Core metadata element set **[ISO15836]** | Implementing Rule INSPIRE – Metadata **[INSIRMD]**  Corrigendum to metadata regulation **[INSIRCMD]**  Technical Guidelines based on EN ISO 19115 and EN ISO 19119 **[INSTGMD]**  GeoDCAT-AP[: A geospatial extension for the DCAT application profile for data portals in Europe](https://joinup.ec.europa.eu/node/139283/). **[GeoDCATAP]**  | Nederlands profiel ISO 19115 voor geografie, versie 1.3.1 **[NLISO19115]** Nederlands profiel ISO 19119 voor services, versie 1.2.1 **[NLISO19119]** |
 
-
-TEST
+## 
 
 ## Kwaliteit van metadata
 
@@ -59,20 +58,20 @@ validator](https://inspire.ec.europa.eu/validator/home/index.html)
 ## Verkenning
 
 Methoden en technieken om data te zoeken, vinden en ontsluiten staan niet stil.
-Eind 2021 heeft Geonovum een verkenning uitgevoerd naar de toekomst van metadata
+Eind 2021 is een verkenning uitgevoerd naar de toekomst van metadata
 standaarden.
 
 In de Verkenning Toekomstbeelden Metadata kijken we naar de rol van metadata in
 de nabije toekomst. In de verkenning tekent zich een ontwikkeling af naar meer
-samenhang en verbinding tussen verschillende werelden. Aansluiting op generieke
-standaarden en het leggen van relaties tussen data, modellen, begrippen en
-datacatalogi is daarom van belang. Ook het beter verbinden van data-aanbieder en
-data-gebruiker is een aandachtsgebied. Daarnaast valt op dat vanuit beleid meer
-samenhang in sturing wordt verwacht. Op basis van deze verkenning wordt in een
-volgende stap gekeken in hoeverre het nationaal georegister voldoet aan dit
-beeld om op basis daarvan een handelingsperspectief op te stellen.
+samenhang en verbinding tussen verschillende metadata-werelden. Aansluiting op
+generieke standaarden en het leggen van relaties tussen data, modellen,
+begrippen en datacatalogi is daarom van belang. Ook het beter verbinden van
+data-aanbieder en data-gebruiker is een aandachtsgebied. Daarnaast valt op dat
+vanuit beleid meer samenhang in sturing wordt verwacht. Op basis van deze
+verkenning wordt in een volgende stap gekeken in hoeverre het nationaal
+georegister voldoet aan dit beeld om op basis daarvan een handelingsperspectief
+op te stellen.
 
-Meer informatie:
-
-[De toekomst van metadata
-standaarden](https://docs.geostandaarden.nl/vtm/cv-al-vrk-20211125/#d1e5758)
+Verkenning [De toekomst van metadata
+standaarden](https://docs.geostandaarden.nl/vtm/cv-al-vrk-20211125/#d1e5758)’
+(2021)
