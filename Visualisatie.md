@@ -70,16 +70,6 @@ Tabel 16 - Standaarden en specificaties voor visualisatie
 
 ## 
 
-TEST
-
-Tabel 16 - Standaarden en specificaties voor visualisatie
-
-| **Internationale standaarden/specificaties**                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | **Europese profielen**                              | **Nederlandse profielen**                  |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|--------------------------------------------|
-| ISO 19117 Geographic Information – Portrayal **[ISO 19117]** OGC Styled Layer Descriptor Implementation Specification, version 1.1.0 **[SLD]** OGC Symbology Encoding Implementation Specification, version 1.1.0 **[SE]** OGC Web Map Context Documents Implementation Specification, version 1.1 **[WMC]** Corrigendum for Implementation Standard Web Map Context Documents – Corrigendum 1, version 1.1.0 **[WMCC]** OGC KML version 2.3.0 **[KML]** Mapbox Styles? XML3D ? X3D? Collade ? OGC API Styles ? | Visualisatieregels voor INSPIRE data specificaties. | Visualisatieregels voor informatiemodellen |
-
-## 
-
 ## Kwaliteit en visualisatie
 
 ### Visualisatieregels data producten en informatiemodellen
@@ -181,4 +171,5 @@ de handreiking webcartografie vind je praktische tips over hoe je geo-informatie
 \- waar mogelijk - wel binnen de bedoelingen van de toegankelijkheidseisen kunt
 aanbieden.
 
-Handreiking digitaal toegankelijke locatiedata (2021)
+[Handreiking digitaal toegankelijke locatiedata
+(2021)](https://geonovum.github.io/toegankelijke-locatiedata/)
