@@ -1,3 +1,13 @@
+# Informatiemodellen
+
+**Een informatiemodel, ook wel dataspecificatie genoemd, zet schematisch de
+afspraken over begrippen en definities van gegevens binnen een bepaald domein op
+een rij. Dit vereenvoudigt de uitwisseling van informatie. In dit hoofdstuk
+beschrijven we de geostandaarden die de basis vormen van de modellen en
+beschrijvingen van geo-informatie.**
+
+## 
+
 ## Overzicht standaarden informatiemodellen voor Nederland
 
 In de onderstaande tabel 1 zijn geo-standaarden en specificaties met betrekking
@@ -26,14 +36,13 @@ inhoudelijke thema’s, waarvoor data specificaties zijn opgesteld. Nederlandse
 datasets worden conform deze Europese data specificaties in de Europese
 geo-informatie infrastructuur beschikbaar gesteld.
 
-Tabel 1 - Standaarden en specificaties met betrekking tot geo-objecten
-(features)
+Tabel 1 - Standaarden en specificaties met betrekking tot informatiemodellen
 
 | **Internationale standaarden/specificaties**                                                                                                     | **Europese profielen**                                                   | **Nederlandse profielen**                             |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|-------------------------------------------------------|
-| ISO 19101 Geographic Information – Reference model **[ISO19101]**                                                                                | INSPIRE: Generic Conceptual Model **[INSGCM]**                           | NEN3610:2011 Basismodel Geo-informatie. **[NEN3610]** |
-| ISO/TS 19103 Geographic Information - Conceptual schema language **[ISO19103]** ISO 19108 Geographic information -Temporal Schema **[ISO19108]** | INSPIRE: Methodology for the development of data specifications [INSMDS] | MIM - Metamodel Informatie Modellering **[MIM]**      |
-| ISO 19109 Geographic information - Rules for application schema **[ISO19109]**                                                                   | INSPIRE: Guidelines for the encoding of spatial data **[INSGEN]**        | Nederlandse profielen (informatiemodellen) op NEN361. |
+| ISO 19101 Geographic Information – Reference model **[ISO19101]**                                                                                | INSPIRE: Generic Conceptual Model **[INSGCM]**                           | MIM - Metamodel Informatie Modellering **[MIM]**      |
+| ISO/TS 19103 Geographic Information - Conceptual schema language **[ISO19103]** ISO 19108 Geographic information -Temporal Schema **[ISO19108]** | INSPIRE: Methodology for the development of data specifications [INSMDS] | NEN3610:2011 Basismodel Geo-informatie. **[NEN3610]** |
+| ISO 19109 Geographic information - Rules for application schema **[ISO19109]**                                                                   | INSPIRE: Guidelines for the encoding of spatial data **[INSGEN]**        | Nederlandse profielen op NEN361.                      |
 | ISO 19110 Geographic information - Methodology for feature cataloguing **[ISO19110]**                                                            | INSPIRE Feature Concept Dictionary **[INSFCD]**                          |                                                       |
 | ISO 19118 Geographic Information – Encoding **[ISO19118]**                                                                                       | INSPIRE glossary **[INSG]**                                              |                                                       |
 | ISO 19131 Geographic Information - Data product specification **[ISO19131]**                                                                     | INSPIRE Data specifications **[INSDS]**                                  |                                                       |
@@ -61,7 +70,7 @@ volgende hulpmiddelen ingericht:
     handreiking beschrijft de toepassing van geometrie in informatiemodellering
     en de implementatie daarvan in GML. Het is daarmee een ondersteuning voor de
     toepassing van het basismodel geo-informatie (NEN3610) en GML. De
-    handreiking geeft onder meer uitleg over welke geometrien er zijn, Simple
+    handreiking geeft onder meer uitleg over welke geometrieën er zijn, Simple
     feature profielen en transformatieregels voor het kunnen genereren van GML
     uit UML.
 
