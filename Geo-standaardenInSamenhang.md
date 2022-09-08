@@ -26,8 +26,6 @@ vergeleken kunnen worden. Dit helpt mensen enorm bij het verkrijgen van inzicht
 op basis van informatie en zorgt ervoor dat veel effectiever beslissingen kunnen
 worden genomen.
 
-*Figuur 1 - Thema relaties op basis van locatie*
-
 Ruimtelijke vragen worden constant gesteld. In de vorm van ‘Waar?’ en door van
 een plek of locatie informatie op te vragen:
 
@@ -73,15 +71,13 @@ Door de uitwisseling van geo-informatie te enten op standaarden, specificaties
 en afspraken is het mogelijk om de uitwisseling open, efficiënt en effectief te
 doen plaatsvinden richting diverse groepen gebruikers. Het NGII concept is
 gebaseerd op de gedistribueerde ontsluiting van diverse geo-informatie(bronnen)
-via internationale open standaarden van het Open Geospatial Consortium (OGC),
-International Organization for Standardisation (ISO) en het World Wide Web
-Consortium (W3C). Geo-informatie kenmerkt zich door haar meervoudige gebruik in
-uiteenlopende toepassingen. Om een nationale GII tot stand brengen is meer nodig
-dan alleen technologie. Beleid, Wetgeving, organisatie en mensen, innovatie en
-kennis, samenwerking en beheer, een implementatieprogramma en roadmap. Kortom
-een NGII zorgt vooral voor efficiente(re) uitwisseling van geo-informatie binnen
-en tussen organisaties. In dit document komen alleen de gehanteerde
-geo-standaarden aan de orde.
+via internationale open standaarden. Geo-informatie kenmerkt zich door haar
+meervoudige gebruik in uiteenlopende toepassingen. Om een nationale GII tot
+stand brengen is meer nodig dan alleen technologie. Beleid, Wetgeving,
+organisatie en mensen, innovatie en kennis, samenwerking en beheer, een
+implementatieprogramma en roadmap. Kortom een NGII zorgt vooral voor
+efficiente(re) uitwisseling van geo-informatie binnen en tussen organisaties. In
+dit document komen alleen de gehanteerde geo-standaarden aan de orde.
 
 Voor het verwezenlijken van een infrastructuur zijn standaarden onontbeerlijk:
 Zij zorgen ervoor dat het wiel niet voor een tweede keer wordt uitgevonden en
@@ -121,48 +117,126 @@ geo-standaarden beschikbaar. Daarmee kunnen de gebruikers geo-informatie vinden,
 evalueren op geschiktheid voor gebruik en - indien geschikt - gaan gebruiken. En
 om de data te kunnen gebruiken, moet de gebruiker:
 
-\- De betekenis van data kunnen begrijpen;
-
-\- Data kunnen vinden en beoordelen op bruikbaarheid;
-
-\- Aan kunnen sluiten op databronnen;
-
-\- Data naar mij toe kunnen halen;
-
-\- Data in kaartvorm kunnen begrijpen;
-
-\- Data aan de juiste plek op aarde kunnen relateren.
+-   De betekenis van data kunnen begrijpen;
+-   Data kunnen vinden en beoordelen op bruikbaarheid;
+-   Aan kunnen sluiten op databronnen;
+-   Data naar mij toe kunnen halen;
+-   Data in kaartvorm kunnen begrijpen;
+-   Data aan de juiste plek op aarde kunnen relateren.
 
 Daarnaast zal de aanbieder van de data om zijn/haar data te laten gebruiken:
 
-\- De betekenis van zijn/haar data inzichtelijk maken;
-
-\- Zijn/haar data vindbaar en beoordeelbaar maken;
-
-\- Zijn/haar data toegankelijk maken;
-
-\- Zijn/haar data in voorspelbare formaten aanbieden;
-
-\- Zijn/haar data in kaartvorm eenduidig interpreteerbaar maken;
-
-\- Zijn/haar data aan de juiste plek op aarde relateren.
-
-## 
+-   \- De betekenis van zijn/haar data inzichtelijk maken;
+-   \- Zijn/haar data vindbaar en beoordeelbaar maken;
+-   \- Zijn/haar data toegankelijk maken;
+-   \- Zijn/haar data in voorspelbare formaten aanbieden;
+-   \- Zijn/haar data in kaartvorm eenduidig interpreteerbaar maken;
+-   \- Zijn/haar data aan de juiste plek op aarde relateren.
 
 ## Architectuur en geo-standaarden
 
-pm
+Architectuur is een middel om doelstellingen van een organisatie te realiseren.
+De geo-standaarden zijn producten die “passen” binnen de architecturen van de
+overheid. Het betekent ook dat aanpassingen of uitbreidingen voor die bestaande
+architecturen soms nodig zijn voor het onderwerp van geo-informatie. De
+geo-standaarden wordt niet ontwikkeld in splendid isolation, maar ze moeten
+opgehangen zijn aan en/of binnen nationale en internationale standaarden. Door
+de nationale geo- producten op te hangen aan, of in te passen in nationale en
+internationale standaarden, wordt de uitwisseling van gegevens gemakkelijker, en
+hoeft niet iedere keer het wiel opnieuw te worden uitgevonden.
 
-## 
+**NORA**
+
+De geo-standaarden moeten passen binnen de architectuur van organisaties.
+Aangezien dat meestal overheden zijn, kunnen wij niet om de Nederlandse
+Overheids Referentie Architectuur (NORA) heen. De
+[NORA](https://www.noraonline.nl/) is een architectuur raamwerk is een
+verzameling van 10 basisprincipes die, als je ze ziet, al heel herkenbaar zijn
+voor ons. Principes als Vindbaarheid, Toegankelijkheid, Transparantie en
+Standaard zijn principes die wij van nature al toepassen op onze producten. NORA
+stelt de
+“[pas-toe-of-leg-uit](https://www.forumstandaardisatie.nl/open-standaarden)”
+lijst van het Forum Standaardisatie verplicht. Overheden zijn daarmee verplicht
+om bij aanschaf van IT systemen eerst op die lijst te kijken. Onze standaarden
+staan deels ook op die lijst (de basisset generiek geo-standaarden), en daarmee
+geven we o.a. invulling aan het “verankeren” uit ons missie statement (verkent,
+verbindt, verankert).
+
+**Nationale Geo Informatie Infrastructuur**
+
+NGII staat voor Nationale Geo Informatie Infrastructuur. In het “[Convenant
+NGII](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiQiKTHnMHwAhUF8eAKHZheD0sQFjAAegQIAhAD&url=https%3A%2F%2Fzoek.officielebekendmakingen.nl%2Fstcrt-2018-73549.odt)”
+staat benoemd welke onderdelen van de NGII van belang zijn voor geo-standaarden:
+
+-   Coördinatie, stimulering en ondersteuning van de Europese richtlijn voor de
+    EU-infrastructuur voor ruimtelijke informatie (INSPIRE);
+-   Beheer en ontwikkeling van de standaarden in het kader van de
+    basisregistratie grootschalige topografie (BGT);
+-   Beheer en ontwikkeling van de standaarden in het kader van de
+    basisregistratie ondergrond (BRO);
+-   Beheer en ontwikkeling van de standaarden in het kader van de
+    basisregistratie adressen en gebouwen;
+-   Beheer en ontwikkeling van de standaarden in het kader van Digitale
+    Ruimtelijke Ontwikkeling (DRO, Ruimtelijkeplannen.nl);
+-   Advisering van het samenwerkingsverband Publieke Dienstverlening Op de Kaart
+    (PDOK);
+-   Innovaties voor de NGII door bundeling van kennis en ervaring en toetsing
+    van innovatie voor gebruik door de overheid;
+-   Overige trajecten voor het beheer, de ontwikkeling en/of innovatie van de
+    NGII.
+
+Voor deze belangrijke onderdelen van de NGII worden geo-standaarden ontwikkeld
+en beheerd. Heel concreet dus PDOK, met daarbinnen de basisregistraties BAG,
+BGT, BRT, BRO, enz.. Dit stelsel word “[Het stelsel van
+basisregistraties](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/basisregistraties-en-stelselafspraken/inhoud-basisregistraties/)”
+genoemd. Een aantal van die basisregisters heeft een geo-component, en die
+geo-component valt dus onder onze verantwoordelijkheid qua geo-standaarden. Denk
+aan informatiemodellen (bijvoorbeeld
+[IMGeo](https://www.geonovum.nl/geo-standaarden/bgt-imgeo)) en de samenhang
+tussen de basisregistraties (DisGEO).
+
+**FAIR Principes**
+
+Op eenduidige manieren samenwerken om informatie zo beter te kunnen beveiligen,
+makkelijker uit te wisselen en toegankelijker te maken voor iedereen. Dat is hoe
+open standaarden de samenwerking bevorderen tussen de overheid, burger en het
+bedrijfsleven. De [FAIR Principes](https://www.go-fair.org/fair-principles/)
+zijn een hulpmiddel daarin: het doel van de principes is het hergebruik van
+waardevolle data mogelijk maken. De FAIR Principes dwingen geen standaarden af,
+maar moedigen communities aan om data en diensten vindbaar, toegankelijk,
+interoperabel en herbruikbaar te maken.
+
+De geo-standaarden maken geo-informatie FAIR: De verbindende kracht van
+standaardisatie in vindbare, toegankelijke, uitwisselbare en herbruikbare
+geo-informatie.
+
+Findable (vindbaar). De eerste stap bij het (her)gebruiken van data is om de
+data te vinden. Metadata en data moeten gemakkelijk te vinden zijn voor zowel
+mensen als computers. Machine-readable metadata zijn essentieel voor het
+ontdekken van data.
+
+Accessible (toegankelijkheid). Zodra de gebruiker de benodigde data heeft
+gevonden, moet hij/zij weten hoe deze kunnen worden geraadpleegd, inclusief
+authenticatie en autorisatie.
+
+Interoperable (interoperabel). De data moeten meestal worden geïntegreerd met
+andere gegevens. Bovendien moeten de gegevens samenwerken met applicaties of
+workflows voor analyse, opslag en verwerking.
+
+Reusable (herbruikbaar), Het uiteindelijke doel van FAIR is het hergebruik van
+data te optimaliseren. Om dit te bereiken moeten metadata en data goed worden
+beschreven, zodat ze in verschillende situaties kunnen worden gerepliceerd en/of
+gecombineerd.
 
 ## Hiërarchie van geo-standaarden
 
 Voor nationale standaarden geldt dat deze ontwikkeld zijn op basis van Europese
 en internationale standaarden met de voor Nederland geldende specifieke eisen.
 
-In het raamwerk van geo-standaarden is dit op onderstaande manier aangegeven.
+In het raamwerk van geo-standaarden is dit op onderstaande manier aangegeven
+(zie tabel 1).
 
-Tabel 2 - Hiërarchie van geo-standaarden
+Tabel 1 - Hiërarchie van geo-standaarden
 
 | **Internationale standaarden/specificaties** | **Europese profielen** | **Nederlandse profielen** |
 |----------------------------------------------|------------------------|---------------------------|
@@ -174,28 +248,31 @@ de Europese standaard en bij gebrek daaraan of omdat de internationale standaard
 de Europese of nationale behoefte afdekt geldt een internationale, wereldwijde
 standaard.
 
-De Nederlande geo-standaarden, die op de pas toe of leg uit lijst staan zijn:
+Internationaal zijn voor Nederland de ISO/TC 211 Geographic
+information/Geomatics, het Open Geospatial Consortium (OGC) en het World Wide
+Web Consortium (W3C) van groot belang. ISO/TC211 en het OGC maken als
+standaardisatie organisaties technische geo-standaarden, die Nederland
+semantisch en technisch invult. Deze geo-standaarden organisaties hebben
+uiteraard weer liaisons met de algemene ICT en Internet standaardisatie
+organisaties zoals het W3C. Geonovum participeert namens Nederland actief in
+deze internationale geo-standaarden organisaties.
 
--   [ISO 19136:2007 Geographic information - Geography Markup Language
-    (GML](http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=32554))
--   [NEN 3610:2011 (nl) Basismodel Geo-informatie - Termen, definities, relatie
-    s en algemene regels voor de uitwisseling van informatie over aan de aarde
-    gerelateerde ruimtelijke
-    objecten](http://www.nen.nl/web/Normshop/Norm/NEN-36102011-nl.htm)
--   [Nederlands profiel op ISO 19142 Geographic information - Web Feature
-    Service, versie
-    1.0.1](http://www.geonovum.nl/sites/default/files/nederlands_profiel_op_iso_19142_wfs_2.0_-_versie_1.0.1.pdf)
--   [Nederlands profiel op ISO 19128 Geographic information - Web Map Server
-    Interface, versie
-    1.0](http://www.geonovum.nl/sites/default/files/nederlands_profiel_op_iso_19128_wms_1.3_-_versie_1.0.pdf)
--   [Nederlands profiel op ISO 19115 voor geografie, versie
-    1.2](http://www.geonovum.nl/sites/default/files/Nederlands%20metadata%20profiel%20op%20ISO%2019115%20voor%20geografie%20-%20v1%203%201%20def_0.pdf)
--   [Nederlands metadata profiel op ISO 19119 voor services, versie
-    1.1](http://www.geonovum.nl/sites/default/files/Nederlands%20metadata%20profiel%20op%20ISO%2019119%20voor%20services%20-%20v1%202%201%20def.pdf)
+De Europese profielen zijn opgesteld op basis van internationale standaarden en
+zijn verankerd in de Europese INSPIRE kaderrichtlijn. De Europese profielen zijn
+een nadere invulling van de andere standaarden organisaties en de INSPIRE data
+specificaties voor de thema’s hebben een duidelijke relatie met de
+informatiemodellen in Nederland. Dit zijn de INSPIRE technical guidelines, ISO
+of OGC standaarden die door INSPIRE zijn voorgeschreven, en Nederlandse
+profielen die compliant zijn met INSPIRE. Hoewel INSPIRE formeel geen
+geo-standaarden organisatie is, worden de invoeringsregels van INSPIRE wel als
+zodanig gebruikt in Nederland.
 
-Deze geo-standaarden zijn van primair belang in het aansluiten van
-geo-informatie op de eOverheid. Bij het forum loopt een procedure om de huidige
-versies op de pas toe of leg uit lijst te krijgen.
+Tot slot, zijn Nederlandse profielen te onderscheiden, die ook gebaseerd zijn of
+opgelijnd zijn met de internationale en Europese profielen. Een deel van de
+Nederlandse geo-standaarden profielen heeft een aparte positie op de ‘pas toe of
+leg uit’ lijst van open standaarden van de Nederlandse digitale overheid. Deze
+geo-standaarden zijn van primair belang in het aansluiten van geo-informatie op
+de digitale overheid (voorheen e-overheid).
 
 ## Verkenning NGII
 
