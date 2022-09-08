@@ -26,8 +26,9 @@ e-overheid deel uit in de NEN3610 familie, zoals de basisregistraties adressen
 en gebouwen (BAG/IMBAG), grootschalige topografie (BGT/IMGEO), topografie
 (TOP10NL/IMTOP), kadastrale percelen, (BRK/IMKAD) en ondergrond (BRO/IMBRO).
 
-Ook niet oververmeld mag het Nederlandse kader standaard voor de
-meta-informatiemodelering blijven, de MIM.
+Voor het maken van informatiemodellen wordt de Nederlandse kader standaard voor
+de meta-informatiemodelering gebruikt, de MetaMetamodel Informatiemodellering
+kortweg MIM [MIM].
 
 Ook de Europese standaarden – vnl. afkomstig uit de INSPIRE Richtlijn – zijn ook
 grotendeels afgeleid en een toepassing van de ISO 19100 serie van semantische
