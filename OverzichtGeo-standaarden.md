@@ -106,13 +106,13 @@ Een geo-informatie infrastructuur is ervoor bedoeld om geo-informatie
 beschikbaar te stellen en toegankelijk te maken voor gebruik. Hiervoor zijn
 verschillende dingen nodig, zoals figuur 2 laat zien:
 
--   Het beschrijven van informatiebronnen met metadata, zodat de
-    informatiebronnen vindbaar worden;
+-   Het beschrijven van geo-informatie met metadata, zodat de geo-informatie
+    vindbaar worden;
 -   Het inrichten van API’s, zodat geo-informatie via het web kan worden
     geraadpleegd;
 -   Het definiëren van visualisatieregels, zodat geo-informatie op een
     eenduidige manier wordt gepresenteerd aan gebruikers;
--   Het beschrijven van de inhoud van informatiebronnen middels een
+-   Het beschrijven van de inhoud van geo-informatie middels een
     informatiemodel, zodat de semantiek en structuur bekend zijn;
 -   Het definiëren van uitwisselformaten, zodat duidelijk is in wat voor vorm de
     geo-informatie wordt uitgewisseld;
