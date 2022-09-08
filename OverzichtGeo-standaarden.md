@@ -26,9 +26,6 @@ vergeleken kunnen worden. Dit helpt mensen enorm bij het verkrijgen van inzicht
 op basis van informatie en zorgt ervoor dat veel effectiever beslissingen kunnen
 worden genomen.
 
-**![Afbeelding met tekst Automatisch gegenereerde
-beschrijving](media/133c1bac7016c22e9149ccb88f9afa41.png)**
-
 *Figuur 1 - Thema relaties op basis van locatie*
 
 Ruimtelijke vragen worden constant gesteld. In de vorm van ‘Waar?’ en door van
@@ -104,7 +101,7 @@ benutten.
 
 Een geo-informatie infrastructuur is ervoor bedoeld om geo-informatie
 beschikbaar te stellen en toegankelijk te maken voor gebruik. Hiervoor zijn
-verschillende dingen nodig, zoals figuur 2 laat zien:
+verschillende soorten geo-standaarden nodig:
 
 -   Het beschrijven van geo-informatie met metadata, zodat de geo-informatie
     vindbaar worden;
@@ -117,7 +114,7 @@ verschillende dingen nodig, zoals figuur 2 laat zien:
 -   Het definiëren van uitwisselformaten, zodat duidelijk is in wat voor vorm de
     geo-informatie wordt uitgewisseld;
 -   Het koppelen van geo-informatie aan een plek op het aardoppervlak met behulp
-    van een ruimtelijk referentiesysteem.
+    van een coordinaat-referentiesysteem.
 
 Voor al deze componenten van de nationale geo-informatie infrastructuur zijn
 geo-standaarden beschikbaar. Daarmee kunnen de gebruikers geo-informatie vinden,
@@ -135,10 +132,6 @@ om de data te kunnen gebruiken, moet de gebruiker:
 \- Data in kaartvorm kunnen begrijpen;
 
 \- Data aan de juiste plek op aarde kunnen relateren.
-
-![](media/1126ac9029ac78996e3237291fd9bea5.png)
-
-*Figuur 2 – De gebruiker is op zoek naar geografische data*
 
 Daarnaast zal de aanbieder van de data om zijn/haar data te laten gebruiken:
 
