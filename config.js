@@ -101,7 +101,7 @@ var respecConfig =
   //-- shortName is verplicht! (komt in de URL: kies logische naam) --------------------
   shortName: "rw",  	              // Wordt gebruikt in de document URL
   //-- pubDomain is verplicht! (komt in de URL: Activeer 1 van de volgende) ------------
-  pubDomain: "et", 	              // Energie transitie
+  //pubDomain: "et", 	              // Energie transitie
   //pubDomain: "mim", 	            // Metamodel Informatie Modellering
   //pubDomain: "bor", 	            // Beheer Openbare Ruimte
   //pubDomain: "bro", 	            // Basisregistratie Ondergrond
@@ -109,7 +109,7 @@ var respecConfig =
   //pubDomain: "kl", 	              // Kabels en Leidingen
   //pubDomain: "liv", 	            // Landelijke Informatievoorziening Vastgoedgebruik
   //pubDomain: "md", 	              // Metadata
-  //pubDomain: "nen3610", 	        // Basismodel NEN3610
+  pubDomain: "nen3610", 	        // Basismodel NEN3610
   //pubDomain: "oov", 	            // Openbare Orde en Veiligheid
   //pubDomain: "ro", 	              // Ruimtelijke Ordening
   //pubDomain: "serv", 	            // Services
@@ -124,38 +124,75 @@ var respecConfig =
   //-- NB: kijk eesrt naar de beschikbare www.specref.org voor verwijziging 
   localBiblio: 
   {
-    "PUB-1":
+    "SLD11":
       {
-        title:      "Titel van Publicatie-1",
-        href:       "https://www.geonovum.nl",
-        status:     "V1.0.1",
-        publisher:  "Publisher-1",
-        company:    "Companynaam",
+        title:      "OGC 05-078r4: Styled Layer Descriptor profile of the Web Map Service Implementation Specification, Version 1.1",
+        href:       "http://portal.opengeospatial.org/files/?artifact_id=22364",
+        status:     "Final version",
+        publisher:  "Open Geospatial Consortium (OGC)",
+        editors:    ["M. Lupp"],
+        date:       "2007-06-29",
     },
-    "PUB-2":
+    "SE11":
       {
-        title:      "Titel van Publicatie-2",
-        href:       "https://www.geonovum.nl",
-        status:     "V1.0.1",
-        publisher:  "Publisher-2",
-        company:    "Companynaam",
+        title:      "OGC 05-077r4: OpenGIS Symbology Encoding Implementation Specification, version 1.1",
+        href:       "https://portal.ogc.org/files/?artifact_id=16700",
+        status:     "Final version",
+        publisher:  "Open Geospatial Consortium (OGC)",
+        editors:    ["M. Müller"],
+        date:       "2006-07-21",
     },
-    "PUB-3":
+    "ISO19117":
       {
-        title:      "Titel van Publicatie-3",
-        href:       "https://www.geonovum.nl",
-        status:     "V1.0.1",
-        publisher:  "Publisher-3",
-        company:    "Companynaam",
-    },
-    "PUB-4":
+        title:      "Geographic Information - Portrayal (ISO 19117)",
+        href:       "https://www.iso.org/standard/46226.html",
+        status:     "Published",
+        publisher:  "ISO",
+        date:       "2012-12"
+    },   
+    "WMC11":
       {
-        title:      "Titel van Publicatie-4",
-        href:       "https://www.geonovum.nl",
-        status:     "V1.0.1",
-        publisher:  "Publisher-4",
-        company:    "Companynaam",
+        title:      "OpenGIS 05-005: Web Map Context Documents Implementation Specification, version 1.1",
+        href:       "https://portal.ogc.org/files/?artifact_id=8618",
+        status:     "Adopted specification",
+        publisher:  "Open Geospatial Consortium (OGC)",
+        editors:    "J. Sonnet",
+        date:       "2005-01-19",
     },
+    "WMCC11":
+      {
+        title:      "OpenGIS 08-050: Corrigendum for OpenGIS Implementation Standard Web Map Context Documents - Corrigendum 1",
+        href:       "https://portal.ogc.org/files/?artifact_id=27286",
+        status:     "Approved",
+        publisher:  "Open Geospatial Consortium (OGC)",
+        editors:    "T. Kralidis",
+        date:       "2008-03-14",
+    },
+    "MBS":
+      {
+        title:      "Mapbox GL JS Style Specification",
+        href:       "https://docs.mapbox.com/mapbox-gl-js/style-spec/",
+        status:     "Unofficial",
+        publisher:  "Mapbox",
+    },
+    "OGCAPISTYLES":
+      {
+        title:      "OGC API Styles",
+        href:       "http://docs.opengeospatial.org/DRAFTS/20-009.html",
+        status:     "Draft",
+        publisher:  "Open Geospatial Consortium (OGC)",
+        editors:    "C. Portele",
+    },
+    "3DTILES":
+      {
+        title:      "3D Tiles Specification 1.0",
+        href:       "http://docs.opengeospatial.org/cs/18-053r2/18-053r2.html",
+        status:     "Approved for pubic release",
+        publisher:  "Open Geospatial Consortium (OGC)",
+        editors:    ["Patrick Cozzi", "Sean Lilley", "Gabby Getz"],
+        date:       "2019-01-31",
+    },
+
   },
   postProcess:[custGHPG],   //-- Optioneel voor een multi document repository
 

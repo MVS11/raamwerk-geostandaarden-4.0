@@ -4,8 +4,13 @@
 visualisatieregels opgesteld. Denk hierbij bijvoorbeeld aan vlakvullingen,
 lijnstijlen, symbologie, etc. Veel inhoudelijke domeinen hebben een standaard
 visualisatie gedefinieerd voor hun informatiemodel. Deze visualisatieregels
-moeten worden vastgelegd en kunnen dan bijvoorbeeld worden toegepast in een view
-service.**
+moeten worden vastgelegd en kunnen dan bijvoorbeeld worden toegepast in een digitale kaart.**
+
+<aside class="issue">
+Hierboven stond "view service" ipv "digitale kaart". Dat laatste is misschien ook niet het juist woord, maar view services zoals in de 'oude' OGC architectuur zullen vervangen gaan worden door OGC API Tiles en Maps. 
+
+Uitzoekpunt is hoe in deze nieuwe APIs visualisatie geregeld is (zijn er nog visualisatieregels?).
+</aside>
 
 ## Overzicht geostandaarden visualisatie
 
@@ -20,13 +25,14 @@ specificaties, die geen van alle direct toepasbaar zijn:
     voor OGC services.
 -   Web Map Context Documents (XML syntax) geeft de mogelijkheid om de status
     van een WMS client (viewer) vast te leggen. Denk aan een combinatie van een
-    aantal WMS services, (subset) van een leganda, layers (styles, formats),
+    aantal WMS services, (subset) van een legenda, layers (styles, formats),
     inzoom schaal, etc. Deze situatie kan op een client worden opgeslagen en
     worden uitgewisseld naar andere WMS clients zodat deze dezelfde Web Map
     Context hebben.
 -   KML is een XML toepassing die zich richt op geo-informatie visualisatie,
     inclusief annotatie van kaarten en images. OGC en Google zijn overeengekomen
     om KML met GML te harmoniseren, hetzelfde geldt voor KML en SLD/SE.
+    <aside class="issue">KML is een verouderde standaard, ik zou deze niet meer opnemen</aside>
 -   3D visualisatie wordt steeds belangrijker. Hiervoor zijn verschillende
     desktop-applicaties beschikbaar die bijvoorbeeld CityGML, Google SketchUp en
     andere formaten veelal gecombineerd kunnen gebruiken voor visualisaties. OGC
@@ -35,13 +41,14 @@ specificaties, die geen van alle direct toepasbaar zijn:
     toegepast. Interessante ontwikkelingen vanuit W3C zijn: XML3D en X3D die
     beiden als doel hebben 3D services op het web zonder plug-ins voor browsers
     (op basis van HTML5). Beiden komen vanuit W3C en het is nog onduidelijk
-    welke richting het precies op gaat. KML en Collade zijn tevens prima
+    welke richting het precies op gaat. KML en Collada zijn tevens prima
     geschikt voor 3D visualisatie.
+    <aside class="issue">3D Tiles moet hier m.i. genoemd worden. Dit is een goedgekeurde OGC community standaard. Deze standaard bevat ook 3D Tiles Styles, een manier om declaratieve visualisatiespecificaties te beschrijven die je op tilesets kunt toepassen.</aside>
 -   Mapbox Styles
 
     pm
 
--   OGC API Styles
+-   OGC API Styles [nog in draft] is een nieuwe OGC standaard om stijlen en hun metadata (visualisatieregels) op te vragen, te bewerken en te valideren via een API. De stijlen zelf kunnen in SLD 1.0, SLD 1.1 of Mapbox Styles zijn uitgedrukt.
 
     pm
 
@@ -57,16 +64,18 @@ Tabel 16 - Standaarden en specificaties voor visualisatie
 
 | **Internationale standaarden/specificaties**                                                                | **Europese profielen**                              | **Nederlandse profielen**                  |
 |-------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|--------------------------------------------|
-| ISO 19117 Geographic Information – Portrayal **[ISO 19117]**                                                | Visualisatieregels voor INSPIRE data specificaties. | Visualisatieregels voor informatiemodellen |
-| OGC Styled Layer Descriptor Implementation Specification, version 1.1.0 **[SLD]**                           |                                                     |                                            |
-| OGC Symbology Encoding Implementation Specification, version 1.1.0 **[SE]**                                 |                                                     |                                            |
-| ISO 19117 Geographic Information – Portrayal **[ISO 19117]**                                                |                                                     |                                            |
-| OGC Styled Layer Descriptor Implementation Specification, version 1.1.0 **[SLD]**                           |                                                     |                                            |
-| OGC Symbology Encoding Implementation Specification, version 1.1.0 **[SE]**                                 |                                                     |                                            |
-| OGC Web Map Context Documents Implementation Specification, version 1.1 **[WMC]**                           |                                                     |                                            |
-| Corrigendum for Implementation Standard Web Map Context Documents – Corrigendum 1, version 1.1.0 **[WMCC]** |                                                     |                                            |
-| OGC KML version 2.3.0 **[KML]**                                                                             |                                                     |                                            |
-| Mapbox Styles? XML3D ? X3D ? Collade ? OGC API Styles ?                                                     |                                                     |                                            |
+| ISO 19117 Geographic Information – Portrayal [[ISO19117]]                                                   | Visualisatieregels voor INSPIRE data specificaties. | Visualisatieregels voor informatiemodellen |
+| OGC Styled Layer Descriptor Implementation Specification, version 1.1.0 [[SLD11]]                           |                                                     |                                            |
+| OGC Symbology Encoding Implementation Specification, version 1.1.0 [[SE11]]                                 |                                                     |                                            |
+| OGC Web Map Context Documents Implementation Specification, version 1.1 [[WMC11]]                           |                                                     |                                            |
+| Corrigendum for Implementation Standard Web Map Context Documents – Corrigendum 1, version 1.1.0 [[WMCC11]] |                                                     |                                            |
+| Mapbox Styles [[MBS]]                                                                                       |                                                     |                                            |
+| OGC API Styles 1.0.0 Draft [[OGCAPISTYLES]]                                                                 |                                                     |                                            |
+| 3D Tiles 1.0 [[3DTILES]] chapter 11, Declarative styling specification                                      |                                                     |                                            |
+
+<aside class="issue">Moeten we X3D, Collada ook opnemen? </aside>
+
+<aside class="issue">Mapbox Styles: Dit is geen officiële standaard maar en spec van het bedrijf Mapbox. Het versiebeheer is niet beschreven (voor zover ik kon vinden) en de vraag is naar welke versie verwezen moet worden; of dat we beter een versieloze verwijzing kunnen doen (waarbij je altijd op de nieuwste uitkomt). Het lijkt meer een levende standaard die voortdurend wordt geupdate. In OGC API styles staat versie 8; maar de verwijzing in OGC API Styles komt uit bij versie 13.26.0 (i.e. de nieuwste). </aside>
 
 ## 
 
@@ -78,7 +87,7 @@ Om data op een eenduidige manier te presenteren aan gebruikers, kunnen voor data
 producten (en informatiemodellen) visualisatieregels gedefinieerd worden. Denk
 hierbij bijvoorbeeld aan (kleuren van) vlakvullingen, lijnstijlen, symbologie,
 etc. Deze visualisatieregels worden vastgelegd in handreikingen en
-implementatiebestanden, en kunnen worden toegepast in een view service.
+implementatiebestanden, en kunnen worden toegepast in een view API.
 
 De visualisatie is geen onderdeel van een informatiemodel, maar is een apart
 aspect. De gegevenscatalogus bevat de objectdefinities; de visualisatie van deze
