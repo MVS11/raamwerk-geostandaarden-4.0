@@ -155,7 +155,7 @@ en de overige objecten die zijn vastgelegd in het [Informatiemodel Geografie
 ### Kaartvisualisatie voor webapplicaties
 
 Voor ontwikkelaars van geografische webapplicaties, is in 2010 de handreiking
-webcartografie ontwikkeld. In de handreiking webcartografie vind je praktische
+webcartografie ontwikkeld. In de handreiking webcartografie [[HRWC]] vind je praktische
 tips over hoe je geo-informatie - waar mogelijk - wel binnen de bedoelingen van
 de toegankelijkheidseisen kunt aanbieden.
 
@@ -175,10 +175,12 @@ inzake de toegankelijkheid van de websites en mobiele applicaties van
 overheidsinstanties) dat het besluit niet van toepassing is op onlinekaarten.
 Enige uitzondering is dat in het geval van kaarten voor navigatietoepassingen de
 essentiële informatie ook op andere wijze (lees: routebeschrijving in tekst)
-toegankelijk gemaakt moet worden. In de handreikingen webrichtlijnen en geo en
+toegankelijk gemaakt moet worden. In de handreikingen digitaal toegankelijke locatiedata [[HRTOEG]] en
 de handreiking webcartografie vind je praktische tips over hoe je geo-informatie
 \- waar mogelijk - wel binnen de bedoelingen van de toegankelijkheidseisen kunt
 aanbieden.
 
 [Handreiking digitaal toegankelijke locatiedata
-(2021)](https://geonovum.github.io/toegankelijke-locatiedata/)
+(2021)](https://docs.geostandaarden.nl/visu/toeg/)
+
+<aside class="warning">Dit document is de webversie van oorspronkelijk in januari 2015 gepubliceerde PDF document. Het is gebaseerd op Web Content Accessibility Guidelines (WCAG) 2.0 [[WCAG20]]. Er zijn al enige tijd vernieuwde toegankelijkheidseisen en wetgeving over digitale toegankelijkheid, gebaseerd op WCAG versie 2.1 [[WCAG21]]. Dit document is hier nog niet op aangepast.</aside>

@@ -192,7 +192,24 @@ var respecConfig =
         editors:    ["Patrick Cozzi", "Sean Lilley", "Gabby Getz"],
         date:       "2019-01-31",
     },
-
+    "HRTOEG":
+      {
+        title:      "Handreiking digitaal toegankelijk locatiedata",
+        href:       "https://docs.geostandaarden.nl/visu/toeg/",
+        status:     "Vastgesteld",
+        publisher:  "Geonovum",
+        editors:    ["Edward Mac Gillavry", "Sjors Slaats", "Theo OVerduin", "Thijs Brentjens", "Victor Zuydweg"],
+        date:       "2021-08-02",
+    },
+    "HRWC":
+      {
+        title:      "Handreiking webcartografie",
+        href:       "https://www.geonovum.nl/uploads/standards/downloads/handreiking%20webcartografie%201.0.1_0.pdf",
+        status:     "Definitief",
+        publisher:  "Geonovum",
+        date:       "2010-11-18",
+    },
+    
   },
   postProcess:[custGHPG],   //-- Optioneel voor een multi document repository
 
