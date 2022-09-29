@@ -7,6 +7,16 @@ Een API dient als interface tussen verschillende softwareprogramma's. Het zorgt
 ervoor dat een applicatie automatisch toegang krijgt tot bepaalde data en/of
 functionaliteiten.**
 
+## Transitie naar nieuwe generatie API's
+
+<aside class="issue">Voorstel: paragraaf toevoegen waarin kort wordt ingegaan op de transitie van oude naar nieuwe generatie standaarden (xml-based services > REST API's). Hieronder staat al een tekstvoorstel dat nog bijgeschaaft kan worden.</aside>
+
+De internationale standaarden voor API's komen veelal bij de OGC vandaan. Deze standaardenorganisatie bestaat al sinds 1994. De eerste generatie API standaarden, toen nog services genaamd, zijn gebaseerd op XML en SOAP. Deze standaarden zijn nog steeds geldig en in gebruik, maar worden gaandeweg vervangen door de nieuwe generatie, die is gebaseerd op algemene Web architectuur, i.e. REST. Het voordeel van deze nieuwe API's is dat ze geo-informatie onderdeel maken van het ecosysteem van het Web en zo voor een veel breder publiek toegankelijk.
+
+OGC is voornemens de oude generatie services langzaam uit te faseren. De nieuwe API standaarden zijn in ontwikkeling en komen één voor één gereed. Op moment van schrijven zijn er al een paar goedgekeurd. Het is aan te raden om in nieuwe voorzieningen zoveel mogelijk de nieuwe API standaarden toe te passen - voor zover deze al gereed zijn. Bestaande voorzieningen die op de oude standaarden zijn gebaseerd kunnen nog langere tijd in de lucht gehouden worden. Nieuwe API's kunnen daarnaast gezet worden. Het is ook mogelijk om OGC API's beschikbaar te stellen als laag bovenop oude generatie services. Hiervoor is software beschikbaar.
+
+In onderstaand overzicht zijn de nieuwe generatie API standaarden opgenomen die zijn goedgekeurd, maar ook diegenen die nog in ontwikkeling zijn. Dit is bij elke standaard duidelijk aangegeven.
+
 ## Overzicht geo-standaarden API’s
 
 In het overzicht van geo-standaarden voor API’s zijn de onderwerpen
@@ -18,10 +28,10 @@ onderscheiden en in onderstaande tabellen opgenomen:
 -   API standaarden en specificaties voor het opvragen (downloaden) van
     rasterdata: OGC WCS (tabel 3);
 -   API Standaarden en specificaties voor het opvragen (downloaden) van
-    sensordata: OGC SOS en SensorThings API (tabel 4);
+    sensordata: OGC SOS, SensorThings API en Environmental Data Retrieval API (tabel 4);
 -   API Standaarden en specificaties voor bevragen van metadata catalogi: OGC
     CSW en OGC API- Records (tabel 5);
--   API standaarden en specificaties voor opvragen van kaarttegels: OGC WMTS en
+-   API standaarden en specificaties voor opvragen van kaarttegels: OGC WMTS,
     OGC API Tiles (tabel 6);
 -   API standaarden en specificaties voor linked data: GeoSPARQL Tabel 7).
 
@@ -29,14 +39,12 @@ onderscheiden en in onderstaande tabellen opgenomen:
 
 | **Internationale standaarden/specificaties**                                | **Europese profielen**                                                           | **Nederlandse profielen**                                                                                |
 |-----------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Web Map Server (WMS) Implementation Specification, version 1.3.0 **[WMS]**  | Technical Guidance for the implementation of Inspire View Service. **[INSTGVS]** | Nederlands profiel op ISO 19128 Geographic information — Web Map Server Interface versie 1.0 **[NLWMS]** |
-| ISO 19128 Geographic Information – Web Map Service (WMS) **[ISO19128]**     |                                                                                  |                                                                                                          |
+| Web Map Server (WMS) Implementation Specification, version 1.3.0 [[WMS]]     | Technical Guidance for the implementation of Inspire View Service. [[INSTGVS]] | Nederlands profiel op ISO 19128 Geographic information — Web Map Server Interface versie 1.0 [[NLWMS]] |
+| ISO 19128 Geographic Information – Web Map Service (WMS) [[iso-19128-2005]] | | |
 
 ## 
 
-*Tabel 2 – API standaarden en specificaties voor vectordata: WFS, OGC API –
-Features en ATOM  
-*
+*Tabel 2 – API standaarden en specificaties voor vectordata: WFS, OGC API – Features en ATOM*
 
 | **Internationale standaarden/specificaties**                                               | **Europese profielen**                                                                | **Nederlandse profielen**                                |
 |--------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|----------------------------------------------------------|

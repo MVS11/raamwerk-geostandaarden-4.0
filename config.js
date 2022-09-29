@@ -209,7 +209,22 @@ var respecConfig =
         publisher:  "Geonovum",
         date:       "2010-11-18",
     },
-    
+    "INSTGVS":
+      {
+        title:      "Technical Guidance for the implementation of Inspire View Service",
+        href:       "https://inspire.ec.europa.eu/documents/technical-guidance-implementation-inspire-view-services-1",
+        status:     "Definitief",
+        publisher:  "IOC TF",
+        date:       "2022-08-01",
+    },
+    "NLWMS":
+      {
+        title:      "Nederlands profiel op ISO 19128 Geographic information — Web Map Server Interface",
+        href:       "https://www.geonovum.nl/uploads/documents/nederlands_profiel_op_iso_19128_wms_1.3_-_versie_1.0.pdf",
+        status:     "Vastgesteld",
+        publisher:  "Geonovum",
+        date:       "2015-04-24",
+    }, 
   },
   postProcess:[custGHPG],   //-- Optioneel voor een multi document repository
 
