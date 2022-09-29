@@ -5,12 +5,12 @@ koppeling wordt gelegd, wordt beschreven met het coördinaatreferentiesysteem (C
 waarin coördinaten van een locatie worden vastgelegd. Voor Nederland zijn meerdere cooordinaat 
 referentiesystemen beschikbaar. RD, ETRS89 en WGS84 zijn bekende voorbeelden van CRS-en.**
 
-## Overzicht standaarden voor coördinaatreferentiesystemen
+## Overzicht standaarden voor coördinaat referentiesystemen
 
 Coördinaat referentiesystemen moeten voldoen aan ISO 19111 en bestaan uit
 een horizontaal en verticaal coördinaat referentiesysteem. Een coördinaat
 referentiesysteem is op zijn beurt weer opgebouwd uit een datum (horizontaal /
-verticaal) en een coördinaatsysteem.
+verticaal) en een coördinaat referentiesysteem.
 
 CRS-en die gebruikt worden in het Nederlandse domein van geo-informatie, 
 kunnen ook worden ingedeeld naar hun geografische toepassingsgebied:
@@ -39,8 +39,8 @@ Tabel ? - Standaarden en specificaties met betrekking coordinaat referentiesyste
 | **Internationale standaarden/specificaties**                                            | **Europese profielen**                                                          | **Nederlandse profielen**                                                      |
 |-----------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
 | ISO 3166 Countries and subdivisions **[[ISO3166]]**                                       | INSPIRE specification on Geographical Grid Systems – Guidelines **[INSGGS]**    | Tabel 6 - EPSG codes coordinaat referentiesystemen voor Nederland **[HGCRS]**  |
-| ISO 6709 Standard representation of geographic location by coordinates **[[ISO 6709]]**   | INSPIRE specification on Coordinate Reference Systems – Guidelines **[INSCRS]** | Tabel 7 - Veelgebruikte referentievlakken voor diepten / hoogten **[HGCRS]**   |
-| ISO 19111 Geographic Information – Spatial Referencing by Coordinates **[ISO 19111]**   |                                                                                 |                                                                                |
+| ISO 6709 Standard representation of geographic location by coordinates **[ISO 6709]**   | INSPIRE specification on Coordinate Reference Systems – Guidelines **[INSCRS]** | Tabel 7 - Veelgebruikte referentievlakken voor diepten / hoogten **[HGCRS]**   |
+| ISO 19111 Geographic Information – Spatial Referencing by Coordinates **[[ISO 19111]]**   |                                                                                 |                                                                                |
 | ISO/TS 19127 Geographic Information – Geodetic codes and parameters **[ISO/TS 19127]**  |                                                                                 |                                                                                |
 | EPSG codes database & CRS Ids **[EPSG]**                                                |                                                                                 |                                                                                |
 
@@ -48,34 +48,8 @@ Tabel ? - Standaarden en specificaties met betrekking coordinaat referentiesyste
 De ISO 19111 standaard geeft een uitgebreide beschrijving welke parameters in bovenstaande
 gevallen uitgewisseld moeten worden. Hiervoor kunnen de zogenaamde EPSG codes
 gebruikt worden. De gebruikte stelsels binnen Nederland en hun bijbehorende
-EPSG code zijn in onderstaande tabel opgenomen.
-
-Tabel - EPSG codes coördinaat referentiesystemen voor Nederland
-
-| **Stelsel**                       | **EPSG** **code** | **Coördinaat systeem**                                     |
-|-----------------------------------|-------------------|------------------------------------------------------------|
-| *Binnen de kustlijnen (onshore)*  |                   |                                                            |
-| RD                                | 28992             | x, y in meters volgens RDNAPTransTM                        |
-| RD + NAP                          | 7415              | x, y, H in meters tov NAP volgens RDNAPTransTM             |
-| NAP                               | 5709              | H in meters tov NAP                                        |
-| *Buiten de kustlijnen (offshore)* |                   |                                                            |
-| ED50                              | 4230              | Lengte, breedte in °                                       |
-| UTM 31N (ED50)                    | 23031             | E, N in meters met UTM projectie, zone 31                  |
-| UTM 32N (ED50)                    | 23032             | E, N in meters met UTM projectie, zone 32                  |
-| *Europees*                        |                   |                                                            |
-| ETRS89 (2D)                       | 4258              | Lengte, breedte in °                                       |
-| ETRS89 (3D)                       | 4937              | Lengte, breedte in °, hoogte in meters tov ellipsoide      |
-| ETRS89 + EVRF2000                 | 7409              | Lengte, breedte in °, hoogte in meters tov EVRF2000 ( NAP) |
-| LCC (ETRS89)                      | 3034              | E, N in meters met Lambert projectie                       |
-| LAEA (ETRS89)                     | 3035              | E, N in meters met Equal Area projectie                    |
-| TMzn (ETRS89)                     | xxxx              | E, N in meters met Transverse Mercator Projection          |
-| *Wereldwijd en voor GPS gebruik*  |                   |                                                            |
-| WGS84 (2D)                        | 4326[^1]          | Lengte, breedte in °                                       |
-| WGS84 (3D)                        | 4979              | Lengte, breedte in °, hoogte in meters tov ellipsoide      |
-| UTM 31N (WGS84)                   | 32631             | E, N in meters met UTM projectie, zone 31                  |
-| UTM 32N (WGS84)                   | 32632             | E, N in meters met UTM projectie, zone 32                  |
-
-[^1]: Dit is ook de EPSG code die Google gebruikt voor 2D, zie OGC KML, version 2.2.0
+EPSG code zijn in bijlage A van de [Handreiking Gebruik coördinaatreferentiesystemen bij uitwisseling en
+visualisatie van geo-informatie (2022)](https://docs.geostandaarden.nl/crs/crs/) opgenomen.
 
 
 ## Kwaliteit en ruimtelijke referentiesystemen
