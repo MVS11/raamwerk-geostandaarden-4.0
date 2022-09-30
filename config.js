@@ -325,6 +325,118 @@ var respecConfig =
         authors:    ["Pieter Bresters", "Linda van den Brink", "Paul van Genuchten", "George Mathijssen", "Mark Strijker"],
         date:       "2022-09-30",
     },
+    "WCS21":
+      {
+        title:      "OGC 17-089r1: OGC Web Coverage Service (WCS) 2.1 Interface Standard - Core",
+        href:       "http://docs.opengeospatial.org/is/17-089r1/17-089r1.html",
+        status:     "Approved",
+        publisher:  "Open Geospatial Consortium (OGC)",
+        //editors:    ["Linda van den Brink"],
+        //authors:    ["Pieter Bresters", "Linda van den Brink", "Paul van Genuchten", "George Mathijssen", "Mark Strijker"],
+        date:       "2018-08-16",
+    },
+    "INSTGDSWCS":
+      {
+        title:      "Technical Guidance for the implementation of Inspire Download Services using Web Coverage Services (WCS), version 1.0",
+        href:       "https://inspire.ec.europa.eu/id/document/tg/download-wcs",
+        status:     "Approved",
+        publisher:  "INSPIRE Maintenance and Implementation Group (MIG)",
+        //editors:    ["Linda van den Brink"],
+        //authors:    ["Pieter Bresters", "Linda van den Brink", "Paul van Genuchten", "George Mathijssen", "Mark Strijker"],
+        date:       "2016-12-16",
+    },
+    "OAPIC":
+      {
+        title:      "OGC 19-087: OGC API - Coverages - Part 1: Core, version 0.0.6",
+        href:       "http://docs.ogc.org/DRAFTS/19-087.html",
+        status:     "Draft",
+        publisher:  "Open Geospatial Consortium (OGC)",
+        editors:    ["Charles Heazel", "Jerome St-Louis"],
+        //date:       "2018-08-16",
+    },
+    "INSTGDSSOS":
+      {
+        title:      "Technical Guidance for implementing download services using the OGC Sensor Observation Service and ISO 19143 Filter Encoding, version 1.0",
+        href:       "https://inspire.ec.europa.eu/id/document/tg/download-sos",
+        status:     "Approved",
+        publisher:  "INSPIRE Maintenance and Implementation Group (MIG)",
+        //editors:    ["Charles Heazel", "Jerome St-Louis"],
+        date:       "2016-12-16",
+    },
+    "STAS":
+      {
+        title:      "OGC 18-088: OGC SensorThings API Part 1 - Sensing, Version 1.1",
+        href:       "https://docs.ogc.org/is/18-088/18-088.html",
+        status:     "Approved",
+        publisher:  "Open Geospatial Consortium (OGC)",
+        editors:    ["Steve Liang","Tania Khalafbeigi", "Hylke van der Schaaf"],
+        date:       "2021-08-04",
+    },
+    "STAT":
+      {
+        title:      "OGC 17-079r1: OGC SensorThings API Part 1 - Tasking Core, Version 1.0",
+        href:       "http://docs.opengeospatial.org/is/17-079r1/17-079r1.html",
+        status:     "Approved",
+        publisher:  "Open Geospatial Consortium (OGC)",
+        editors:    ["Steve Liang","Tania Khalafbeigi"],
+        date:       "2019-01-08",
+    },    
+    "INSGPSTA":
+      {
+        title:      "OGC SensorThings API as an INSPIRE download service",
+        href:       "https://inspire.ec.europa.eu/good-practice/ogc-sensorthings-api-inspire-download-service",
+        status:     "Endorsed good practice",
+        publisher:  "INSPIRE Maintenance and Implementation Group (MIG)",
+        //editors:    ["Steve Liang","Tania Khalafbeigi"],
+        //date:       "2019-01-08",
+    },
+    "EDR":
+      {
+        title:      "OGC 19-086r5: OGC API - Environmental Data Retrieval Standard, Version 1.0.1",
+        href:       "https://docs.ogc.org/is/19-086r5/19-086r5.html",
+        status:     "Approved",
+        publisher:  "Open Geospatial Consortium (OGC)",
+        editors:    ["Mark Burgoyne","David Blodgett","Charles Heazel","Chris Little"],
+        date:       "2022-08-05",
+    },
+    "INSTGDiS":
+      {
+        title:      "Technical Guidance for the implementation of Inspire Discovery Service, version 3.1",
+        href:       "https://inspire.ec.europa.eu/documents/technical-guidance-implementation-inspire-discovery-services-0",
+        status:     "Approved",
+        publisher:  "IOC TF",
+        //editors:    ["Steve Liang","Tania Khalafbeigi"],
+        date:       "2011-11-07",
+    },
+    "CSWISOAP":
+      {
+        title:      "OGC 07-045r2: OGC Catalogue Services Specification 2.0.2 - ISO Metadata Application Profile: Corrigendum, version 1.0.2",
+        href:       "https://portal.ogc.org/files/80534",
+        status:     "Approved",
+        publisher:  "Open Geospatial Consortium (OGC)",
+        editors:    ["Uwe Voges","Kristian Senkler"],
+        date:       "2020-11-19",
+    },
+    "OAPIRECORDS1":
+      {
+        title:      "OGC 20-224: OGC API - Records - Part 1: Core",
+        href:       "http://docs.ogc.org/DRAFTS/20-004.html",
+        status:     "Draft",
+        publisher:  "Open Geospatial Consortium (OGC)",
+        editors:    ["Panagiotis (Peter) A. Vretanos", "Tom Kralidis", "Charles Heazel"],
+        date:       "2020-01-13",
+    },
+    "OAPITILES1":
+      {
+        title:      "OGC 20-057: OGC API - Tiles - Part 1: Core",
+        href:       "http://docs.ogc.org/DRAFTS/20-004.html",
+        status:     "Approved",
+        publisher:  "Open Geospatial Consortium (OGC)",
+        editors:    ["Joan Masó", "Jérôme St-Louis"],
+        date:       "2023",
+    },
+    
+    
   },
   postProcess:[custGHPG],   //-- Optioneel voor een multi document repository
 

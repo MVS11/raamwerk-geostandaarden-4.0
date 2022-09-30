@@ -67,51 +67,53 @@ onderscheiden en in onderstaande tabellen opgenomen:
 
 | **Internationale standaarden/specificaties**            | **Europese profielen**                                                                                                     | **Nederlandse profielen**           |
 |---------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
-| OGC Web Coverage Service (WCS)*,* version 2.0 **[WCS]** | Technical Guidance for the implementation of Inspire Download Services using Web Coverage Services (WCS). **[INSTGDSWCS]** | Hetzelfde als het Europese profiel. |
+| OGC Web Coverage Service (WCS), version 2.1 [[WCS21]]   | Technical Guidance for the implementation of Inspire Download Services using Web Coverage Services (WCS). [[INSTGDSWCS]]   | Hetzelfde als het Europese profiel. |
+| OGC API - Coverages - Part 1: Core, version 0.0.6 **Draft** [[OAPIC]] |                                                                                                                        |                                     |
 
-## 
+## Sensordata API's 
 
-*Tabel 4 – API Standaarden en specificaties voor sensordata: SOS en SensorThings
-API*
+*Tabel 4 – API Standaarden en specificaties voor sensordata: SOS, EDR API en SensorThings API*
 
 | **Internationale standaarden/specificaties**                            | **Europese profielen**                                                                                                                        | **Nederlandse profielen**            |
 |-------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
-| OGC Sensor Observation Service Interface Standard version 2.0 **[SOS]** | Technical Guidance for implementing download services using the OGC Sensor Observation Service and ISO 19143 Filter Encoding **[INSTGDSSOS]** | Hetzelfde als het Europese profiel.  |
-| OGC SensorThings API version 1.1 **[STA]**                              | OGC SensorThings API as an INSPIRE download service (good practice) **[INSGPSTA]**                                                            |                                      |
+| OGC Sensor Observation Service Interface Standard version 2.0 [[SOS]]   | Technical Guidance for implementing download services using the OGC Sensor Observation Service and ISO 19143 Filter Encoding [[INSTGDSSOS]]   | Hetzelfde als het Europese profiel.  |
+| OGC SensorThings API part 1 Sensing, version 1.1 [[STAS]]               | OGC SensorThings API as an INSPIRE download service (good practice) [[INSGPSTA]]                                                              |                                      |
+| OGC SensorThings API Part 2 Tasking Core, version 1.0 [[STAT]]          |                                                                                                                                               |                                      |
+| OGC API - Environmental Data Retrieval Standard, version 1.0.1 [[EDR]]  |                                                                                                                                               |                                      |
 
-## 
+## Metadata API's 
 
 *Tabel 5 – API Standaarden en specificaties voor metadata: CSW en OGC API-
 Records*
 
 | **Internationale standaarden/specificaties**                                                                          | **Europese profielen**                                                                  | **Nederlandse profielen**           |
 |-----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|-------------------------------------|
-| OGC Catalogue Service for the Web (CSW) Implementation Specification, version 2.0.2 **[CSW]**                         | Technical Guidance for the implementation of Inspire Discovery Services. **[INSTGDiS]** | Hetzelfde als het Europese profiel. |
-| CSW2 AP ISO, Catalogue Services Specification 2.0.2 - ISO Metadata Application Profile, Version 1.0.0, **[CSWISOAP]** |                                                                                         |                                     |
-| OGC API - Records - Part 1: Core **[OAPREC]**                                                                         |                                                                                         |                                     |
+| OGC Catalogue Service for the Web (CSW) Implementation Specification, version 2.0.2 [[CSW]]                           | Technical Guidance for the implementation of Inspire Discovery Services. [[INSTGDiS]]   | Hetzelfde als het Europese profiel. |
+| CSW2 AP ISO, Catalogue Services Specification 2.0.2 - ISO Metadata Application Profile, Version 1.0.0, [[CSWISOAP]]   |                                                                                         |                                     |
+| OGC API - Records - Part 1: Core **Draft** [[OAPIRECORDS1]]                                                                 |                                                                                         |                                     |
+
+## Map tile APIs
 
 *Tabel 6 – API standaarden en specificaties voor map tiles: Web Map Tile Service
-(WMTS) en OGC API Tiles*
+(WMTS,) OGC API Tiles, en 3D Tiles*
 
 | **Internationale standaarden/specificaties**                          | **Europese profielen**                                                          | **Nederlandse profielen**            |
 |-----------------------------------------------------------------------|---------------------------------------------------------------------------------|--------------------------------------|
-| Web Map Tile Service Implementation Standard (WMTS) v1.0.0 **[WMTS]** | Technical Guidance for the implementation of Inspire View Service **[INSTGVS]** | Hetzelfde als het Europese profiel.  |
-| OGC API Tiles **[OATIL]**                                             |                                                                                 |                                      |
+| Web Map Tile Service Implementation Standard (WMTS) v1.0.0 [[WMTS]]   | Technical Guidance for the implementation of Inspire View Service [[INSTGVS]]   | Hetzelfde als het Europese profiel.  |
+| OGC API - Tiles - Part 1: Core [[OAPITILES1]] **Goedgekeurd, nog niet gepubliceerd**|                                                                   |                                      |
+| OGC 3D Tiles 1.0 [[3DTILES]]                                          |                                                                                 |                                      |
 
 Handreikingen voor implementatie:
+-   [Praktijkrichtlijn Vector Tiling (2021)](https://docs.geostandaarden.nl/serv/vt/)
+-   [Handreiking Best practices Vector Tiling (2021)](https://geonovum.github.io/vector-tiling-best-practices/)
 
--   [Praktijkrichtlijn Vector Tiling
-    (2021)](https://docs.geostandaarden.nl/serv/vt/)
--   [Handreiking Best practices Vector Tiling
-    (2021)](https://geonovum.github.io/vector-tiling-best-practices/)
+## Linked Data API's
 
 Tabel 7 – API standaarden en specificaties voor linked data: GeoSPARQL
 
-| **Internationale standaarden/specificaties**                                                                               | **Europese profielen** | **Nederlandse profielen** |
-|----------------------------------------------------------------------------------------------------------------------------|------------------------|---------------------------|
-| [GeoSPARQL - A Geographic Query Language for RDF Data](http://www.opengeospatial.org/standards/geosparql). **[GeoSPARQL]** |                        |                           |
-
-## 
+| **Internationale standaarden/specificaties**                            | **Europese profielen** | **Nederlandse profielen** |
+|-------------------------------------------------------------------------|------------------------|---------------------------|
+| GeoSPARQL - A Geographic Query Language for RDF Data v1.0 [[GeoSPARQL]] |                        |                           |
 
 ## Kwaliteit van API’s
 
@@ -121,27 +123,11 @@ De kwaliteit van services kan op verschillende manieren worden uitgedrukt. Om de
 kwaliteit van een service uit te drukken zijn door Inspire de volgende
 gedefinieerd.
 
--   Reliability
-
-    Reliability verwijst naar de hoeveelheid gefaalde requests die een systeem
-    mag teruggeven in een afgesproken tijd.
-
-    Bijvoorbeeld 10 \* een gefaalde request voor een geo-service per week.
-
--   Beschikbaarheid
-
-    Beschikbaarheid meet het percentage van beschikbaarheid (uptime). Het uptime
-    percentage = uptime / (uptime + downtime).
-
-    Bijvoorbeeld de geo-service dient in 98% van de requests beschikbaar te
-    zijn.
-
--   Performance / response tijd
-
-    De performance uitgedrukt in response tijd.
-
-    Bijvoorbeeld een 800\*600 pixels image met 8bit kleuren dient een response
-    tijd te hebben van maximaal 5 seconden.
+| Kwaliteitsnorm | Uitleg | Voorbeeld |
+|----------------|--------|-----------|
+| Reliability    | Reliability verwijst naar de hoeveelheid gefaalde requests die een systeem mag teruggeven in een afgesproken tijd.| Bijvoorbeeld `10 \*` een gefaalde request voor een geo-service per week.|
+| Beschikbaarheid| Beschikbaarheid meet het percentage van beschikbaarheid (uptime). Het uptime percentage = uptime / (uptime + downtime).| Bijvoorbeeld de geo-service dient in 98% van de requests beschikbaar te zijn.|
+| Performance / response tijd| De performance uitgedrukt in response tijd.| Bijvoorbeeld een 800\*600 pixels image met 8bit kleuren dient een response tijd te hebben van maximaal 5 seconden.|
 
 Het is van belang om als service provider hier afspraken over te maken met de
 afnemers.
@@ -151,20 +137,6 @@ Deze kwaliteit komt terug in de conformiteittoetsing uit 4.16.
 Voor implementatie ondersteuning van services zijn de volgende hulpmiddelen
 ingericht:
 
--   Validator
-
-    Voor het valideren van WMS en WFS zijn validators beschikbaar. Deze zijn te
-    vinden op <http://www.geonovum.nl/wegwijzer/validatie>
-
-    Met de ETF validator kan de kwaliteit van de services zoals in 4.14 benoemd
-    voor het grootste deel getoetst worden.
-
--   Conformiteittoetsing
-
-    Met een conformiteittoets controleert u of standaarden technisch correct
-    zijn toegepast. Voor de toetsen zie:
-    <http://www.geonovum.nl/wegwijzer/validatie>
-
-## Verkenning
-
-n.v.t.
+-**Validator**. Voor het valideren van WMS en WFS zijn validators beschikbaar. Deze zijn te
+    vinden op http://www.geonovum.nl/wegwijzer/validatie. Met de ETF validator kan de kwaliteit van de services zoals in 4.14 benoemd voor het grootste deel getoetst worden.
+- **Conformiteittoetsing**. Met een conformiteittoets controleert u of standaarden technisch correct zijn toegepast. Voor de toetsen zie: http://www.geonovum.nl/wegwijzer/validatie. 
