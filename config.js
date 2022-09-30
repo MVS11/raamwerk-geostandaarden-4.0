@@ -177,7 +177,7 @@ var respecConfig =
     },
     "OGCAPISTYLES":
       {
-        title:      "OGC API Styles",
+        title:      "OGC 20-009: OGC API Styles",
         href:       "http://docs.opengeospatial.org/DRAFTS/20-009.html",
         status:     "Draft",
         publisher:  "Open Geospatial Consortium (OGC)",
@@ -225,6 +225,106 @@ var respecConfig =
         publisher:  "Geonovum",
         date:       "2015-04-24",
     }, 
+    "OGCAPIMAPS":
+      {
+        title:      "OGC 20-058: OGC API - Maps - Part 1: Core, Version 0.1.0",
+        href:       "http://docs.ogc.org/DRAFTS/20-058.html",
+        status:     "Draft",
+        publisher:  "Open Geospatial Consortium (OGC)",
+        editors:    "Joan Masó",
+        date:       "2022-06-06",
+    },
+    "WFS11":
+      {
+        title:      "Web Feature Service Implementation Specification with Corrigendum, Version 1.1.3",
+        href:       "http://docs.opengeospatial.org/is/04-094r1/04-094r1.html",
+        status:     "Approved",
+        publisher:  "Open Geospatial Consortium (OGC)",
+        editors:    "Panagiotis A. Vretanos",
+        date:       "2016-10-26",
+    },
+    "INSTGDS":
+      {
+        title:      "Technical Guidance for the implementation of Inspire Download Services",
+        href:       "https://inspire.ec.europa.eu/documents/technical-guidance-implementation-inspire-download-services",
+        status:     "Approved",
+        publisher:  "IOC TF",
+        //editors:    "",
+        date:       "2013-08-09",
+    },
+    "NLWFS":
+      {
+        title:      "Nederlands profiel op ISO 19142 Geographic information — Web Feature Service",
+        href:       "https://www.geonovum.nl/geo-standaarden/services/nederlands-wfs-profiel-11-op-iso-19142-voor-web-feature-services-20, Versie 1.1",
+        status:     "Definitief",
+        publisher:  "Geonovum",
+        //editors:    "",
+        date:       "2015-04-24",
+    },
+    "INSGPOAPIF":
+      {
+        title:      "OGC API - Features as an INSPIRE download service",
+        href:       "https://inspire.ec.europa.eu/good-practice/ogc-api-–-features-inspire-download-service",
+        status:     "Endorsed Good Practice",
+        publisher:  "IOC TF",
+        //editors:    "",
+        //date:       "2015-04-24",
+    },
+    "FE20":
+      {
+        title:      "OGC 09-026r2: OGC Filter Encoding 2.0 Encoding Standard - With Corrigendum, Version 2.0.3",
+        href:       "http://docs.opengeospatial.org/is/09-026r2/09-026r2.html",
+        status:     "Approved",
+        publisher:  "Open Geospatial Consortium (OGC)",
+        editors:    "Panagiotis (Peter) A. Vretanos",
+        date:       "2014-08-18",
+    },
+    "OAPIF1":
+      {
+        title:      "OGC 17-069r4: OGC API - Features - Part 1: Core corrigendum, Version 1.0.1",
+        href:       "https://docs.opengeospatial.org/is/17-069r4/17-069r4.html",
+        status:     "Approved",
+        publisher:  "Open Geospatial Consortium (OGC)",
+        editors:    ["Panagiotis (Peter) A. Vretanos","Clemens Portele","Charles Heazel"],
+        date:       "2022-05-11",
+    },
+    "OAPIF2":
+      {
+        title:      "OGC 18-058: OGC API - Features - Part 2: Coordinate Reference Systems by Reference, Version 1.0",
+        href:       "https://docs.opengeospatial.org/is/18-058r1/18-058r1.html",
+        status:     "Approved",
+        publisher:  "Open Geospatial Consortium (OGC)",
+        editors:    ["Panagiotis (Peter) A. Vretanos","Clemens Portele"],
+        date:       "2020-11-02",
+    },
+    "OAPIF3":
+      {
+        title:      "OGC 19-079r1: OGC API - Features - Part 3: Filtering, Version 1.0.0-rc1",
+        href:       "http://docs.ogc.org/DRAFTS/19-079r1.html",
+        status:     "Draft",
+        publisher:  "Open Geospatial Consortium (OGC)",
+        editors:    ["Panagiotis (Peter) A. Vretanos","Clemens Portele"],
+        //date:       "2022-05-11",
+    },
+    "OAPIF4":
+      {
+        title:      "OGC 20-002: OGC API - Features - Part 4: Create, Replace, Update and Delete, Version 1.0.0 snapshot (editor's draft",
+        href:       "http://docs.ogc.org/DRAFTS/20-002.html",
+        status:     "Draft",
+        publisher:  "Open Geospatial Consortium (OGC)",
+        editors:    ["Panagiotis (Peter) A. Vretanos","Clemens Portele"],
+        //date:       "2022-05-11",
+    },
+    "adr-mod-geo":
+      {
+        title:      "API Design rules Module: Geospatial",
+        href:       "https://docs.geostandaarden.nl/api/API-Strategie-mod-geo/",
+        status:     "Consultatieversie",
+        publisher:  "Geonovum",
+        editors:    ["Linda van den Brink"],
+        authors:    ["Pieter Bresters", "Linda van den Brink", "Paul van Genuchten", "George Mathijssen", "Mark Strijker"],
+        date:       "2022-09-30",
+    },
   },
   postProcess:[custGHPG],   //-- Optioneel voor een multi document repository
 
