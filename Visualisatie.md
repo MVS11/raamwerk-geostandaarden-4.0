@@ -70,7 +70,7 @@ Tabel 16 - Standaarden en specificaties voor visualisatie
 | OGC Web Map Context Documents Implementation Specification, version 1.1 [[WMC11]]                           |                                                     |                                            |
 | Corrigendum for Implementation Standard Web Map Context Documents – Corrigendum 1, version 1.1.0 [[WMCC11]] |                                                     |                                            |
 | Mapbox Styles [[MBS]]                                                                                       |                                                     |                                            |
-| OGC API Styles 1.0.0 Draft [[OGCAPISTYLES]]                                                                 |                                                     |                                            |
+| OGC API Styles 1.0.0 **Draft** [[OGCAPISTYLES]]                                                                 |                                                     |                                            |
 | 3D Tiles 1.0 [[3DTILES]] chapter 11, Declarative styling specification                                      |                                                     |                                            |
 
 <aside class="issue">Moeten we X3D, Collada ook opnemen? </aside>
