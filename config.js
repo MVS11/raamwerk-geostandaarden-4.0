@@ -435,6 +435,35 @@ var respecConfig =
         editors:    ["Joan Masó", "Jérôme St-Louis"],
         date:       "2023",
     },
+    "GEOSPARQL11":
+      {
+        title:      "OGC GeoSPARQL - A Geographic Query Language for RDF Data",
+        href:       "https://opengeospatial.github.io/ogc-geosparql/geosparql11/spec.html",
+        status:     "Draft",
+        publisher:  "Open Geospatial Consortium (OGC)",
+        editors:    ["Nicholas J. Car", "Timo Homburg", "Matthew Perry", "John Herring", "Frans Knibbe", "Simon J.D. Cox", "Joseph Abhayaratna", "Mathias Bonduel"],
+        date:       "2022",
+    },
+    "NLDP":
+      {
+        title:      "NEN 3610 - Linked Data",
+        href:       "https://docs.geostandaarden.nl/nen3610/nldp/",
+        status:     "Vastgesteld",
+        publisher:  "Geonovum",
+        editors:    ["Paul Janssen"],
+        authors:    ["Linda van den Brink", "Marco Brattinga", "Marinus Vonhof", "Niels Hoffmann", "Pano Maria", "Hans Schevers", "Ronald van Lanen", "Joep van Genuchten"],
+        date:       "2020-03-23",
+    },
+    "MIM11":
+      {
+        title:      "MIM - Metamodel Informatie Modellering",
+        href:       "https://docs.geostandaarden.nl/mim/mim/",
+        status:     "Vastgesteld",
+        publisher:  "Geonovum",
+        editors:    ["Dick Krijtenburg", "Paul Janssen", "Lennart van Bergen"],
+        authors:    ["Lennart van Bergen","Thies Mesdag", "Marco Brattinga","Paul Janssen", "Pano Maria", "Johan Boer"],
+        date:       "2022-02-17",
+    },
     
     
   },

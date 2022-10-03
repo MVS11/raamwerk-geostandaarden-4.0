@@ -9,8 +9,6 @@ functionaliteiten.**
 
 ## Transitie naar nieuwe generatie API's
 
-<aside class="issue">Voorstel: paragraaf toevoegen waarin kort wordt ingegaan op de transitie van oude naar nieuwe generatie standaarden (xml-based services > REST API's). Hieronder staat al een tekstvoorstel dat nog bijgeschaaft kan worden.</aside>
-
 De internationale standaarden voor API's komen veelal bij de OGC vandaan. Deze standaardenorganisatie bestaat al sinds 1994. De eerste generatie API standaarden, toen nog services genaamd, zijn gebaseerd op XML en SOAP. Deze standaarden zijn nog steeds geldig en in gebruik, maar worden gaandeweg vervangen door de nieuwe generatie, die is gebaseerd op algemene Web architectuur, i.e. REST. Het voordeel van deze nieuwe API's is dat ze geo-informatie onderdeel maken van het ecosysteem van het Web en zo voor een veel breder publiek toegankelijk.
 
 OGC is voornemens de oude generatie services langzaam uit te faseren. De nieuwe API standaarden zijn in ontwikkeling en komen één voor één gereed. Op moment van schrijven zijn er al een paar goedgekeurd. Het is aan te raden om in nieuwe voorzieningen zoveel mogelijk de nieuwe API standaarden toe te passen. Bestaande voorzieningen die op de oude standaarden zijn gebaseerd kunnen nog langere tijd in de lucht gehouden worden. Nieuwe API's kunnen daarnaast gezet worden. Het is ook mogelijk om OGC API's beschikbaar te stellen als laag bovenop oude generatie services. Hiervoor is software beschikbaar.
@@ -33,7 +31,7 @@ onderscheiden en in onderstaande tabellen opgenomen:
     CSW en OGC API- Records (tabel 5);
 -   API standaarden en specificaties voor opvragen van kaarttegels: OGC WMTS,
     OGC API Tiles (tabel 6);
--   API standaarden en specificaties voor linked data: GeoSPARQL Tabel 7).
+-   API standaarden en specificaties voor linked data: GeoSPARQL (Tabel 7).
 
 ## Web mapping API's
 
@@ -111,10 +109,16 @@ Handreikingen voor implementatie:
 
 Tabel 7 – API standaarden en specificaties voor linked data: GeoSPARQL
 
-| **Internationale standaarden/specificaties**                            | **Europese profielen** | **Nederlandse profielen** |
-|-------------------------------------------------------------------------|------------------------|---------------------------|
-| GeoSPARQL - A Geographic Query Language for RDF Data v1.0 [[GeoSPARQL]] |                        |                           |
+| **Internationale standaarden/specificaties**                                        | **Europese profielen** | **Nederlandse profielen** |
+|-------------------------------------------------------------------------------------|------------------------|---------------------------|
+| GeoSPARQL - A Geographic Query Language for RDF Data v1.0 [[GeoSPARQL]]             |                        |                           |
+| GeoSPARQL - A Geographic Query Language for RDF Data v1.1 **Draft** [[GeoSPARQL11]] |                        |                           |
 
+Handreikingen voor implementatie: 
+- NEN 3610 - Linked Data [[NLDP]]
+
+<aside class="issue">GeoSPARQL heeft een interactiedeel en een beknopt datamodel (ontologie) voor geodata. Deze handreiking gaat vooral over de datamodel-kant. Misschien hoort de verwijzing meer thuis in het informatiemodel hoofdstuk. </aside>
+ 
 ## Kwaliteit van API’s
 
 **API Strategie overheid (beleid) en REST Design Rules (standaard PTOLU)**
