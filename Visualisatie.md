@@ -7,8 +7,6 @@ visualisatie gedefinieerd voor hun informatiemodel. Deze visualisatieregels
 moeten worden vastgelegd en kunnen dan bijvoorbeeld worden toegepast in een digitale kaart.**
 
 <aside class="issue">
-Hierboven stond "view service" ipv "digitale kaart". Dat laatste is misschien ook niet het juist woord, maar view services zoals in de 'oude' OGC architectuur zullen vervangen gaan worden door OGC API Tiles en Maps. 
-
 Uitzoekpunt is hoe in deze nieuwe APIs visualisatie geregeld is (zijn er nog visualisatieregels?).
 </aside>
 
@@ -29,10 +27,6 @@ specificaties, die geen van alle direct toepasbaar zijn:
     inzoom schaal, etc. Deze situatie kan op een client worden opgeslagen en
     worden uitgewisseld naar andere WMS clients zodat deze dezelfde Web Map
     Context hebben.
--   KML is een XML toepassing die zich richt op geo-informatie visualisatie,
-    inclusief annotatie van kaarten en images. OGC en Google zijn overeengekomen
-    om KML met GML te harmoniseren, hetzelfde geldt voor KML en SLD/SE.
-    <aside class="issue">KML is een verouderde standaard, ik zou deze niet meer opnemen</aside>
 -   3D visualisatie wordt steeds belangrijker. Hiervoor zijn verschillende
     desktop-applicaties beschikbaar die bijvoorbeeld CityGML, Google SketchUp en
     andere formaten veelal gecombineerd kunnen gebruiken voor visualisaties. OGC
@@ -43,14 +37,9 @@ specificaties, die geen van alle direct toepasbaar zijn:
     (op basis van HTML5). Beiden komen vanuit W3C en het is nog onduidelijk
     welke richting het precies op gaat. KML en Collada zijn tevens prima
     geschikt voor 3D visualisatie.
-    <aside class="issue">3D Tiles moet hier m.i. genoemd worden. Dit is een goedgekeurde OGC community standaard. Deze standaard bevat ook 3D Tiles Styles, een manier om declaratieve visualisatiespecificaties te beschrijven die je op tilesets kunt toepassen.</aside>
--   Mapbox Styles
-
-    pm
-
+- 3D Tiles is een goedgekeurde OGC community standaard voor het publiceren van 3D geo-informatie als tiles. Deze standaard bevat ook **3D Tiles Styles**, een manier om declaratieve visualisatiespecificaties te beschrijven die je op tilesets kunt toepassen.
+-   Mapbox Styles is een de-facto standaard uit de markt voor webvisualisatie van geo-informatie. Het versiebeheer van deze specificatie is niet beschreven en het Raamwerk verwijst daarom niet naar een specifieke versie maar naar de meest actuele. 
 -   OGC API Styles [nog in draft] is een nieuwe OGC standaard om stijlen en hun metadata (visualisatieregels) op te vragen, te bewerken en te valideren via een API. De stijlen zelf kunnen in SLD 1.0, SLD 1.1 of Mapbox Styles zijn uitgedrukt.
-
-    pm
 
 Diverse Europese en Nederlandse profielen voor visualisatie zijn beschikbaar in
 de vorm van visualisatieregels voor dataproducten en informatiemodellen. Deze
@@ -74,8 +63,6 @@ Tabel 16 - Standaarden en specificaties voor visualisatie
 | 3D Tiles 1.0 [[3DTILES]] chapter 11, Declarative styling specification                                      |                                                     |                                            |
 
 <aside class="issue">Moeten we X3D, Collada ook opnemen? </aside>
-
-<aside class="issue">Mapbox Styles: Dit is geen officiële standaard maar en spec van het bedrijf Mapbox. Het versiebeheer is niet beschreven (voor zover ik kon vinden) en de vraag is naar welke versie verwezen moet worden; of dat we beter een versieloze verwijzing kunnen doen (waarbij je altijd op de nieuwste uitkomt). Het lijkt meer een levende standaard die voortdurend wordt geupdate. In OGC API styles staat versie 8; maar de verwijzing in OGC API Styles komt uit bij versie 13.26.0 (i.e. de nieuwste). </aside>
 
 ## 
 
