@@ -100,6 +100,7 @@ Records*
 | Web Map Tile Service Implementation Standard (WMTS) v1.0.0 [[WMTS]]   | Technical Guidance for the implementation of Inspire View Service [[INSTGVS]]   | Hetzelfde als het Europese profiel.  |
 | OGC API - Tiles - Part 1: Core [[OAPITILES1]] **Goedgekeurd, nog niet gepubliceerd**|                                                                   |                                      |
 | OGC 3D Tiles 1.0 [[3DTILES]]                                          |                                                                                 |                                      |
+| OGC Indexed 3D Scene Layers [[]]                                | | |        
 
 Handreikingen voor implementatie:
 -   [Praktijkrichtlijn Vector Tiling (2021)](https://docs.geostandaarden.nl/serv/vt/)
