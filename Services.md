@@ -30,7 +30,7 @@ onderscheiden en in onderstaande tabellen opgenomen:
 -   API Standaarden en specificaties voor bevragen van metadata catalogi: OGC
     CSW en OGC API- Records (tabel 5);
 -   API standaarden en specificaties voor opvragen van kaarttegels: OGC WMTS,
-    OGC API Tiles (tabel 6);
+    OGC API Tiles, 3D Tiles, i3s (tabel 6);
 -   API standaarden en specificaties voor linked data: GeoSPARQL (Tabel 7).
 
 ## Web mapping API's
@@ -100,7 +100,9 @@ Records*
 | Web Map Tile Service Implementation Standard (WMTS) v1.0.0 [[WMTS]]   | Technical Guidance for the implementation of Inspire View Service [[INSTGVS]]   | Hetzelfde als het Europese profiel.  |
 | OGC API - Tiles - Part 1: Core [[OAPITILES1]] **Goedgekeurd, nog niet gepubliceerd**|                                                                   |                                      |
 | OGC 3D Tiles 1.0 [[3DTILES]]                                          |                                                                                 |                                      |
-| OGC Indexed 3D Scene Layers [[]]                                | | |        
+| OGC Indexed 3D Scene Layers v1.2 [[I3S]]                              |                                                                                 |                                      |
+
+<aside class="issue">I3S is meer een formaat dan een API; i.e. de spec specificeert het formaat. Er is ook wel een API beschreven maar dit staat buiten de spec op github. I3S zou beter in het formaten hoofdstuk passen.</aside> 
 
 Handreikingen voor implementatie:
 -   [Praktijkrichtlijn Vector Tiling (2021)](https://docs.geostandaarden.nl/serv/vt/)
@@ -113,12 +115,12 @@ Tabel 7 – API standaarden en specificaties voor linked data: GeoSPARQL
 | **Internationale standaarden/specificaties**                                        | **Europese profielen** | **Nederlandse profielen** |
 |-------------------------------------------------------------------------------------|------------------------|---------------------------|
 | GeoSPARQL - A Geographic Query Language for RDF Data v1.0 [[GeoSPARQL]]             |                        |                           |
-| GeoSPARQL - A Geographic Query Language for RDF Data v1.1 **Draft** [[GeoSPARQL11]] |                        |                           |
+| GeoSPARQL - A Geographic Query Language for RDF Data v1.1 **Draft** [[GEOSPARQL11]] |                        |                           |
 
 Handreikingen voor implementatie: 
 - NEN 3610 - Linked Data [[NLDP]]
 
-<aside class="issue">GeoSPARQL heeft een interactiedeel en een beknopt datamodel (ontologie) voor geodata. Deze handreiking gaat vooral over de datamodel-kant. Misschien hoort de verwijzing meer thuis in het informatiemodel hoofdstuk. </aside>
+<aside class="note">GeoSPARQL heeft een interactiedeel en een beknopt datamodel (ontologie) voor geodata. Deze handreiking gaat vooral over de datamodel-kant. Misschien hoort de verwijzing meer thuis in het informatiemodel hoofdstuk. </aside>
  
 ## Kwaliteit van API’s
 

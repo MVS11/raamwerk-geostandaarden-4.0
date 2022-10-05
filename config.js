@@ -435,6 +435,15 @@ var respecConfig =
         editors:    ["Joan Masó", "Jérôme St-Louis"],
         date:       "2023",
     },
+    "I3S":
+      {
+        title:      "OGC Indexed 3d Scene Layer (I3S) and Scene Layer Package (*.slpk) Format Community Standard Version 1.2",
+        href:       "http://docs.opengeospatial.org/cs/17-014r8/17-014r8.html",
+        status:     "Approved",
+        publisher:  "Open Geospatial Consortium (OGC)",
+        editors:    ["Carl Reed", "Tamrat Belayneh"],
+        date:       "2021-05-11",
+    },
     "GEOSPARQL11":
       {
         title:      "OGC GeoSPARQL - A Geographic Query Language for RDF Data",

@@ -6,10 +6,6 @@ lijnstijlen, symbologie, etc. Veel inhoudelijke domeinen hebben een standaard
 visualisatie gedefinieerd voor hun informatiemodel. Deze visualisatieregels
 moeten worden vastgelegd en kunnen dan bijvoorbeeld worden toegepast in een digitale kaart.**
 
-<aside class="issue">
-Uitzoekpunt is hoe in deze nieuwe APIs visualisatie geregeld is (zijn er nog visualisatieregels?).
-</aside>
-
 ## Overzicht geostandaarden visualisatie
 
 Het standaardiseren van visualisatie (vlakvullingen, lijnstijlen, symbologie,
@@ -27,6 +23,9 @@ specificaties, die geen van alle direct toepasbaar zijn:
     inzoom schaal, etc. Deze situatie kan op een client worden opgeslagen en
     worden uitgewisseld naar andere WMS clients zodat deze dezelfde Web Map
     Context hebben.
+
+<aside class="issue">Er is vooralsnog bij de OGC geen opvolger voorzien van WMC als REST API. WMC handhaven of verwijderen?</aside>
+
 -   3D visualisatie wordt steeds belangrijker. Hiervoor zijn verschillende
     desktop-applicaties beschikbaar die bijvoorbeeld CityGML, Google SketchUp en
     andere formaten veelal gecombineerd kunnen gebruiken voor visualisaties. OGC
@@ -46,7 +45,7 @@ de vorm van visualisatieregels voor dataproducten en informatiemodellen. Deze
 zijn beschreven in SLD en SE voor de Europese profielen; in de hoofdstukken 11
 van de INSPIRE data specificaties is portrayal gedefinieerd volgens SLD en SE.
 
-In paragraaf ?.? is een voorbeeld opgenomen over hoe visualisatieregels In de
+In [Visualisatieregels van de BGT](#bgtvoorbeeld) is een voorbeeld opgenomen over hoe visualisatieregels In de
 Nederlandse profielen toegepast zijn voor het dataproduct BGT/IMgeo.
 
 Tabel 16 - Standaarden en specificaties voor visualisatie
@@ -80,18 +79,17 @@ De visualisatie is geen onderdeel van een informatiemodel, maar is een apart
 aspect. De gegevenscatalogus bevat de objectdefinities; de visualisatie van deze
 objecten wordt buiten de gegevenscatalogus beschreven in visualisatieregels, die
 zijn vastgelegd in de bijlagen. In elke visualisatieregel is ook vastgelegd van
-welke selectie van objecten dit de visualisatie is.
+welke selectie van objecten dit de visualisatie is. Alleen met betrekking tot de visualisatie van teksten wordt indien nodig in de gegevenscatalogus iets gezegd. 
 
-Alleen met betrekking tot de visualisatie van teksten wordt in de
-gegevenscatalogus iets gezegd. Dit is nodig omdat deze zaken al door de
-bronhouders in acht moeten worden genomen wil uiteindelijk een te genereren
-kaartbeeld landelijk op een uniforme wijze worden gepresenteerd.
+<aside class="example" title="Visualisatieregels van de BGT" id="bgtvoorbeeld">
 
 Afhankelijk van het type data product kunnen verschillende visualisatieregels
-worden opgesteld. In de handreiking visualisatieregels worden de verschillende
+worden opgesteld. In een handreiking visualisatieregels worden de verschillende
 visualisatieregels beschreven voor de presentaties van het data product, elk met
 hun eigen doel en gebruik. Bijvoorbeeld voor het data product BGT\|IMGeo zijn
-zeven presentaties beschikbaar:
+zeven presentaties beschikbaar. Deze zijn beschreven in de [Handreiking BGT\|IMGeo Visualisatieregels 2.3
+(2018)](https://docs.geostandaarden.nl/bgt/def-hr-visualisatie-20181015/):
+
 
 -   Standaardvisualisatie: een visualisatie voor het gebruik van de
     BGT/IMGeo-inhoud als hoofdthema, die aansluit bij de visualisatie van de
@@ -129,15 +127,7 @@ zeven presentaties beschikbaar:
 -   Planvisualisatie: een visualisatie voor het gebruik van de
     planinformatie-inhoud.
 
-Er is bij het vaststellen van de visualisatie geen onderscheid gemaakt tussen
-verplichte objecten, die zijn vastgelegd in de [Basisregistratie Grootschalige
-Topografie
-(BGT)](https://www.geonovum.nl/geo-standaarden/bgt-imgeo/gegevenscatalogus-bgt-111)
-en de overige objecten die zijn vastgelegd in het [Informatiemodel Geografie
-(IMGeo)](https://www.geonovum.nl/geo-standaarden/bgt-imgeo/gegevenscatalogus-imgeo-versie-211).
-
-[Voorbeeld Handreiking BGT\|IMGeo Visualisatieregels 2.3
-(2018)](https://docs.geostandaarden.nl/bgt/def-hr-visualisatie-20181015/)
+</aside>
 
 ### Kaartvisualisatie voor webapplicaties
 
@@ -145,10 +135,6 @@ Voor ontwikkelaars van geografische webapplicaties, is in 2010 de handreiking
 webcartografie ontwikkeld. In de handreiking webcartografie [[HRWC]] vind je praktische
 tips over hoe je geo-informatie - waar mogelijk - wel binnen de bedoelingen van
 de toegankelijkheidseisen kunt aanbieden.
-
-[Handreiking
-Webcartografie](https://www.geonovum.nl/geo-standaarden/geo-voor-web/handreiking-webcartografie)
-(2010)
 
 ### Toegankelijkheid & geo-informatie
 
@@ -170,4 +156,4 @@ aanbieden.
 [Handreiking digitaal toegankelijke locatiedata
 (2021)](https://docs.geostandaarden.nl/visu/toeg/)
 
-<aside class="warning">Dit document is de webversie van oorspronkelijk in januari 2015 gepubliceerde PDF document. Het is gebaseerd op Web Content Accessibility Guidelines (WCAG) 2.0 [[WCAG20]]. Er zijn al enige tijd vernieuwde toegankelijkheidseisen en wetgeving over digitale toegankelijkheid, gebaseerd op WCAG versie 2.1 [[WCAG21]]. Dit document is hier nog niet op aangepast.</aside>
+<aside class="note">Dit document is de webversie van oorspronkelijk in januari 2015 gepubliceerde PDF document. Het is gebaseerd op Web Content Accessibility Guidelines (WCAG) 2.0 [[WCAG20]]. Er zijn al enige tijd vernieuwde toegankelijkheidseisen en wetgeving over digitale toegankelijkheid, gebaseerd op WCAG versie 2.1 [[WCAG21]]. Dit document is hier nog niet op aangepast.</aside>
