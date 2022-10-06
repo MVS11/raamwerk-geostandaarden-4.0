@@ -37,8 +37,9 @@ specificaties, die geen van alle direct toepasbaar zijn:
     welke richting het precies op gaat. KML en Collada zijn tevens prima
     geschikt voor 3D visualisatie.
 - 3D Tiles is een goedgekeurde OGC community standaard voor het publiceren van 3D geo-informatie als tiles. Deze standaard bevat ook **3D Tiles Styles**, een manier om declaratieve visualisatiespecificaties te beschrijven die je op tilesets kunt toepassen.
+- Indexed 3D Scene Layers is ook een goedgekeurde OGC community standaard. Het specificeert een formaat, opgebouwd uit gestandaardiseerde lagen, voor efficiënte 3D visualisatie op het web.
 -   Mapbox Styles is een de-facto standaard uit de markt voor webvisualisatie van geo-informatie. Het versiebeheer van deze specificatie is niet beschreven en het Raamwerk verwijst daarom niet naar een specifieke versie maar naar de meest actuele. 
--   OGC API Styles [nog in draft] is een nieuwe OGC standaard om stijlen en hun metadata (visualisatieregels) op te vragen, te bewerken en te valideren via een API. De stijlen zelf kunnen in SLD 1.0, SLD 1.1 of Mapbox Styles zijn uitgedrukt.
+-   OGC API Styles is een nieuwe OGC standaard om stijlen en hun metadata (visualisatieregels) op te vragen, te bewerken en te valideren via een API. De stijlen zelf kunnen in SLD 1.0, SLD 1.1 of Mapbox Styles zijn uitgedrukt.
 
 Diverse Europese en Nederlandse profielen voor visualisatie zijn beschikbaar in
 de vorm van visualisatieregels voor dataproducten en informatiemodellen. Deze
@@ -58,12 +59,11 @@ Tabel 16 - Standaarden en specificaties voor visualisatie
 | OGC Web Map Context Documents Implementation Specification, version 1.1 [[WMC11]]                           |                                                     |                                            |
 | Corrigendum for Implementation Standard Web Map Context Documents – Corrigendum 1, version 1.1.0 [[WMCC11]] |                                                     |                                            |
 | Mapbox Styles [[MBS]]                                                                                       |                                                     |                                            |
-| OGC API Styles 1.0.0 **Draft** [[OGCAPISTYLES]]                                                                 |                                                     |                                            |
+| OGC API Styles 1.0.0 **Draft** [[OGCAPISTYLES]]                                                             |                                                     |                                            |
 | 3D Tiles 1.0 [[3DTILES]] chapter 11, Declarative styling specification                                      |                                                     |                                            |
+| OGC Indexed 3D Scene Layers v1.2 [[I3S]]                                                                    |                                                     |                                            |
 
 <aside class="issue">Moeten we X3D, Collada ook opnemen? </aside>
-
-## 
 
 ## Kwaliteit en visualisatie
 
