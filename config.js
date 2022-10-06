@@ -473,6 +473,26 @@ var respecConfig =
         authors:    ["Lennart van Bergen","Thies Mesdag", "Marco Brattinga","Paul Janssen", "Pano Maria", "Johan Boer"],
         date:       "2022-02-17",
     },
+    "ISO19107-2003":
+      {
+        title:      "ISO 19107:2019 Geographic information — Spatial schema",
+        href:       "https://www.iso.org/standard/66175.html",
+        status:     "Published",
+        publisher:  "ISO",
+        //editors:    ["Dick Krijtenburg", "Paul Janssen", "Lennart van Bergen"],
+        //authors:    ["Lennart van Bergen","Thies Mesdag", "Marco Brattinga","Paul Janssen", "Pano Maria", "Johan Boer"],
+        date:       "2019-12",
+    },
+    "INS-EN":
+      {
+        title:      "Guidelines for the encoding of spatial data",
+        href:       "https://inspire.ec.europa.eu/documents/guidelines-encoding-spatial-data",
+        status:     "Published",
+        publisher:  "INSPIRE Drafting Team Data Specifications",
+        //editors:    ["Dick Krijtenburg", "Paul Janssen", "Lennart van Bergen"],
+        //authors:    ["Lennart van Bergen","Thies Mesdag", "Marco Brattinga","Paul Janssen", "Pano Maria", "Johan Boer"],
+        date:       "2014-04-08",
+    },
     
     
   },

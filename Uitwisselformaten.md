@@ -4,7 +4,7 @@
 een informatiemodel de semantiek bepaalt, beschrijft een uitwisselformaat de
 vorm of syntax waarin geo-informatie op basis van een bepaald informatiemodel
 wordt uitgewisseld. Er zijn verschillende manieren om geo-informatie te
-representeren en uit te wisselen**
+representeren en uit te wisselen.**
 
 ## Overzicht geostandaarden uitwisselformaten
 
@@ -31,17 +31,21 @@ bogen).
 Tabel 3 – Uitwisselformaten standaarden en specificaties met betrekking tot
 vectordata
 
-| **Internationale standaarden/specificaties**                                                | **Europese profielen**                                                                | **Nederlandse profielen**                                                                      |
-|---------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
-| ISO 19107 Geographic information - Spatial Schema **[ISO-19107-2003]**                      | INSPIRE Guidelines for the encoding of spatial data. **[INS EN]**                     | Simple Features profile (OGC 10-100r3, 2011-05-24, version 2.0) op ISO 19136:2007 (GML 3.2.1). |
-| OGC Geography Markup Language (GML) Encoding Specification, version 3.1.1. **[GML]**        | GeoPackage encoding of INSPIRE datasets. Inspire good practise. **[INSGPGeopackage]** | Geography Markup Language (GML) Encoding standard, version 3.2.1 (=ISO 19136) **[GML]**        |
-| OGC Geography Markup Language (GML) Encoding standard, version 3.2.1 (=ISO 19136) **[GML]** |                                                                                       | Geopackage, OGC GeoPackage Encoding Standard, version 1.2. **[GeoPackage]**                    |
-| OGC GeoPackage Encoding Standard, version 1.2. **[GeoPackage]**                             |                                                                                       |                                                                                                |
-| The GeoJSON Format. **[RFC7946]**                                                           |                                                                                       |                                                                                                |
-| HTML5. **[HTML5]**                                                                          |                                                                                       |                                                                                                |
-| Resource Description Framework (RDF): Concepts and Abstract Syntax. **[rdf-concepts]**      |                                                                                       |                                                                                                |
+| **Internationale standaarden/specificaties**                                                            | **Europese profielen**                                                                | **Nederlandse profielen**    |
+|---------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|------------------------------|
+| ISO 19107 Geographic information - Spatial Schema [[ISO-19107-2003]]                                    | INSPIRE Guidelines for the encoding of spatial data. [[INS-EN]]                       |                              |
+| OGC Geography Markup Language (GML) Encoding Specification, version 3.1.1. [[GML31]]                    |                                                                                       |                              |
+| OGC Geography Markup Language (GML) Encoding standard, version 3.2.1 (=ISO 19136) [[GML32]]             |                                                                                       |                              |
+| OGC Geography Markup Language (GML) Encoding standard, version 3.3  [[GML33]]                           |                                                                                       |                              |
+| Simple Features profile (OGC 10-100r3, 2011-05-24, version 2.0) op ISO 19136:2007 (GML 3.2.1). [[GMLSF]]|                                                                                       |                              |
+| OGC GeoPackage Encoding Standard, version 1.2. [[GeoPackage]]                                           | GeoPackage encoding of INSPIRE datasets. Inspire good practise. [[INSGPGeopackage]] |                              |
+| The GeoJSON Format. [[RFC7946]]                                                                         |                                                                                       |                              |
+| OGC JSON Features and Geometries [[JSON-FG]]                                                            |                                                                                       |                              |
+| The GeoJSON Format. [[RFC7946]]                                                                         |                                                                                       |                              |
+| HTML5. [[HTML5]]                                                                                        |                                                                                       |                              |
+| Resource Description Framework (RDF): Concepts and Abstract Syntax. [[rdf-concepts]]                    |                                                                                       |                              |
 
-### 
+Er zijn veel uitwisselformaten om uit te kiezen. Daarom is er voor vectorformaten een **Keuzehulp** gemaakt: de handreiking [Geometrie in uitwisselingsformaten](https://docs.geostandaarden.nl/g4w/geox/). 
 
 ### Rasterdata uitwisselstandaarden
 
@@ -66,14 +70,14 @@ rasterdata
 
 | **Internationale standaarden/specificaties**                                           | **Europese profielen**                                            | **Nederlandse profielen** |
 |----------------------------------------------------------------------------------------|-------------------------------------------------------------------|---------------------------|
-| OGC Network Common Data Form (NetCDF) Core Encoding Standard version 1.0. **[NETCDF]** | INSPIRE Guidelines for the encoding of spatial data. **[INSGEN]** |                           |
-| Hierarchical Data Format **[HDF5]**                                                    |                                                                   |                           |
-| HDF-EOS, Hierarchical Data Format - Earth Observing System **[HDFEOS]**                |                                                                   |                           |
-| OGC GeoTIFF Standard, version 1.1 **[GeoTIFF]**                                        |                                                                   |                           |
-| ISO/IEC 12087-5:1998 - Basic Image Interchange Format (BIIF) **[BIIF]**                |                                                                   |                           |
-| ISO 19136 - Geography Markup Language **[GML]**                                        |                                                                   |                           |
-| ISO/IEC 15444-1:2019 - JPEG 2000 image coding system **[JPEG2000]**                    |                                                                   |                           |
-| ISO/IEC 15948:2004 - Portable Network Graphics **[PNG]**                               |                                                                   |                           |
+| OGC Network Common Data Form (NetCDF) Core Encoding Standard version 1.0. [[NETCDF]] | INSPIRE Guidelines for the encoding of spatial data. [[INSGEN]] |                           |
+| Hierarchical Data Format [[HDF5]]                                                    |                                                                   |                           |
+| HDF-EOS, Hierarchical Data Format - Earth Observing System [[HDFEOS]]                |                                                                   |                           |
+| OGC GeoTIFF Standard, version 1.1 [[GeoTIFF]]                                        |                                                                   |                           |
+| ISO/IEC 12087-5:1998 - Basic Image Interchange Format (BIIF) [[BIIF]]                |                                                                   |                           |
+| ISO 19136 - Geography Markup Language [[GML]]                                        |                                                                   |                           |
+| ISO/IEC 15444-1:2019 - JPEG 2000 image coding system [[JPEG2000]]                    |                                                                   |                           |
+| ISO/IEC 15948:2004 - Portable Network Graphics [[PNG]]                               |                                                                   |                           |
 
 ### 
 
@@ -90,7 +94,7 @@ sensordata
 
 | **Internationale standaarden/specificaties**                                  | **Europese profielen**                                            | **Nederlandse profielen** |
 |-------------------------------------------------------------------------------|-------------------------------------------------------------------|---------------------------|
-| OGC Observations & Measurement - XML implementation version 2.0 **[OaM XML]** | INSPIRE Guidelines for the encoding of spatial data. **[INSGEN]** |                           |
+| OGC Observations & Measurement - XML implementation version 2.0 [[OaM XML]] | INSPIRE Guidelines for the encoding of spatial data. [[INSGEN]] |                           |
 
 ### 3D data uitwisselstandaarden
 
@@ -99,8 +103,8 @@ data
 
 | **Internationale standaarden/specificaties**                                     | **Europese profielen** | **Nederlandse profielen** |
 |----------------------------------------------------------------------------------|------------------------|---------------------------|
-| City Geography Markup Language Encoding Standard, version 3.0. **[CityGML]**     |                        |                           |
-| CityJSON, A JSON-based encoding for 3D city models. version 1.1.2 **[CityJSON]** |                        |                           |
+| City Geography Markup Language Encoding Standard, version 3.0. [[CityGML]]     |                        |                           |
+| CityJSON, A JSON-based encoding for 3D city models. version 1.1.2 [[CityJSON]] |                        |                           |
 
 ## 
 
