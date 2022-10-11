@@ -111,37 +111,30 @@ rasterdata
 Met sensoren worden apparaten bedoeld voor het meten van stoffen in water,
 grondsamenstellingen, grondwater, luchtverontreiniging, etc. Deze sensoren
 hebben ook een positie en de resultaten van de metingen dienen uitgewisseld te
-kunnen worden. Voor deze uitwisseling van observations en measurements bestaat
-de volgende standaard (tabel ?).
+kunnen worden. Voor deze uitwisseling van observations en measurements bestaan
+de volgende standaarden.
 
-Tabel ? – Uitwisselformaten standaarden en specificaties met betrekking tot
+Tabel 5 – Uitwisselformaten standaarden en specificaties met betrekking tot
 sensordata
 
 | **Internationale standaarden/specificaties**                                  | **Europese profielen**                                            | **Nederlandse profielen** |
 |-------------------------------------------------------------------------------|-------------------------------------------------------------------|---------------------------|
-| OGC Observations & Measurement - XML implementation version 2.0 [[OaM XML]] | INSPIRE Guidelines for the encoding of spatial data. [[INSGEN]] |                           |
+| OGC Observations and Measurements version (ISO 19156) 3.0 **goedgekeurd, nog niet gepubliceerd** [[OMS3]]| INSPIRE Guidelines for the encoding of spatial data. [[INSGEN]]| Informatiemodel Metingen [[IMMetingen]] |
+| W3C/OGC Semantic Sensor Network Ontology [[vocab-ssn]]                        |                                                                   |                           |
+| OGC SensorML 2.1 [[SensorML]]                                                 |                                                                   |                           |
 
 ### 3D data uitwisselstandaarden
 
 Tabel 5 – Uitwisselformaten standaarden en specificaties met betrekking tot 3D
 data
 
-| **Internationale standaarden/specificaties**                                     | **Europese profielen** | **Nederlandse profielen** |
-|----------------------------------------------------------------------------------|------------------------|---------------------------|
-| City Geography Markup Language Encoding Standard, version 3.0. [[CityGML]]     |                        |                           |
-| CityJSON, A JSON-based encoding for 3D city models. version 1.1.2 [[CityJSON]] |                        |                           |
-
-## 
+| **Internationale standaarden/specificaties**                                   | **Europese profielen** | **Nederlandse profielen** |
+|--------------------------------------------------------------------------------|------------------------|---------------------------|
+| City Geography Markup Language Encoding Standard, version 3.0. [[CityGML3]]    |                        |                           |
+| CityJSON Community Standard, version 1.1.2 [[CityJSON]]                        |                        |                           |
 
 ## Kwaliteit en uitwisselformaten
 
-GML Validators pm
-
-Handreiking [Geometrie in
-uitwisselingsformaten](https://geonovum.github.io/geox/) (Geonovum 2022).
-
-## 
-
-## Verkenning
-
-n.v.t.
+Geonovum biedt twee GML validators aan:
+- De [GML3.2 Simple Features validator](http://validatie.geostandaarden.nl/gml/simple-features) controleert of een GML 3.2 bestand voldoet aan het GML 3.2 Simple Feature profile, level 2
+- De [Validator voor GML 2D geometrie](http://validatie.geostandaarden.nl/gml/geometrie-2d) controleert of de 2D geometrieën in een GML 3.x bestand conform ISO 19107 (Spatial Schema) zijn.

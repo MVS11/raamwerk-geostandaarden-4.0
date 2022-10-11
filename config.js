@@ -483,7 +483,7 @@ var respecConfig =
         //authors:    ["Lennart van Bergen","Thies Mesdag", "Marco Brattinga","Paul Janssen", "Pano Maria", "Johan Boer"],
         date:       "2019-12",
     },
-    "INS-GEN":
+    "INSGEN":
       {
         title:      "Guidelines for the encoding of spatial data",
         href:       "https://inspire.ec.europa.eu/documents/guidelines-encoding-spatial-data",
@@ -623,6 +623,51 @@ var respecConfig =
         publisher:"Open Geospatial Consortium",
         editors:  ["Chris Little", "Jon Blower", "Maik Riechert"],
         //date:     "2018-08-27",
+    },
+    "OMS3": 
+      {
+        title:    "OGC Abstract Specification Geographic information — Observations and measurements v3.0",
+        href:     "https://portal.ogc.org/files/95653",
+        status:   "Draft",
+        publisher:"Open Geospatial Consortium",
+        editors:  ["Katharina Schleidt", "Ilkka Rinne"],
+        //date:     "2018-08-27",
+    },
+    "IMMetingen": 
+      {
+        title:    "Informatiemodel Metingen",
+        href:     "https://www.aquo.nl/index.php/IM_Metingen",
+        status:   "Vastgesteld",
+        publisher:"IHW en SIKB",
+        //editors:  ["Katharina Schleidt", "Ilkka Rinne"],
+        //date:     "2018-08-27",
+    },
+    "SensorML": 
+      {
+        title:    "OGC SensorML: Model and XML Encoding Standard v2.1",
+        href:     "http://docs.ogc.org/is/12-000r2/12-000r2.html",
+        status:   "Published",
+        publisher:"Open Geospatial Consortium",
+        editors:  ["Mike Botts", "Alexandre Robin", "Eric Hirschorn"],
+        date:     "2020-08-10",
+    },
+    "CityGML3": 
+      {
+        title:    "OGC City Geography Markup Language (CityGML) Part 1: Conceptual Model Standard v3.0",
+        href:     "https://docs.ogc.org/is/20-010/20-010.html",
+        status:   "Published",
+        publisher:"Open Geospatial Consortium",
+        editors:  ["Thomas H. Kolbe", "Tatjana Kutzner", "Carl Stephen Smyth", "Claus Nagel", "Carsten Roensdorf", "Charles Heazel"],
+        date:     "2021-09-13",
+    },
+    "CityJSON": 
+      {
+        title:    "CityJSON Community Standard 1.0",
+        href:     "https://docs.ogc.org/cs/20-072r2/20-072r2.html",
+        status:   "Published",
+        publisher:"Open Geospatial Consortium",
+        editors:  ["Hugo Ledoux"],
+        date:     "2021-08-13",
     },
   },
   postProcess:[custGHPG],   //-- Optioneel voor een multi document repository
