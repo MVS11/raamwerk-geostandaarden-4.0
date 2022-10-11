@@ -483,7 +483,7 @@ var respecConfig =
         //authors:    ["Lennart van Bergen","Thies Mesdag", "Marco Brattinga","Paul Janssen", "Pano Maria", "Johan Boer"],
         date:       "2019-12",
     },
-    "INS-EN":
+    "INS-GEN":
       {
         title:      "Guidelines for the encoding of spatial data",
         href:       "https://inspire.ec.europa.eu/documents/guidelines-encoding-spatial-data",
@@ -493,8 +493,110 @@ var respecConfig =
         //authors:    ["Lennart van Bergen","Thies Mesdag", "Marco Brattinga","Paul Janssen", "Pano Maria", "Johan Boer"],
         date:       "2014-04-08",
     },
-    
-    
+    "GML31":
+      {
+        title:      "OpenGIS® Geography Markup Language (GML) Implementation Specification, v3.1.1",
+        href:       "https://portal.ogc.org/files/?artifact_id=4700",
+        status:     "Published",
+        publisher:  "Open Geospatial Consortium",
+        editors:    ["Simon Cox", "Paul Daisey", "Ron Lake", "Clemens Portele", "Arliss Whiteside"],
+        //authors:    ["Lennart van Bergen","Thies Mesdag", "Marco Brattinga","Paul Janssen", "Pano Maria", "Johan Boer"],
+        date:       "2004-02-07",
+    },
+    "GML33":
+      {
+        title:      "OGC® Geography Markup Language (GML) — Extended schemas and encoding rules, v3.3",
+        href:       "https://portal.ogc.org/files/?artifact_id=46568",
+        status:     "Published",
+        publisher:  "Open Geospatial Consortium",
+        editors:    ["Clemens Portele"],
+        //authors:    ["Lennart van Bergen","Thies Mesdag", "Marco Brattinga","Paul Janssen", "Pano Maria", "Johan Boer"],
+        date:       "2012-02-07",
+    },
+    "GeoPackage":
+      {
+        title:      "OGC GeoPackage Encoding Standard - with Corrigendum, v1.3.1",
+        href:       "https://www.geopackage.org/spec131/",
+        status:     "Published",
+        publisher:  "Open Geospatial Consortium",
+        editors:    ["Jeff Yutzler"],
+        //authors:    ["Lennart van Bergen","Thies Mesdag", "Marco Brattinga","Paul Janssen", "Pano Maria", "Johan Boer"],
+        date:       "2021-11-16",
+    },
+    "INSGPGeopackage":
+      {
+        title:      "GeoPackage encoding of INSPIRE datasets. INSPIRE good practise",
+        href:       "https://inspire.ec.europa.eu/good-practice/geopackage-encoding-inspire-datasets",
+        status:     "Candidate",
+        publisher:  "INSPIRE",
+        //editors:    ["Jeff Yutzler"],
+        //authors:    ["Lennart van Bergen","Thies Mesdag", "Marco Brattinga","Paul Janssen", "Pano Maria", "Johan Boer"],
+        //date:       "2021-11-16",
+    },
+    "JSON-FG":
+      {
+        title:      "OGC Features and Geometries JSON - Part 1: Core",
+        href:       "https://docs.ogc.org/DRAFTS/21-045.html",
+        status:     "Draft",
+        publisher:  "Open Geospatial Consortium",
+        editors:    ["Clemens Portele", "Panagiotis (Peter) A. Vretanos"],
+        //authors:    ["Lennart van Bergen","Thies Mesdag", "Marco Brattinga","Paul Janssen", "Pano Maria", "Johan Boer"],
+        //date:       "2012-02-07",
+    },
+    "GIMEG": 
+      {
+        href:      "https://docs.geostandaarden.nl/nen3610/gimeg",
+        publisher: "Geonovum", 
+        status:    "Vastgesteld",
+        authors:   ["Linda van den Brink", "Paul Janssen", "Wilko Quak",],
+        title:     "Geometrie in model en GML",
+        date:      "2021-03-26",
+    },
+    "GMLSF": 
+      {
+        title:    "Geography Markup Language (GML) simple features profile (with Corrigendum) (2.0)",
+        href:     "https://portal.ogc.org/files/?artifact_id=42729",
+        status:   "Published",
+        publisher:"Open Geospatial Consortium",
+        editors:  ["Linda van den Brink", "Clemens Portele", "Panagiotis (Peter) A. Vretanos",],
+        date:     "2012-04-05",
+    },
+    "NETCDF": 
+      {
+        title:    "OGC Network Common Data Form (NetCDF) Core Encoding Standard version 1.0",
+        href:     "https://portal.ogc.org/files/?artifact_id=43732",
+        status:   "Published",
+        publisher:"Open Geospatial Consortium",
+        editors:  ["Ben Domenico"],
+        date:     "2011-04-05",
+    },
+    "HDF5": 
+      {
+        title:    "OGC Hierarchical Data Format Version 5 (HDF5®) Core Standard",
+        href:     "http://docs.opengeospatial.org/is/18-043r3/18-043r3.html",
+        status:   "Published",
+        publisher:"Open Geospatial Consortium",
+        editors:  ["Aleksandar Jelenak", "Ted Habermann", "Gerd Heber"],
+        date:     "2019-03-27",
+    },
+    "HDFEOS": 
+      {
+        title:    "HDF-EOS5 Data Model, File Format and Library (v1.1)",
+        href:     "https://www.earthdata.nasa.gov/sites/default/files/imported/ESDS-RFC-008-v1.1.pdf",
+        status:   "Recommended",
+        publisher:"NASA",
+        editors:  ["Larry Klein", "Abe Taaheri"],
+        date:     "2016-05",
+    },
+    "GeoTIFF": 
+      {
+        title:    "OGC GeoTIFF standard v1.1",
+        href:     "http://docs.opengeospatial.org/is/19-008r4/19-008r4.html",
+        status:   "Published",
+        publisher:"Open Geospatial Consortium",
+        editors:  ["Emmanuel Devys", "Ted Habermann", "Chuck Heazel", "Roger Lott", "Even Rouault"],
+        date:     "2019-09-14",
+    },
   },
   postProcess:[custGHPG],   //-- Optioneel voor een multi document repository
 
