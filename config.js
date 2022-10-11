@@ -597,6 +597,33 @@ var respecConfig =
         editors:  ["Emmanuel Devys", "Ted Habermann", "Chuck Heazel", "Roger Lott", "Even Rouault"],
         date:     "2019-09-14",
     },
+    "CIS10": 
+      {
+        title:    "ISO 19123-2:2018 Geographic information — Schema for coverage geometry and functions — Part 2: Coverage implementation schema",
+        href:     "https://www.iso.org/standard/70948.html",
+        status:   "Published",
+        publisher:"ISD",
+        //editors:  ["Emmanuel Devys", "Ted Habermann", "Chuck Heazel", "Roger Lott", "Even Rouault"],
+        date:     "2018-10",
+    },
+    "GMLJPEG2000": 
+      {
+        title:    "OGC® GML in JPEG 2000 (GMLJP2) Encoding Standard Part 1: Core v.2.1",
+        href:     "http://docs.opengeospatial.org/is/08-085r8/08-085r8.html",
+        status:   "Published",
+        publisher:"Open Geospatial Consortium",
+        editors:  ["Lucio Colaiacomo", "Joan Masó", "Emmanuel Devys", "Eric Hirschorn"],
+        date:     "2018-08-27",
+    },
+    "COVJSON": 
+      {
+        title:    "OGC CoverageJSON Community Standard 1.0-draft_0.2.2",
+        href:     "https://portal.ogc.org/files/102051",
+        status:   "Draft",
+        publisher:"Open Geospatial Consortium",
+        editors:  ["Chris Little", "Jon Blower", "Maik Riechert"],
+        //date:     "2018-08-27",
+    },
   },
   postProcess:[custGHPG],   //-- Optioneel voor een multi document repository
 

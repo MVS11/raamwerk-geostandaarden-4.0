@@ -50,6 +50,31 @@ Handreikingen:
 
 ### Rasterdata uitwisselstandaarden
 
+<aside class="issue">Moeten we  in het raamwerk geostandaarden ook geen aandacht gaan besteden aan uitwisselformaten voor:
+-	Reality data en mesh file formats: Pointclouds, Reality mesh, Photos (zie bijv,. https://communities.bentley.com/products/3d_imaging_and_point_cloud_software/w/wiki/59030/reality-data-formats-best-practices); vangen we dit domein helemaal af met Coverages en geotiff/NETCDF/…
+-	M.bt. datacubes (voor science-achtige toepassingen); zie de sheet van Peter Bauman; ISO standaard voor SQL voor data arrays en update ISO standaard 19123-3? 
+-	Cloudnative formats; geoparquet, STAC, … https://www.ogc.org/ogcevents/cloud-native-geospatial-outreach-event
+
+Deze uitwisselformaten passen mogelijk bij de categorie Rasterdata. Dan is het niet nodig om er een nieuwe paragraaf voor te introduceren. Misschien wel om de titel aan te passen.
+
+Zie deze tekst op de [ogc coverages DWG wiki](https://external.ogc.org/twiki_public/CoveragesDWG/WebHome):
+
+> digital representations of space/time varying phenomena, concretely: spatio-temporal regular and irregular grids, point clouds, and general meshes. In particular, multi-dimensional datacubes fall under this category, such as 1-D sensor time series, 2-D satellite imagery, 3-D x/y/t image time series and x/y/z geoscientific models, 4-D x/y/z/t climate and ocean data sets, and more.
+
+Op basis van die tekst zouden we onderstaande kunnen herschrijven als: 
+
+De raster representatie wordt gebruik voor het vastleggen van fenomenen waarbij
+aan ieder punt op het aardoppervlak een waarde uit een continu domein wordt
+toegekend. *Het gaat daarbij over het algemeen om ruimtelijk-temporele gegevens, i.e. ieder punt heeft naast een waarde ook een tijdstip. Allerlei soorten bestanden vallen hieronder, bijvoorbeeld naast gewone rasterdata ook point clouds, meshes, en data cubes.*
+
+In dat geval zouden we in deze paragraaf ook opnemen: 
+- [Geoparquet](https://github.com/opengeospatial/geoparquet) (of is dit vector data?)
+- [QB4ST: RDF Data Cube extensions for spatio-temporal components](https://www.w3.org/TR/qb4st/)
+- [lAS](https://www.ogc.org/standards/LAS)
+- ...?
+
+</aside>
+
 De raster representatie wordt gebruik voor het vastleggen van fenomenen waarbij
 aan ieder punt op het aardoppervlak een waarde uit een continu domein wordt
 toegekend. Voorbeelden zijn de luchtdruk boven Nederland, waardes van een
@@ -62,8 +87,7 @@ numerieke codering van een kleurenwaarde opgenomen in een satellietbeeld.
 
 Er zijn verschillende geostandaarden voor rasterdata opgenomen in het raamwerk,
 zoals NETCDF en HDF5. Ook GeoTIFF (Geo Tagged Image File Format), waarbij
-georeferentie als tags in de file is opgenomen. GML geeft een mechanisme voor
-het vastleggen van rasterdata. Daarnaast webstandaarden als JPEG2000 en PNG. De
+georeferentie als tags in de file is opgenomen. Daarnaast webstandaarden als JPEG2000 en PNG. De
 laatste wordt vooral toegepast in WMS.
 
 Tabel 4 - Uitwisselformaten standaarden en specificaties met betrekking tot
@@ -75,10 +99,12 @@ rasterdata
 | Hierarchical Data Format 1.0 [[HDF5]]                                                |                                                                 |                           |
 | HDF-EOS5 Data Model, File Format and Library (v1.1)        [[HDFEOS]]                |                                                                 |                           |
 | OGC GeoTIFF Standard, version 1.1 [[GeoTIFF]]                                        |                                                                 |                           |
-| ISO 19136 - Geography Markup Language [[GML]]                                        |                                                                 |                           |
 | ISO/IEC 15444-1:2019 - JPEG 2000 image coding system [[JPEG2000]]                    |                                                                 |                           |
+| ISO 19123-1: Coverage Fundamentals [[iso-19123-2005]]                                |                                                                 |                           |
+| ISO 19123-2: Coverage Implementation Schema (CIS 1.0) [[CIS10]]                      |                                                                 |                           |
+| GML for JPEG 2000  [[GMLJPEG2000]]                                                   |                                                                 |                           |
 | ISO/IEC 15948:2004 - Portable Network Graphics [[PNG]]                               |                                                                 |                           |
-| CoverageJSON
+| CoverageJSON 1.0 **Draft** [[COVJSON]]                                               |                                                                 |                           |
 
 ### Sensordata uitwisselstandaarden
 
