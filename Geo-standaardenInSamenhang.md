@@ -2,165 +2,97 @@
 
 **Het doel van het Raamwerk van geo-standaarden is om uit de grote
 verscheidenheid aan standaarden die er zijn voor geo-informatie, de juiste set
-te kiezen. In combinatie kunnen deze geo-standaarden worden gebruikt om een
-Geo-Informatie Infrastructuur te realiseren. In een dergelijke infrastructuur
-spelen ze ieder een eigen rol.**
+te kiezen. In combinatie kunnen deze geo-standaarden worden gebruikt om **'onder Architectuur'** een Geo-Informatie Infrastructuur te realiseren. In een dergelijke infrastructuur speelt elke standaard een eigen rol.**
 
-## Wat is geo-informatie?
+## NORA - Nederlandse Overheids Referentie Architectuur
 
-Geo-standaarden zijn er om met geo-informatie te kunnen werken. Denk hierbij
-bijvoorbeeld aan het opslaan, uitwisselen, en presenteren van geo-informatie.
-Maar wat is eigenlijk geo-informatie? Geo-informatie omvat alle plaatsgebonden
-kenmerken van informatieobjecten. Alle informatie waarin een ruimtelijke
-component is opgenomen kan worden beschouwd als geo-informatie. Met een
-ruimtelijke component of kenmerk wordt een verwijzing naar een plek op de aarde
-bedoeld. Dit kan een fysiek object zijn, zoals een gebouw of kanaal, een
-administratieve eenheid, zoals een gemeente of postcode gebied of een abstract
-gegeven als ‘woonomgevingbeleving’. Een locatie kan statisch of dynamisch zijn;
-denk bij dit laatste bijvoorbeeld aan vluchtige informatie die slechts op een
-bepaald moment relevant is (bijv. een sensormeting), of aan bewegende objecten.
-
-De kracht van geo-informatie zit in het gemak waarmee op basis van locatie
-verschillende typen van informatie aan elkaar gerelateerd en met elkaar
-vergeleken kunnen worden. Dit helpt mensen enorm bij het verkrijgen van inzicht
-op basis van informatie en zorgt ervoor dat veel effectiever beslissingen kunnen
-worden genomen.
-
-Ruimtelijke vragen worden constant gesteld. In de vorm van ‘Waar?’ en door van
-een plek of locatie informatie op te vragen:
-
--   Waar is ruimte om een nieuwe school te plaatsen in een wijk? En staat die
-    niet nabij coffeeshops en cafés?
--   Wat zijn de openbare voorzieningen in de nabijheid van dit koop- of
-    huurhuis? En is er sprake van bodemverontreiniging in de tuin?
--   Waar kan ik het meest nabij mijn afval wegbrengen?
--   Welk gebied wordt met overstroming bedreigd?
--   Waar staan de files?
--   Waar is de woonomgevingbeleving het laagst?
-
-Sommige van deze ‘Waar?’ en ‘Wat is daar?’ vragen kunnen eenvoudig worden
-beantwoord, veel anderen zijn complexer te beantwoorden en vragen de combinatie
-van verschillende geo-informatiebronnen van verschillende organisaties.
-
-Bijvoorbeeld de ‘Waar?’ vraag van de school vereist tenminste:
-
--   De locaties van de coffeeshops en cafés;
--   De woonadressen van de huidige leerlingen;
--   De mogelijkheden binnen het bestemmingsplan;
--   Reistijd en afstand naar school.
-
-## De Nederlandse Geo-Informatie Infrastructuur
-
-Voor het oplossen van de ruimtelijke vraagstukken uit de vorige paragraaf is
-toegang tot de betreffende geo-informatie een vereiste. Om deze geo-informatie
-zo laagdrempelig mogelijk te ontsluiten is in Nederland de afgelopen jaren
-gewerkt aan een nationale geo-informatie infrastructuur (NGII). De NGII als
-concept is het geheel van geo-informatie(bronnen), metadata, standaarden,
-netwerkdiensten, organisatie en afspraken voor de efficiënte uitwisseling van en
-toegang tot geo-informatie. Belangrijke eigenschappen (inrichtingsprincipes) van
-een NGII zijn:
-
--   Enkele opslag bij de bron en meervoudig gebruik;
--   Scheiding applicaties, netwerkdiensten en data;
--   Uitwisseling via open standaarden.
-
-Vanuit verschillende gedistribueerde geo-informatiebronnen (data) wordt
-geo-informatie via diensten (services) en via verschillende distributiekanalen
-(portalen, applicaties, databases etc.) toegankelijk gemaakt aan de gebruikers.
-Door de uitwisseling van geo-informatie te enten op standaarden, specificaties
-en afspraken is het mogelijk om de uitwisseling open, efficiënt en effectief te
-doen plaatsvinden richting diverse groepen gebruikers. Het NGII concept is
-gebaseerd op de gedistribueerde ontsluiting van diverse geo-informatie(bronnen)
-via internationale open standaarden. Geo-informatie kenmerkt zich door haar
-meervoudige gebruik in uiteenlopende toepassingen. Om een nationale GII tot
-stand brengen is meer nodig dan alleen technologie. Beleid, Wetgeving,
-organisatie en mensen, innovatie en kennis, samenwerking en beheer, een
-implementatieprogramma en roadmap. Kortom een NGII zorgt vooral voor
-efficiente(re) uitwisseling van geo-informatie binnen en tussen organisaties. In
-dit document komen alleen de gehanteerde geo-standaarden aan de orde.
-
-Voor het verwezenlijken van een infrastructuur zijn standaarden onontbeerlijk:
-Zij zorgen ervoor dat het wiel niet voor een tweede keer wordt uitgevonden en
-dat er bij uitwisseling overeenstemming is tussen beide partijen over het
-formaat en de betekenis van de uitgewisselde gegevens. Belangrijk daarbij is dat
-het open standaarden betreft. Een open standaard is voor iedereen toegankelijk
-en toekomstvast omdat toegang tot de standaard en beheer van de standaard bij
-een non-profit organisatie zijn belegd. De in dit Raamwerk van geo-standaarden
-benoemde standaarden zijn volledig open.
-
-Voor het beantwoorden van ruimtelijke vragen zoals de voorbeelden in de vorige
-paragraaf, is het meestal nodig om informatiebronnen van verschillende
-organisaties met elkaar te combineren. Dit is niet mogelijk zonder standaarden.
-De afgelopen twintig jaar is internationaal en nationaal gewerkt aan een set van
-standaarden die het mogelijk maakt om de kracht van geo-informatie ten volle te
-benutten.
-
-Een geo-informatie infrastructuur is ervoor bedoeld om geo-informatie
-beschikbaar te stellen en toegankelijk te maken voor gebruik. Hiervoor zijn
-verschillende soorten geo-standaarden nodig:
-
--   Het beschrijven van geo-informatie met metadata, zodat de geo-informatie
-    vindbaar worden;
--   Het inrichten van API’s, zodat geo-informatie via het web kan worden
-    geraadpleegd;
--   Het definiëren van visualisatieregels, zodat geo-informatie op een
-    eenduidige manier wordt gepresenteerd aan gebruikers;
--   Het beschrijven van de inhoud van geo-informatie middels een
-    informatiemodel, zodat de semantiek en structuur bekend zijn;
--   Het definiëren van uitwisselformaten, zodat duidelijk is in wat voor vorm de
-    geo-informatie wordt uitgewisseld;
--   Het koppelen van geo-informatie aan een plek op het aardoppervlak met behulp
-    van een coordinaat-referentiesysteem.
-
-Voor al deze componenten van de nationale geo-informatie infrastructuur zijn
-geo-standaarden beschikbaar. Daarmee kunnen de gebruikers geo-informatie vinden,
-evalueren op geschiktheid voor gebruik en - indien geschikt - gaan gebruiken. En
-om de data te kunnen gebruiken, moet de gebruiker:
-
--   De betekenis van data kunnen begrijpen;
--   Data kunnen vinden en beoordelen op bruikbaarheid;
--   Aan kunnen sluiten op databronnen;
--   Data naar mij toe kunnen halen;
--   Data in kaartvorm kunnen begrijpen;
--   Data aan de juiste plek op aarde kunnen relateren.
-
-Daarnaast zal de aanbieder van de data om zijn/haar data te laten gebruiken:
-
--   \- De betekenis van zijn/haar data inzichtelijk maken;
--   \- Zijn/haar data vindbaar en beoordeelbaar maken;
--   \- Zijn/haar data toegankelijk maken;
--   \- Zijn/haar data in voorspelbare formaten aanbieden;
--   \- Zijn/haar data in kaartvorm eenduidig interpreteerbaar maken;
--   \- Zijn/haar data aan de juiste plek op aarde relateren.
-
-## Architectuur en geo-standaarden
-
-Architectuur is een middel om doelstellingen van een organisatie te realiseren.
-De geo-standaarden zijn producten die “passen” binnen de architecturen van de
-overheid. Het betekent ook dat aanpassingen of uitbreidingen voor die bestaande
-architecturen soms nodig zijn voor het onderwerp van geo-informatie. De
-geo-standaarden wordt niet ontwikkeld in splendid isolation, maar ze moeten
-opgehangen zijn aan en/of binnen nationale en internationale standaarden. Door
-de nationale geo- producten op te hangen aan, of in te passen in nationale en
-internationale standaarden, wordt de uitwisseling van gegevens gemakkelijker, en
-hoeft niet iedere keer het wiel opnieuw te worden uitgevonden.
-
-**NORA**
+![NORA - lagen](media/noralagen.png)
 
 De geo-standaarden moeten passen binnen de architectuur van organisaties.
-Aangezien dat meestal overheden zijn, kunnen wij niet om de Nederlandse
-Overheids Referentie Architectuur (NORA) heen. De
-[NORA](https://www.noraonline.nl/) is een architectuur raamwerk is een
-verzameling van 10 basisprincipes die, als je ze ziet, al heel herkenbaar zijn
-voor ons. Principes als Vindbaarheid, Toegankelijkheid, Transparantie en
+Aangezien dat meestal overheden zijn, kunnen en willen wij niet om de Nederlandse
+Overheids Referentie Architectuur (NORA) heen. De [NORA](https://www.noraonline.nl/) is een architectuur raamwerk is een verzameling van 10 basisprincipes die, als je ze ziet, al heel herkenbaar zijn voor ons. Principes als Vindbaarheid, Toegankelijkheid, Transparantie en
 Standaard zijn principes die wij van nature al toepassen op onze producten. NORA
-stelt de
-“[pas-toe-of-leg-uit](https://www.forumstandaardisatie.nl/open-standaarden)”
+stelt de “[pas-toe-of-leg-uit](https://www.forumstandaardisatie.nl/open-standaarden)”
 lijst van het Forum Standaardisatie verplicht. Overheden zijn daarmee verplicht
 om bij aanschaf van IT systemen eerst op die lijst te kijken. Onze standaarden
 staan deels ook op die lijst (de basisset generiek geo-standaarden), en daarmee
 geven we o.a. invulling aan het “verankeren” uit ons missie statement (verkent,
 verbindt, verankert).
+
+## Architectuur principes
+
+### FAIR Principes
+
+Op eenduidige manieren samenwerken om informatie zo beter te kunnen beveiligen,
+makkelijker uit te wisselen en toegankelijker te maken voor iedereen. Dat is hoe
+open standaarden de samenwerking bevorderen tussen de overheid, burger en het
+bedrijfsleven. De [FAIR Principes](https://www.go-fair.org/fair-principles/)
+zijn een hulpmiddel daarin: het doel van de principes is het hergebruik van
+waardevolle data mogelijk maken. De FAIR Principes dwingen geen standaarden af,
+maar moedigen communities aan om data en diensten vindbaar, toegankelijk,
+interoperabel en herbruikbaar te maken.
+
+De geo-standaarden maken geo-informatie FAIR: De verbindende kracht van standaardisatie in vindbare, toegankelijke, uitwisselbare en herbruikbare geo-informatie.
+
+**Findable** (vindbaar). De eerste stap bij het (her)gebruiken van data is om de
+data te vinden. Metadata en data moeten gemakkelijk te vinden zijn voor zowel
+mensen als computers. Machine-readable metadata zijn essentieel voor het ontdekken van data.
+
+**Accessible** (toegankelijkheid). Zodra de gebruiker de benodigde data heeft
+gevonden, moet hij/zij weten hoe deze kunnen worden geraadpleegd, inclusief authenticatie en autorisatie.
+
+**Interoperable** (interoperabel). De data moeten meestal worden geïntegreerd met
+andere gegevens. Bovendien moeten de gegevens samenwerken met applicaties of workflows voor analyse, opslag en verwerking.
+
+**Reusable** (herbruikbaar), Het uiteindelijke doel van FAIR is het hergebruik van
+data te optimaliseren. Om dit te bereiken moeten metadata en data goed worden beschreven, zodat ze in verschillende situaties kunnen worden gerepliceerd en/of gecombineerd.
+
+### NGII Principes
+
+Voor het oplossen van de ruimtelijke vraagstukken is toegang tot de betreffende geo-informatie een vereiste. Om deze geo-informatie zo laagdrempelig mogelijk te ontsluiten is in Nederland de afgelopen jaren gewerkt aan een Nationale Geo-Informatie infrastructuur (NGII). De NGII als
+concept is het geheel van geo-informatie(bronnen), metadata, standaarden,
+voorzieningen, netwerkdiensten, organisatie en afspraken voor de efficiënte uitwisseling van en
+toegang tot geo-informatie. 
+
+Belangrijke eigenschappen (inrichtingsprincipes) van de NGII zijn:
+**1 Bron, 1 Waarheid** Hiermee wordt bedoeld dat data slechts 1 maal wordt opgeslagen, en op meervoudig gebruikt wordt. 
+
+**Scheiding applicaties, voorzieningen en data** Data hoort niet opgesloten te zitten in applicaties. Data is veel belangrijker dan applicaties, en bestaat ook langer dan de meeste applicaties. Een applicatie gaat gemiddeld 10 tot 15 mee, terwijl sommige data meer dan 100 jaar oud is. 
+
+**Uitwisseling en presentatie via open standaarden** Het uitwisselen van data moet zoveel mogelijk met open standaarden worden gedaan. Daarmee wordt voorkomen dat data ontoegankelijk wordt omdat een standaard niet meer beschikbaar is.
+
+### 3-laags pacelayer model
+
+![pacelayers](media/pacelayers.png)
+
+Een model om de producten in het raamwerk geostandaarden te positioneren is het 3-laags pacelayermodel. De 3 lagen in dit model zijn Het System of Records, het System of Integration en het System of Engagement. 
+
+**SoR - System of Records**
+In het System of Records vind de registratie van (geo)data plaats. Bij registreren is het datakwaliteit heel belangrijk. Om die kwaliteit te borgen werken standaarden, informatiemodellen en applicaties nauw samen.
+
+**SoI - System of Integration**
+In de laag boven de SoR wordt data gecombineerd en/of verwerkt tot informatieprodcuten. Op die manier ontstaat een geintegreerd beeld van de verschillenden objecten. 
+
+**SoE - System of Engagement**
+In de laag boven de SoI worden de informatieprodcuten uit de SoI gebruikt en gepresenteerd aan de afnemers van die informatieproducten. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*Hieronder is oude tekst*
+
 
 **Nationale Geo Informatie Infrastructuur**
 
@@ -195,38 +127,6 @@ aan informatiemodellen (bijvoorbeeld
 [IMGeo](https://www.geonovum.nl/geo-standaarden/bgt-imgeo)) en de samenhang
 tussen de basisregistraties (DisGEO).
 
-**FAIR Principes**
-
-Op eenduidige manieren samenwerken om informatie zo beter te kunnen beveiligen,
-makkelijker uit te wisselen en toegankelijker te maken voor iedereen. Dat is hoe
-open standaarden de samenwerking bevorderen tussen de overheid, burger en het
-bedrijfsleven. De [FAIR Principes](https://www.go-fair.org/fair-principles/)
-zijn een hulpmiddel daarin: het doel van de principes is het hergebruik van
-waardevolle data mogelijk maken. De FAIR Principes dwingen geen standaarden af,
-maar moedigen communities aan om data en diensten vindbaar, toegankelijk,
-interoperabel en herbruikbaar te maken.
-
-De geo-standaarden maken geo-informatie FAIR: De verbindende kracht van
-standaardisatie in vindbare, toegankelijke, uitwisselbare en herbruikbare
-geo-informatie.
-
-Findable (vindbaar). De eerste stap bij het (her)gebruiken van data is om de
-data te vinden. Metadata en data moeten gemakkelijk te vinden zijn voor zowel
-mensen als computers. Machine-readable metadata zijn essentieel voor het
-ontdekken van data.
-
-Accessible (toegankelijkheid). Zodra de gebruiker de benodigde data heeft
-gevonden, moet hij/zij weten hoe deze kunnen worden geraadpleegd, inclusief
-authenticatie en autorisatie.
-
-Interoperable (interoperabel). De data moeten meestal worden geïntegreerd met
-andere gegevens. Bovendien moeten de gegevens samenwerken met applicaties of
-workflows voor analyse, opslag en verwerking.
-
-Reusable (herbruikbaar), Het uiteindelijke doel van FAIR is het hergebruik van
-data te optimaliseren. Om dit te bereiken moeten metadata en data goed worden
-beschreven, zodat ze in verschillende situaties kunnen worden gerepliceerd en/of
-gecombineerd.
 
 ## Hiërarchie van geo-standaarden
 
@@ -273,6 +173,17 @@ Nederlandse geo-standaarden profielen heeft een aparte positie op de ‘pas toe 
 leg uit’ lijst van open standaarden van de Nederlandse digitale overheid. Deze
 geo-standaarden zijn van primair belang in het aansluiten van geo-informatie op
 de digitale overheid (voorheen e-overheid).
+
+
+
+
+
+
+
+
+
+
+
 
 ## Verkenning NGII
 
