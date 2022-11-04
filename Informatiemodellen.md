@@ -2,33 +2,47 @@
 
 **Een informatiemodel, ook wel dataspecificatie genoemd, zet schematisch de
 afspraken over begrippen en definities van gegevens binnen een bepaald domein op
-een rij. Dit vereenvoudigt de uitwisseling van informatie. In dit hoofdstuk
+een rij. Dit vereenvoudigt de uitwisseling en hergebruik van informatie. In dit hoofdstuk
 beschrijven we de geostandaarden die de basis vormen van de modellen en
 beschrijvingen van geo-informatie.**
 
-## 
+## NEN 3610 - Stelsel van informatiemodellen
+
+Informatiemodellen specificeren de informatieinhoud van dataproducten die middels de NGII worden gepubliceerd. Dataproducten zijn daarbij de datasets of dataservices die binnen de context van sectorale domeinen worden aangeboden. Het informatiemodel en de daarop gebaseerde data zijn altijd een representatie van de werkelijkheid. De data of de registraties daarvan hebben als doel die werkelijkheid beter te kunnen begrijpen te beheren en of te sturen. Het is voor de semantische - en technische interoperabiliteit van belang dat informatiemodellen wat betreft methode en inhoud op elkaar zijn afgestemd. Het NEN 3610 - Stelsel van informatiemodellen heeft dat als doel. NEN 3610:2022 is de basisstandaard voor het opstellen van informatiemodellen en geeft regels voor het eenduidig beschrijven, uitwisselen en op het web publiceren van geo-informatie binnen de NGII. NEN 3610 bekijkt deze infrastructuur vanuit het informatieperspectief door middel van informatiemodellen.
+
+De focus ligt op semantische interoperabiliteit. Semantische interoperabiliteit wordt gerealiseerd door het harmoniseren van termen en definities gehanteerd door verschillende sectoren en door een gemeenschappelijke reeks van regels, concepten en modelleerpatronen voor het modelleren van de geografische werkelijkheid. NEN 3610 biedt een basis voor verdere uitwerking in sectorale modellen waardoor interoperabiliteit mogelijk wordt voor uitwisseling van geo-informatie binnen en tussen sectoren.
+
+NEN 3610 positioneert informatiemodellen in het bredere kader van een open en toegankelijke semantische architectuur bestaande uit begrippenkaders, informatiemodellen, ontologieën en daarvoor ontworpen registers.
+
+De gebruiker is de informatiearchitect en informatiemodelleur die georegistraties en bijbehorende informatiemodellen ontwerpen.
+
+NEN 3610 is afgestemd met internationale standaarden en gebruikt als metamodel de de Nederlandse kader standaard voor
+de meta-informatiemodelering gebruikt, de MetaMetamodel Informatiemodellering
+kortweg MIM [MIM]. Tussen de NEN 2660:2022 - Regels voor informatiemodellering van de gebouwde omgeving en NEN 3610 is er afstemming. 
+
+<figure id="Figuur_x">
+<img src="media/NEN3610StandaardenPackageDiagram.png" alt="">
+<figcaption>UML Packagediagram van relatie tussen nationale normen – internationale normen – NEN 3610 – sectorale modellen</figcaption>
+</figure>
+
+<figure id="Figuur_x">
+<img src="media/Basisprogramma_Infomodel_NEN_3610_stelsel_logo_Groot.png" alt="">
+<figcaption>Vorige figuur weergegeven in de 'NEN 3610 - piramide'</figcaption>
+</figure>
 
 ## Overzicht standaarden informatiemodellen voor Nederland
 
-In de onderstaande tabel 1 zijn geo-standaarden en specificaties met betrekking
-tot informatiemodellen opgenomen. In de Nederlandse norm NEN3610:2011 Basismodel
-Geo-informatie zijn alle termen, definities, relaties en algemene regels
-opgenomen voor de uitwisseling van informatie over aan het aardoppervlak
-gerelateerde ruimtelijke objecten. NEN3610 is een toepassing van de set aan
-internationale, conceptuele standaarden uit de ISO 19100 serie.
 
-NEN3610 heeft zijn toepassing gekregen in toepassingsprofielen, een set van
+NEN 3610 heeft zijn toepassing in een groeiende aantal sectorale informatiemodellen en omvat
 circa 25 Nederlandse informatiemodellen, zoals voor de toepassingsdomeinen water
 (IMWA), openbare ruimte (IMBOR, IMSW), milieu (IMGeluid, IMAER), natuurbeheer
 (IMNA), verkeer en vervoer (IMWV,) kabels en leidingen (IMKL) en openbare orde
 en veiligheid (IMOOV, IMDBK, IMEV). Ook maken enkele basisregistraties voor de
-e-overheid deel uit in de NEN3610 familie, zoals de basisregistraties adressen
+e-overheid deel uit in de NEN 3610 familie, zoals de basisregistraties adressen
 en gebouwen (BAG/IMBAG), grootschalige topografie (BGT/IMGEO), topografie
-(TOP10NL/IMTOP), kadastrale percelen, (BRK/IMKAD) en ondergrond (BRO/IMBRO).
+(TOP10NL/IMTOP), kadastrale percelen, (BRK/IMKAD) en ondergrond (BRO/IMBRO). Elk van deze informatiemodellen fungeert als een informatiestandaard voor het uitwisseln van geo-informatie binnen die sector of domein.
 
-Voor het maken van informatiemodellen wordt de Nederlandse kader standaard voor
-de meta-informatiemodelering gebruikt, de MetaMetamodel Informatiemodellering
-kortweg MIM [MIM].
+<aside class="issue">Kan denk ik weg. Mogelijk wel iets opnemen over vergelijkbaarheid met INSPIRE methode voor dataspecs en 34 themas.</aside>
 
 Ook de Europese standaarden – vnl. afkomstig uit de INSPIRE Richtlijn – zijn ook
 grotendeels afgeleid en een toepassing van de ISO 19100 serie van semantische
@@ -36,6 +50,8 @@ standaarden. De Europese standaarden zijn geïmplementeerd aan de aan hand 34
 inhoudelijke thema’s, waarvoor data specificaties zijn opgesteld. Nederlandse
 datasets worden conform deze Europese data specificaties in de Europese
 geo-informatie infrastructuur beschikbaar gesteld.
+
+<aside class="issue">Kan denk ik weg. NEN 3610 heeft de nodige referenties</aside>
 
 *Tabel 1 - Standaarden en specificaties met betrekking tot informatiemodellen*
 
@@ -58,7 +74,12 @@ geo-informatie infrastructuur beschikbaar gesteld.
 
 pm
 
+<aside class="issue">Overkoeplend semantische model, semantische registers, datafundament.....</aside>
+
 ## Kwaliteit van informatiemodellen
+
+
+<aside class="issue">Noem NEN 3610 conformiteit, template, IMVertor</aside>
 
 Voor ondersteuning van de toepassing en gebruik van informatiemodellen zijn de
 volgende hulpmiddelen ingericht:
