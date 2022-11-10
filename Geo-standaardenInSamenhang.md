@@ -64,7 +64,7 @@ data te optimaliseren. Om dit te bereiken moeten metadata en data goed worden be
 
 Er is veel (geo)data beschikbaar binnen de overheid. Zaak dus dat deze data goed wordt gemanaged. Rondom datamanagement is [DAMA](https://www.dama.org/cpages/mission-vision-purpose-and-goals) opgericht. DAMA International is een non-profit, leverancieronafhankelijke, wereldwijde vereniging van technische en zakelijke professionals die zich toelegt op het bevorderen van de concepten en praktijken van informatie- en gegevensbeheer.
 
-![DAMA-Cirkel](.\media\dama-cirkel.png)
+![DAMA-Cirkel](media\dama-cirkel.png)
 
 De DAMA Cirkel onderkent een aantal gebieden die van belang zijn om data en informatie goed te kunnen managen. Zaken als data-kwaliteit, Data Integratie en Interoperabiliteit staan uiteraard in deze cirkel.
 
@@ -72,13 +72,13 @@ De DAMA Cirkel onderkent een aantal gebieden die van belang zijn om data en info
 
 Hoort BOMOS ook in dit rijtje thuis? Jazeker, immers een niet beheerde standaard is geen standaard! Op levende standaarden komen wijzigingsverzoeken binnen, en juist omdat het om eenstandaard gaat moet die wijziging met de nodige zorg worden gedaan. [BOMOS](https://www.logius.nl/diensten/bomos) biedt daarvoor overzicht, modellen, handreikingen en praktische tips.
 
-![BOMOS](.\media\bomos.png)
+![BOMOS](media\bomos.png)
 
 Hoe wij binnen Geonovum BOMOS gebruiken staat beschreven in onze [beheerdocumentatie](https://docs.geostandaarden.nl/gbd/gsb/)
 
 ### MIM Principes
 
-![MIM](.\media\MIM.png) 
+![MIM](media\MIM.png) 
 
 Wanneer we informatie over bepaalde onderwerpen willen inwinnen, registreren of uitwisselen, dan is het van belang om deze informatie eerst goed te beschrijven. We doen dit zodat het voor eenieder die met de informatie aan de slag gaat helder en eenduidig is
 
@@ -122,7 +122,7 @@ Om een echte ontkoppeling tussen data en applicaties te bewerkstelligen vind all
 In deze paragraaf worden de verschillende onderdelen van de NGII 'geplot' op het pacelayermodel. Dat geeft meteen een indicatie van 'waar' in het landschap een bepaalde component een rol speelt. Verderop in het document wordt dan op de individuiele componenten ingegaan.
 
 ### Gebruikers
-![Gebruikers](./media/pacelayers_gebruikers.png)
+![Gebruikers](media/pacelayers_gebruikers.png)
 
 De gebruikers, de belangrijkste 'componenten' van de architectuurplaat! Immers daar doen we het allemaal voor. De Architectuur en alle componenten zijn erop gericht om een goede informatieverstrekking te kunnen doen. Informatie waarop beslissingen worden gebaseerd. Gebruikers kunnen op allerlei verschillende manieren toegang krijgen tot de informatie. Denk hierbij aan viewers, dashboards, rapportages enz. Het medium maakt niet uit, zolang er maar dezelfde informatie wordt gegeven.
 
@@ -174,7 +174,7 @@ In het SoI wordt data verwerkt tot informatie. Data uit één of meerdere bronne
 
 
 
-
+<!--
 
 *Hieronder is oude tekst*
 
@@ -212,7 +212,7 @@ aan informatiemodellen (bijvoorbeeld
 [IMGeo](https://www.geonovum.nl/geo-standaarden/bgt-imgeo)) en de samenhang
 tussen de basisregistraties (DisGEO).
 
-
+-->
 
 
 
