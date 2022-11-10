@@ -68,6 +68,27 @@ Er is veel (geo)data beschikbaar binnen de overheid. Zaak dus dat deze data goed
 
 De DAMA Cirkel onderkent een aantal gebieden die van belang zijn om data en informatie goed te kunnen managen. Zaken als data-kwaliteit, Data Integratie en Interoperabiliteit staan uiteraard in deze cirkel.
 
+### BOMOS Principes
+
+Hoort BOMOS ook in dit rijtje thuis? Jazeker, immers een niet beheerde standaard is geen standaard! Op levende standaarden komen wijzigingsverzoeken binnen, en juist omdat het om eenstandaard gaat moet die wijziging met de nodige zorg worden gedaan. [BOMOS](https://www.logius.nl/diensten/bomos) biedt daarvoor overzicht, modellen, handreikingen en praktische tips.
+
+![BOMOS](.\media\bomos.png)
+
+Hoe wij binnen Geonovum BOMOS gebruiken staat beschreven in onze [beheerdocumentatie](https://docs.geostandaarden.nl/gbd/gsb/)
+
+### MIM Principes
+
+![MIM](.\media\MIM.png) 
+
+Wanneer we informatie over bepaalde onderwerpen willen inwinnen, registreren of uitwisselen, dan is het van belang om deze informatie eerst goed te beschrijven. We doen dit zodat het voor eenieder die met de informatie aan de slag gaat helder en eenduidig is
+
+MIM onderkent 4 lagen:
+- [Model van begrippen](https://www.noraonline.nl/wiki/MIM_conceptueel_framework#Model_van_begrippen)
+- [Conceptueel Informatiemodel](https://www.noraonline.nl/wiki/MIM_conceptueel_framework#Conceptueel_informatiemodel)
+- [Logisch model (ook wel gegevensmodel)](https://www.noraonline.nl/wiki/MIM_conceptueel_framework#Logisch_informatie-_of_gegevensmodel)
+- [Datamodel (ook wel Fysiek of Technisch model)](https://www.noraonline.nl/wiki/MIM_conceptueel_framework#Fysiek_of_technisch_gegevens-_of_datamodel) 
+
+
 ### NGII Principes
 
 Voor het oplossen van de ruimtelijke vraagstukken is toegang tot de betreffende geo-informatie een vereiste. Om deze geo-informatie zo laagdrempelig mogelijk te ontsluiten is in Nederland de afgelopen jaren gewerkt aan een Nationale Geo-Informatie infrastructuur (NGII). De NGII als concept is het geheel van geo-informatie(bronnen), metadata, standaarden, voorzieningen, netwerkdiensten, organisatie en afspraken voor de efficiënte uitwisseling van en toegang tot geo-informatie. 
@@ -83,7 +104,7 @@ Belangrijke eigenschappen (inrichtingsprincipes) van de NGII zijn:
 
 ![pacelayers](media/pacelayers.png)
 
-Een model waarin de bovenstaande principes worden gebrikt is het 3-laags pacelayermodel. Dit model ontkoppelt data en applicaties, data-silo's komen in het model niet voor, er wordt een duidelijk onderscheid gemaakt tussen data en informatie, en het bijhouden van data, het bewerken van data tot informatie en het gebruiken van de informatieprodcuten. De 3 lagen in dit model zijn Het System of Records, het System of Integration en het System of Engagement. 
+Een model waarin de bovenstaande principes worden gebruikt is het 3-laags pacelayermodel. Dit model ontkoppelt data en applicaties, data-silo's komen in het model niet voor, er wordt een duidelijk onderscheid gemaakt tussen data en informatie, en het bijhouden van data, het bewerken van data tot informatie en het gebruiken van de informatieprodcuten. De 3 lagen in dit model zijn Het System of Records, het System of Integration en het System of Engagement. 
 
 **SoR - System of Records**
 In het System of Records vind de registratie van (geo)data plaats. Bij registreren is het datakwaliteit heel belangrijk. Om die kwaliteit te borgen werken standaarden, informatiemodellen en applicaties nauw samen. De data-eigenaar (uit DAMA) heeft een belangrijke rol, immers hij/zij bepaalt welke data wordt geregistreerd bij een obect, en aan welke kwaliteitseisen de data moet voldoen.
@@ -103,8 +124,25 @@ In deze paragraaf worden de verschillende onderdelen van de NGII 'geplot' op het
 ### Gebruikers
 ![Gebruikers](./media/pacelayers_gebruikers.png)
 
+De gebruikers, de belangrijkste 'componenten' van de architectuurplaat! Immers daar doen we het allemaal voor. De Architectuur en alle componenten zijn erop gericht om een goede informatieverstrekking te kunnen doen. Informatie waarop beslissingen worden gebaseerd. Gebruikers kunnen op allerlei verschillende manieren toegang krijgen tot de informatie. Denk hierbij aan viewers, dashboards, rapportages enz. Het medium maakt niet uit, zolang er maar dezelfde informatie wordt gegeven.
+
+Gebruikers zijn in te delen in verschillende categorieen. Die catgorieen passen op de 3 lagen van het pacelayermodel.
+
+**Gebruikers in het SoR**
+Geplot op de 3 lagen zitten in het SoR de 'producenten' van data. Gebruikers in de SoR hebben vaak specialistische applicaties waarmee de data wordt ingevoerd. Alles is gericht op een snelle en foutloze invoer van data. Opslag en Uitwissel formaten van data zijn ook gericht op kwaliteit.
+
+**Gebruikers in het SoE**
+Gebruikers in het SoE zijn echte afnemers van informatie. Data wordt door hen niet bewerkt. Denk aan de gebrikers van een viewer, of de lezers van een rapport.
+
+**Gebruikers in het SoI**
+In het SoI wordt data verwerkt tot informatie. Data uit één of meerdere bronnen wordt gevalidideerd, gecombineerd, gefilterd, geaggregeerd, er vinden berekeningen plaats, er zijn modellen. Het resultaat is een informatieproduct. Gebruikers in het SoI zijn data-analisten, data-scientists, leveranciers, enz 
+
 ### Informatiemodellen
 ![Informatiemodellen](./media/pacelayers_informatiemodel.png)
+
+
+
+
 
 ### Coordinaat referentie systemen
 ![Data](./media/pacelayers_crs.png)
