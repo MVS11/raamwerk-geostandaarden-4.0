@@ -1,23 +1,36 @@
 # Geo-standaarden in samenhang
 
-**Het doel van het Raamwerk van geo-standaarden is om uit de grote
-verscheidenheid aan standaarden die er zijn voor geo-informatie, de juiste set
-te kiezen. In combinatie kunnen deze geo-standaarden worden gebruikt om **'onder Architectuur'** een Geo-Informatie Infrastructuur te realiseren. In een dergelijke infrastructuur speelt elke standaard een eigen rol.**
+Het doel van het Raamwerk van geo-standaarden is om uit de grote verscheidenheid aan standaarden die er zijn voor geo-informatie, de juiste set
+te kiezen. In combinatie kunnen deze geo-standaarden worden gebruikt om **'onder Architectuur'** een Geo-Informatie Infrastructuur te realiseren. In een dergelijke infrastructuur speelt elke standaard een eigen rol, maar uiteraard wel in samenhang met de andere standaarden.
+
+## Internationale standaarden
+Voor onze nationale (geo)standaarden geldt dat deze ontwikkeld zijn op basis van Europese en internationale standaarden met de voor Nederland geldende specifieke eisen.
+
+Op het moment dat een nationale standaard is ontwikkeld geldt dat een nationale standaard of specificatie leidend is. Is er geen nationale standaard, dan geldtde Europese standaard en bij gebrek daaraan of omdat de internationale standaardde Europese of nationale behoefte afdekt geldt een internationale, wereldwijde
+standaard.
+
+Internationaal zijn voor Nederland de [ISO/TC 211  Geographic information/Geomatics](https://www.iso.org/committee/54904.html), het [Open Geospatial Consortium](https://www.ogc.org/) (OGC) en het [World Wide Web Consortium](https://www.w3.org/) (W3C) van groot belang. ISO/TC211 en het OGC maken als standaardisatie organisaties technische geo-standaarden, die Nederland semantisch en technisch invult. Deze geo-standaarden organisaties hebben
+uiteraard weer liaisons met de algemene ICT en Internet standaardisatie organisaties zoals het W3C. Geonovum participeert namens Nederland actief in deze internationale geo-standaarden organisaties.
+
+De Europese profielen zijn opgesteld op basis van internationale standaarden en zijn verankerd in de Europese [INSPIRE](https://inspire.ec.europa.eu/) kaderrichtlijn. De Europese profielen zijn een nadere invulling van de andere standaarden organisaties en de INSPIRE data specificaties voor de thema’s hebben een duidelijke relatie met de informatiemodellen in Nederland. Dit zijn de INSPIRE technical guidelines, ISO of OGC standaarden die door INSPIRE zijn voorgeschreven, en Nederlandse profielen die compliant zijn met INSPIRE. Hoewel INSPIRE formeel geen geo-standaarden organisatie is, worden de invoeringsregels van INSPIRE wel als zodanig gebruikt in Nederland.
+
+Tot slot, zijn Nederlandse profielen te onderscheiden, die ook gebaseerd zijn of opgelijnd zijn met de internationale en Europese profielen. Een deel van de Nederlandse geo-standaarden profielen heeft een aparte positie op de ['pas toe of leg uit'](https://www.forumstandaardisatie.nl/open-standaarden) lijst van open standaarden van de Nederlandse digitale overheid. Deze geo-standaarden zijn van primair belang in het aansluiten van geo-informatie op de digitale overheid (voorheen e-overheid).
 
 ## NORA - Nederlandse Overheids Referentie Architectuur
+De geo-standaarden moeten passen binnen de architectuur van organisaties.
+Aangezien dat meestal overheden zijn, kunnen en willen wij niet om de Nederlandse
+Overheids Referentie Architectuur (NORA) heen. 
 
 ![NORA - lagen](media/noralagen.png)
 
-De geo-standaarden moeten passen binnen de architectuur van organisaties.
-Aangezien dat meestal overheden zijn, kunnen en willen wij niet om de Nederlandse
-Overheids Referentie Architectuur (NORA) heen. De [NORA](https://www.noraonline.nl/) is een architectuur raamwerk is een verzameling van 10 basisprincipes die, als je ze ziet, al heel herkenbaar zijn voor ons. Principes als Vindbaarheid, Toegankelijkheid, Transparantie en
-Standaard zijn principes die wij van nature al toepassen op onze producten. NORA
-stelt de “[pas-toe-of-leg-uit](https://www.forumstandaardisatie.nl/open-standaarden)”
-lijst van het Forum Standaardisatie verplicht. Overheden zijn daarmee verplicht
-om bij aanschaf van IT systemen eerst op die lijst te kijken. Onze standaarden
-staan deels ook op die lijst (de basisset generiek geo-standaarden), en daarmee
-geven we o.a. invulling aan het “verankeren” uit ons missie statement (verkent,
-verbindt, verankert).
+NORA onderkent 5 lagen:
+- De [Grondslagenlaag](https://www.noraonline.nl/wiki/Grondslagenlaag)
+- De [Organisatorische laag](https://www.noraonline.nl/wiki/Organisatorische_laag)
+- De [Informatielaag](https://www.noraonline.nl/wiki/Informatielaag)
+- De [Applicatielaag](https://www.noraonline.nl/wiki/Applicatielaag)
+- De [Netwerklaag](https://www.noraonline.nl/wiki/Netwerklaag)
+
+De [NORA](https://www.noraonline.nl/) is een architectuur raamwerk is een verzameling van [10 basisprincipes](https://www.noraonline.nl/wiki/Basisprincipes_totaaloverzicht) die, als je ze ziet, al heel herkenbaar zijn voor ons. Principes als Vindbaarheid, Toegankelijkheid, Transparantie en Standaard zijn principes die wij van nature al toepassen op onze producten. NORA stelt de “[pas-toe-of-leg-uit](https://www.forumstandaardisatie.nl/open-standaarden)” lijst van het Forum Standaardisatie verplicht. Overheden zijn daarmee verplicht om bij aanschaf van IT systemen eerst op die lijst te kijken. Onze standaarden staan deels ook op die lijst (de basisset generiek geo-standaarden), en daarmee geven we via de grondslagenlaag van NORA o.a. invulling aan het “verankeren” uit ons missie statement (verkent, verbindt, verankert).
 
 ## Architectuur principes
 
@@ -47,34 +60,68 @@ andere gegevens. Bovendien moeten de gegevens samenwerken met applicaties of wor
 **Reusable** (herbruikbaar), Het uiteindelijke doel van FAIR is het hergebruik van
 data te optimaliseren. Om dit te bereiken moeten metadata en data goed worden beschreven, zodat ze in verschillende situaties kunnen worden gerepliceerd en/of gecombineerd.
 
+### DAMA DMBOK Principes
+
+Er is veel (geo)data beschikbaar binnen de overheid. Zaak dus dat deze data goed wordt gemanaged. Rondom datamanagement is [DAMA](https://www.dama.org/cpages/mission-vision-purpose-and-goals) opgericht. DAMA International is een non-profit, leverancieronafhankelijke, wereldwijde vereniging van technische en zakelijke professionals die zich toelegt op het bevorderen van de concepten en praktijken van informatie- en gegevensbeheer.
+
+![DAMA-Cirkel](.\media\dama-cirkel.png)
+
+De DAMA Cirkel onderkent een aantal gebieden die van belang zijn om data en informatie goed te kunnen managen. Zaken als data-kwaliteit, Data Integratie en Interoperabiliteit staan uiteraard in deze cirkel.
+
 ### NGII Principes
 
-Voor het oplossen van de ruimtelijke vraagstukken is toegang tot de betreffende geo-informatie een vereiste. Om deze geo-informatie zo laagdrempelig mogelijk te ontsluiten is in Nederland de afgelopen jaren gewerkt aan een Nationale Geo-Informatie infrastructuur (NGII). De NGII als
-concept is het geheel van geo-informatie(bronnen), metadata, standaarden,
-voorzieningen, netwerkdiensten, organisatie en afspraken voor de efficiënte uitwisseling van en
-toegang tot geo-informatie. 
+Voor het oplossen van de ruimtelijke vraagstukken is toegang tot de betreffende geo-informatie een vereiste. Om deze geo-informatie zo laagdrempelig mogelijk te ontsluiten is in Nederland de afgelopen jaren gewerkt aan een Nationale Geo-Informatie infrastructuur (NGII). De NGII als concept is het geheel van geo-informatie(bronnen), metadata, standaarden, voorzieningen, netwerkdiensten, organisatie en afspraken voor de efficiënte uitwisseling van en toegang tot geo-informatie. 
 
 Belangrijke eigenschappen (inrichtingsprincipes) van de NGII zijn:
 **1 Bron, 1 Waarheid** Hiermee wordt bedoeld dat data slechts 1 maal wordt opgeslagen, en op meervoudig gebruikt wordt. 
 
 **Scheiding applicaties, voorzieningen en data** Data hoort niet opgesloten te zitten in applicaties. Data is veel belangrijker dan applicaties, en bestaat ook langer dan de meeste applicaties. Een applicatie gaat gemiddeld 10 tot 15 mee, terwijl sommige data meer dan 100 jaar oud is. 
 
-**Uitwisseling en presentatie via open standaarden** Het uitwisselen van data moet zoveel mogelijk met open standaarden worden gedaan. Daarmee wordt voorkomen dat data ontoegankelijk wordt omdat een standaard niet meer beschikbaar is.
+**Uitwisseling en presentatie via open standaarden** Het uitwisselen van data moet zoveel mogelijk met open standaarden worden gedaan. Daarmee wordt de kans dat data ontoegankelijk wordt omdat een standaard niet meer beschikbaar is een heel stuk kleiner.
 
-### 3-laags pacelayer model
+## 3-laags pacelayer model
 
 ![pacelayers](media/pacelayers.png)
 
-Een model om de producten in het raamwerk geostandaarden te positioneren is het 3-laags pacelayermodel. De 3 lagen in dit model zijn Het System of Records, het System of Integration en het System of Engagement. 
+Een model waarin de bovenstaande principes worden gebrikt is het 3-laags pacelayermodel. Dit model ontkoppelt data en applicaties, data-silo's komen in het model niet voor, er wordt een duidelijk onderscheid gemaakt tussen data en informatie, en het bijhouden van data, het bewerken van data tot informatie en het gebruiken van de informatieprodcuten. De 3 lagen in dit model zijn Het System of Records, het System of Integration en het System of Engagement. 
 
 **SoR - System of Records**
-In het System of Records vind de registratie van (geo)data plaats. Bij registreren is het datakwaliteit heel belangrijk. Om die kwaliteit te borgen werken standaarden, informatiemodellen en applicaties nauw samen.
+In het System of Records vind de registratie van (geo)data plaats. Bij registreren is het datakwaliteit heel belangrijk. Om die kwaliteit te borgen werken standaarden, informatiemodellen en applicaties nauw samen. De data-eigenaar (uit DAMA) heeft een belangrijke rol, immers hij/zij bepaalt welke data wordt geregistreerd bij een obect, en aan welke kwaliteitseisen de data moet voldoen.
 
 **SoI - System of Integration**
-In de laag boven de SoR wordt data gecombineerd en/of verwerkt tot informatieprodcuten. Op die manier ontstaat een geintegreerd beeld van de verschillenden objecten. 
+In de laag boven de SoR wordt data gecombineerd en/of verwerkt tot informatieprodcuten. Op die manier ontstaat een geintegreerd beeld van de verschillenden objecten. Ook hier speelt de data-eigeaar een belangrijke rol. Immers de data eigenaar bepaalt wat er met de data kan en mag gebeuren. Daarbij zijn principes als datakwalitiet belangrijk, maar ook is (data) privacy en (data)security hier belangrijk.
 
 **SoE - System of Engagement**
-In de laag boven de SoI worden de informatieprodcuten uit de SoI gebruikt en gepresenteerd aan de afnemers van die informatieproducten. 
+In de laag boven de SoI worden de informatieproducten uit de SoI gebruikt en gepresenteerd aan de afnemers van die informatieproducten. 
+
+**API's**
+Om een echte ontkoppeling tussen data en applicaties te bewerkstelligen vind alle 'transport' van data en informatie plaats via API's - Application Programming Interface's. Er is een [API-Strategie voor de Nederlandse Overheid](https://docs.geostandaarden.nl/api/API-Strategie/)
+
+## Het raamwerk Geostandaarden geplot op het pacelayermodel
+In deze paragraaf worden de verschillende onderdelen van de NGII 'geplot' op het pacelayermodel. Dat geeft meteen een indicatie van 'waar' in het landschap een bepaalde component een rol speelt. Verderop in het document wordt dan op de individuiele componenten ingegaan.
+
+### Gebruikers
+![Gebruikers](./media/pacelayers_gebruikers.png)
+
+### Informatiemodellen
+![Informatiemodellen](./media/pacelayers_informatiemodel.png)
+
+### Coordinaat referentie systemen
+![Data](./media/pacelayers_crs.png)
+
+### Data
+![Data](./media/pacelayers_data.png)
+
+### MetaData
+![Data](./media/pacelayers_metadata.png)
+
+### API's
+![API's](./media/pacelayers_api.png)
+
+
+
+
+
 
 
 
@@ -126,57 +173,6 @@ geo-component valt dus onder onze verantwoordelijkheid qua geo-standaarden. Denk
 aan informatiemodellen (bijvoorbeeld
 [IMGeo](https://www.geonovum.nl/geo-standaarden/bgt-imgeo)) en de samenhang
 tussen de basisregistraties (DisGEO).
-
-
-## Hiërarchie van geo-standaarden
-
-Voor nationale standaarden geldt dat deze ontwikkeld zijn op basis van Europese
-en internationale standaarden met de voor Nederland geldende specifieke eisen.
-
-In het raamwerk van geo-standaarden is dit op onderstaande manier aangegeven
-(zie tabel 1).
-
-Tabel 1 - Hiërarchie van geo-standaarden
-
-| **Internationale standaarden/specificaties** | **Europese profielen** | **Nederlandse profielen** |
-|----------------------------------------------|------------------------|---------------------------|
-|                                              |                        |                           |
-
-Op het moment dat een nationale standaard is ontwikkeld geldt dat een nationale
-standaard of specificatie leidend is. Is er geen nationale standaard, dan geldt
-de Europese standaard en bij gebrek daaraan of omdat de internationale standaard
-de Europese of nationale behoefte afdekt geldt een internationale, wereldwijde
-standaard.
-
-Internationaal zijn voor Nederland de ISO/TC 211 Geographic
-information/Geomatics, het Open Geospatial Consortium (OGC) en het World Wide
-Web Consortium (W3C) van groot belang. ISO/TC211 en het OGC maken als
-standaardisatie organisaties technische geo-standaarden, die Nederland
-semantisch en technisch invult. Deze geo-standaarden organisaties hebben
-uiteraard weer liaisons met de algemene ICT en Internet standaardisatie
-organisaties zoals het W3C. Geonovum participeert namens Nederland actief in
-deze internationale geo-standaarden organisaties.
-
-De Europese profielen zijn opgesteld op basis van internationale standaarden en
-zijn verankerd in de Europese INSPIRE kaderrichtlijn. De Europese profielen zijn
-een nadere invulling van de andere standaarden organisaties en de INSPIRE data
-specificaties voor de thema’s hebben een duidelijke relatie met de
-informatiemodellen in Nederland. Dit zijn de INSPIRE technical guidelines, ISO
-of OGC standaarden die door INSPIRE zijn voorgeschreven, en Nederlandse
-profielen die compliant zijn met INSPIRE. Hoewel INSPIRE formeel geen
-geo-standaarden organisatie is, worden de invoeringsregels van INSPIRE wel als
-zodanig gebruikt in Nederland.
-
-Tot slot, zijn Nederlandse profielen te onderscheiden, die ook gebaseerd zijn of
-opgelijnd zijn met de internationale en Europese profielen. Een deel van de
-Nederlandse geo-standaarden profielen heeft een aparte positie op de ‘pas toe of
-leg uit’ lijst van open standaarden van de Nederlandse digitale overheid. Deze
-geo-standaarden zijn van primair belang in het aansluiten van geo-informatie op
-de digitale overheid (voorheen e-overheid).
-
-
-
-
 
 
 
