@@ -64,7 +64,7 @@ data te optimaliseren. Om dit te bereiken moeten metadata en data goed worden be
 
 Er is veel (geo)data beschikbaar binnen de overheid. Zaak dus dat deze data goed wordt gemanaged. Rondom datamanagement is [DAMA](https://www.dama.org/cpages/mission-vision-purpose-and-goals) opgericht. DAMA International is een non-profit, leverancieronafhankelijke, wereldwijde vereniging van technische en zakelijke professionals die zich toelegt op het bevorderen van de concepten en praktijken van informatie- en gegevensbeheer.
 
-![DAMA-Cirkel](media\dama-cirkel.png)
+![DAMA-Cirkel](media/dama-cirkel.png)
 
 De DAMA Cirkel onderkent een aantal gebieden die van belang zijn om data en informatie goed te kunnen managen. Zaken als data-kwaliteit, Data Integratie en Interoperabiliteit staan uiteraard in deze cirkel.
 
@@ -72,13 +72,13 @@ De DAMA Cirkel onderkent een aantal gebieden die van belang zijn om data en info
 
 Hoort BOMOS ook in dit rijtje thuis? Jazeker, immers een niet beheerde standaard is geen standaard! Op levende standaarden komen wijzigingsverzoeken binnen, en juist omdat het om eenstandaard gaat moet die wijziging met de nodige zorg worden gedaan. [BOMOS](https://www.logius.nl/diensten/bomos) biedt daarvoor overzicht, modellen, handreikingen en praktische tips.
 
-![BOMOS](media\bomos.png)
+![BOMOS](media/bomos.png)
 
 Hoe wij binnen Geonovum BOMOS gebruiken staat beschreven in onze [beheerdocumentatie](https://docs.geostandaarden.nl/gbd/gsb/)
 
 ### MIM Principes
 
-![MIM](media\MIM.png) 
+![MIM](media/MIM.png) 
 
 Wanneer we informatie over bepaalde onderwerpen willen inwinnen, registreren of uitwisselen, dan is het van belang om deze informatie eerst goed te beschrijven. We doen dit zodat het voor eenieder die met de informatie aan de slag gaat helder en eenduidig is
 
@@ -100,7 +100,7 @@ Belangrijke eigenschappen (inrichtingsprincipes) van de NGII zijn:
 
 **Uitwisseling en presentatie via open standaarden** Het uitwisselen van data moet zoveel mogelijk met open standaarden worden gedaan. Daarmee wordt de kans dat data ontoegankelijk wordt omdat een standaard niet meer beschikbaar is een heel stuk kleiner.
 
-## 3-laags pacelayer model
+## Het 3-laags pacelayer model
 
 ![pacelayers](media/pacelayers.png)
 
@@ -138,23 +138,35 @@ Gebruikers in het SoE zijn echte afnemers van informatie. Data wordt door hen ni
 In het SoI wordt data verwerkt tot informatie. Data uit één of meerdere bronnen wordt gevalidideerd, gecombineerd, gefilterd, geaggregeerd, er vinden berekeningen plaats, er zijn modellen. Het resultaat is een informatieproduct. Gebruikers in het SoI zijn data-analisten, data-scientists, leveranciers, enz 
 
 ### Informatiemodellen
-![Informatiemodellen](./media/pacelayers_informatiemodel.png)
+![Informatiemodellen](media/pacelayers_informatiemodel.png)
 
+Informatiemodellen zorgen ervoor dat iedereen elkaar begrijpt. Het begint bij een gemeenschappelijke begrippenlijst. 
 
+Lees meer over [Informatiemodellen](#informatiemodellen-0)
 
+### Coordinaatreferentie systemen
+![Data](media/pacelayers_crs.png)
 
+Coorddinaatreferentie systemen (CRS) komen in alle 3 de pacelayers voor. Er wordt data geregistreerd in een bepaald CRS, bijvoorbeeld het RD stelsel. Data wordt getransformeerd naar een CRS, bijvoorbeeld WGS84 of ETRS89. Data wordt geserveerd in een bepaald CRS. Dát er in verschillende CRS'en wordt geregistreerd is helemaal niet erg, zolang er maar wel gebruik gemaakt wordt van een standaard omrekening. Bijvoorbeeld RDNAPTRANS.
 
-### Coordinaat referentie systemen
-![Data](./media/pacelayers_crs.png)
+Lees meer over [Coordinaatreferentie systemen](#coordinaat-referentiesystemen)
+
 
 ### Data
-![Data](./media/pacelayers_data.png)
+![Data](media/pacelayers_data.png)
+
+
 
 ### MetaData
-![Data](./media/pacelayers_metadata.png)
+![Data](media/pacelayers_metadata.png)
+
+Lees meer over [Metadata](l#metadata-0)
+
 
 ### API's
-![API's](./media/pacelayers_api.png)
+![API's](media/pacelayers_api.png)
+
+Lees meer over [API's](l#application-programming-interfaces-api-s)
 
 
 
@@ -169,50 +181,6 @@ In het SoI wordt data verwerkt tot informatie. Data uit één of meerdere bronne
 
 
 
-
-
-
-
-
-<!--
-
-*Hieronder is oude tekst*
-
-
-**Nationale Geo Informatie Infrastructuur**
-
-NGII staat voor Nationale Geo Informatie Infrastructuur. In het “[Convenant
-NGII](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiQiKTHnMHwAhUF8eAKHZheD0sQFjAAegQIAhAD&url=https%3A%2F%2Fzoek.officielebekendmakingen.nl%2Fstcrt-2018-73549.odt)”
-staat benoemd welke onderdelen van de NGII van belang zijn voor geo-standaarden:
-
--   Coördinatie, stimulering en ondersteuning van de Europese richtlijn voor de
-    EU-infrastructuur voor ruimtelijke informatie (INSPIRE);
--   Beheer en ontwikkeling van de standaarden in het kader van de
-    basisregistratie grootschalige topografie (BGT);
--   Beheer en ontwikkeling van de standaarden in het kader van de
-    basisregistratie ondergrond (BRO);
--   Beheer en ontwikkeling van de standaarden in het kader van de
-    basisregistratie adressen en gebouwen;
--   Beheer en ontwikkeling van de standaarden in het kader van Digitale
-    Ruimtelijke Ontwikkeling (DRO, Ruimtelijkeplannen.nl);
--   Advisering van het samenwerkingsverband Publieke Dienstverlening Op de Kaart
-    (PDOK);
--   Innovaties voor de NGII door bundeling van kennis en ervaring en toetsing
-    van innovatie voor gebruik door de overheid;
--   Overige trajecten voor het beheer, de ontwikkeling en/of innovatie van de
-    NGII.
-
-Voor deze belangrijke onderdelen van de NGII worden geo-standaarden ontwikkeld
-en beheerd. Heel concreet dus PDOK, met daarbinnen de basisregistraties BAG,
-BGT, BRT, BRO, enz.. Dit stelsel word “[Het stelsel van
-basisregistraties](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/basisregistraties-en-stelselafspraken/inhoud-basisregistraties/)”
-genoemd. Een aantal van die basisregisters heeft een geo-component, en die
-geo-component valt dus onder onze verantwoordelijkheid qua geo-standaarden. Denk
-aan informatiemodellen (bijvoorbeeld
-[IMGeo](https://www.geonovum.nl/geo-standaarden/bgt-imgeo)) en de samenhang
-tussen de basisregistraties (DisGEO).
-
--->
 
 
 
