@@ -18,8 +18,7 @@ Tot slot, zijn Nederlandse profielen te onderscheiden, die ook gebaseerd zijn of
 
 ## NORA - Nederlandse Overheids Referentie Architectuur
 De geo-standaarden moeten passen binnen de architectuur van organisaties.
-Aangezien dat meestal overheden zijn, kunnen en willen wij niet om de Nederlandse
-Overheids Referentie Architectuur (NORA) heen. 
+Aangezien dat meestal overheden zijn, kunnen en willen wij niet om de [Nederlandse Overheids Referentie Architectuur[(https://www.noraonline.nl/)] (NORA) heen. 
 
 ![NORA - lagen](media/noralagen.png)
 
@@ -30,7 +29,12 @@ NORA onderkent 5 lagen:
 - De [Applicatielaag](https://www.noraonline.nl/wiki/Applicatielaag)
 - De [Netwerklaag](https://www.noraonline.nl/wiki/Netwerklaag)
 
-De [NORA](https://www.noraonline.nl/) is een architectuur raamwerk is een verzameling van [10 basisprincipes](https://www.noraonline.nl/wiki/Basisprincipes_totaaloverzicht) die, als je ze ziet, al heel herkenbaar zijn voor ons. Principes als Vindbaarheid, Toegankelijkheid, Transparantie en Standaard zijn principes die wij van nature al toepassen op onze producten. NORA stelt de “[pas-toe-of-leg-uit](https://www.forumstandaardisatie.nl/open-standaarden)” lijst van het Forum Standaardisatie verplicht. Overheden zijn daarmee verplicht om bij aanschaf van IT systemen eerst op die lijst te kijken. Onze standaarden staan deels ook op die lijst (de basisset generiek geo-standaarden), en daarmee geven we via de grondslagenlaag van NORA o.a. invulling aan het “verankeren” uit ons missie statement (verkent, verbindt, verankert).
+NORA is in 2022 flink aangepast. Er is een grote RFC doorgevoerd op 13 september 2022 goedgekeurd door de NORA GR en 7 november 2022 is de RFC bekrachtigd door de Architectuurraad GDI.
+De Basisprincipes zijn omgezet naar [Kwaliteitsdoelen](https://www.noraonline.nl/wiki/Kwaliteitsdoelen) en de Afgeleide Principes zijn omgezet naar [Architectuurprincipes](https://www.noraonline.nl/wiki/Architectuurprincipes).
+
+Een mooi overzicht van de Kernwaarden, Kwaliteitsdoelen en Beleidskaders vind je [hier](https://www.noraonline.nl/wiki/Grafisch_overzicht_relaties_Kernwaarden_en_Kwaliteitsdoelen_met_Beleidskaders). 
+
+Principes als [Vindbaarheid](https://www.noraonline.nl/wiki/Vindbaar_(Doel)), [Toegankelijkheid](https://www.noraonline.nl/wiki/Toegankelijk_(Doel)), [Transparantie](https://www.noraonline.nl/wiki/Transparant_(Doel)) en Standaard zijn principes die wij van nature al toepassen op onze producten. NORA stelt de “[pas-toe-of-leg-uit](https://www.forumstandaardisatie.nl/open-standaarden)” lijst van het Forum Standaardisatie verplicht. Overheden zijn daarmee verplicht om bij aanschaf van IT systemen eerst op die lijst te kijken. Onze standaarden staan deels ook op die lijst (de basisset generiek geo-standaarden), en daarmee geven we via de grondslagenlaag van NORA o.a. invulling aan het “verankeren” uit ons missie statement (verkent, verbindt, verankert).
 
 ## Architectuur principes
 
@@ -160,13 +164,13 @@ Lees meer over [Coordinaatreferentie systemen](#coordinaat-referentiesystemen)
 ### MetaData
 ![Data](media/pacelayers_metadata.png)
 
-Lees meer over [Metadata](l#metadata-0)
+Lees meer over [Metadata](#metadata-0)
 
 
 ### API's
 ![API's](media/pacelayers_api.png)
 
-Lees meer over [API's](l#application-programming-interfaces-api-s)
+Lees meer over [API's](#application-programming-interfaces-api-s)
 
 
 
