@@ -46,8 +46,6 @@ inhoudelijke thema’s, waarvoor data specificaties zijn opgesteld. Nederlandse
 datasets worden conform deze Europese data specificaties in de Europese
 geo-informatie infrastructuur beschikbaar gesteld.
 
-<aside class="issue">Kan denk ik weg. NEN 3610 heeft de nodige referenties</aside>
-
 *Tabel 1 - Standaarden en specificaties met betrekking tot informatiemodellen in Nederlandse en internationale context*
 
 | **Internationale standaarden/specificaties**                                                                                                     | **Europese profielen**                                                   | **Nederlandse profielen**                             |
@@ -71,10 +69,6 @@ NEN 3610:2022 Basismodel Geo-informatie. **[NEN3610]**                    |
 
 ## Semantische samenhang
 
-pm
-
-<aside class="issue">Overkoeplend semantische model, semantische registers, datafundament.....</aside>
-
 Afstemming tussen begrippenkaders verhoogt de effectiviteit van informatievoorzieningen. Er zijn een aantal mechanismen om die afstemming te sturen.
 - NEN 3610 heeft een semantisch model dat de werkelijkheid indeeld naar generieke begrippen (of UML superklassen) van reëel object en virtuele ruimte, met daaronder een verdeling naar bijvoorbeeld bodem, water, begroeiing, functionele ruimte, juridische ruimte. Sectorale modellen zijn verplicht om hun begrippen hieraan te koppelen.
 - Informatiemodellen publiceren hun begrippen in registers. Registers worden via het web ontsloten. De door Geonovum ingerichte [conceptenbibliotheek](https://definities.geostandaarden.nl/nl/) is daar een voorbeeld van.
@@ -82,9 +76,6 @@ Afstemming tussen begrippenkaders verhoogt de effectiviteit van informatievoorzi
 - Knowledge graphs worden ontwikkeld om begrippenkaders aan elkaar te verbinden.
 
 ## Kwaliteit van informatiemodellen
-
-
-<aside class="issue">Noem NEN 3610 conformiteit, template, IMVertor</aside>
 
 Informatiemodellen zijn nog geen data en kunnen daarom alleen op conceptueelniveau op kwaliteit beoordeeld worden. Er zijn een aantal mechanismen om de kwaliteit te borgen.
 
