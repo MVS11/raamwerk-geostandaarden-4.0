@@ -17,11 +17,11 @@ NEN 3610 positioneert informatiemodellen in het bredere kader van een open en to
 De gebruiker is de informatiearchitect en informatiemodelleur die georegistraties en bijbehorende informatiemodellen ontwerpen.
 
 NEN 3610 is afgestemd met internationale standaarden en gebruikt als metamodel de de Nederlandse standaard voor
-meta-informatiemodelering, het MetaMetamodel Informatiemodellering [MIM]. NEN 3610 heeft een relatie met de NEN 2660:2022 - Regels voor informatiemodellering van de gebouwde omgeving. Beide zijn op elkaar afgestemd. Onderstaand figuur geeft schematische de relaties tussen overkoepelende standaarden, NEN 3610 en sectorale informatiemodellen weer.
+meta-informatiemodelering, het Metamodel Informatiemodellering [MIM]. NEN 3610 heeft een relatie met de NEN 2660:2022 - Regels voor informatiemodellering van de gebouwde omgeving. Beide zijn op elkaar afgestemd. Onderstaand figuur geeft schematisch de relaties tussen overkoepelende standaarden, NEN 3610 en sectorale informatiemodellen weer.
 
 <figure id="Figuur_x">
 <img src="media/NEN3610StandaardenPackageDiagram.png" alt="">
-<figcaption>UML Packagediagram van relatie tussen nationale normen – internationale normen – NEN 3610 – sectorale modellen</figcaption>
+<figcaption>UML Packagediagram van relatie tussen nationale -, internationale standaarden – NEN 3610 – sectorale modellen</figcaption>
 </figure>
 
 <figure id="Figuur_x">
@@ -39,7 +39,7 @@ circa 25 Nederlandse informatiemodellen, zoals voor de toepassingsdomeinen water
 en veiligheid (IMOOV, IMDBK, IMEV). Ook maken enkele basisregistraties voor de
 e-overheid deel uit in de NEN 3610 familie, zoals de basisregistraties adressen
 en gebouwen (BAG/IMBAG), grootschalige topografie (BGT/IMGEO), topografie
-(TOP10NL/IMTOP), kadastrale percelen, (BRK/IMKAD) en ondergrond (BRO/IMBRO). Elk van deze informatiemodellen fungeert als een informatiestandaard voor het uitwisselen van geo-informatie binnen die sector of domein.
+(BRT/IMTOP), kadastrale percelen, (BRK/IMKAD) en ondergrond (BRO/IMBRO). Elk van deze informatiemodellen fungeert als een informatiestandaard voor het uitwisselen van geo-informatie binnen die sector of domein.
 
 De Europese informatiestandaarden en informatiemodellen daarin – vnl. afkomstig uit de INSPIRE Richtlijn – zijn een toepassing van de ISO 19100 serie van geo-standaarden. Doordat NEN 3610 hier ook aan conformeert is de structuur en opbouw van de Europese infromatiestandaarden vergelijkbaar met het Nederlandse stelsel. De Europese informatiestandaarden zijn geïmplementeerd aan de aan hand 34
 inhoudelijke thema’s, waarvoor data specificaties zijn opgesteld. Nederlandse
@@ -52,7 +52,7 @@ geo-informatie infrastructuur beschikbaar gesteld.
 |--------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|-------------------------------------------------------|
 | ISO 19101 Geographic Information – Reference model **[ISO19101]**                                                                                | INSPIRE: Generic Conceptual Model **[INSGCM]**                           | MIM - Metamodel Informatie Modellering **[MIM]**; NEN 3610:2022 Basismodel Geo-informatie. **[NEN3610]**      |
 | ISO/TS 19103 Geographic Information - Conceptual schema language **[ISO19103]** ISO 19108 Geographic information -Temporal Schema **[ISO19108]** | INSPIRE: Methodology for the development of data specifications [INSMDS] | MIM - Metamodel Informatie Modellering **[MIM]**; NEN 3610:2022 Basismodel Geo-informatie. **[NEN3610]** |
-| ISO 19107 Geographic information - Spatial Schema **[ISO19107]** | | NEN 3610:2022 Basismodel Geo-informatie. **[NEN3610]** [Geometrie in model en GML(https://docs.geostandaarden.nl/nen3610/gimeg/) |
+| ISO 19107 Geographic information - Spatial Schema **[ISO19107]** | | NEN 3610:2022 Basismodel Geo-informatie. **[NEN3610]** [Geometrie in model en GML](https://docs.geostandaarden.nl/nen3610/gimeg/) |
 | ISO 19108 Geographic information - Temporal Schema **[ISO19108]** | INSPIRE: Methodology for the development of data specifications [INSMDS] | |
 | ISO 19109 Geographic information - Rules for application schema **[ISO19109]**                                                                   | INSPIRE: Guidelines for the encoding of spatial data **[INSGEN]**        |  MIM - Metamodel Informatie Modellering **[MIM]**; NEN 3610:2022 Basismodel Geo-informatie. **[NEN3610]**                    |
 | ISO 19110 Geographic information - Methodology for feature cataloguing **[ISO19110]**                                                            | INSPIRE Feature Concept Dictionary **[INSFCD]**                          |                                                       |
