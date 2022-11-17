@@ -98,7 +98,7 @@ Records*
 | **Internationale standaarden/specificaties**                          | **Europese profielen**                                                          | **Nederlandse profielen**            |
 |-----------------------------------------------------------------------|---------------------------------------------------------------------------------|--------------------------------------|
 | Web Map Tile Service Implementation Standard (WMTS) v1.0.0 [[WMTS]]   | Technical Guidance for the implementation of Inspire View Service [[INSTGVS]]   | Hetzelfde als het Europese profiel.  |
-| OGC API - Tiles - Part 1: Core [[OAPITILES1]] **Goedgekeurd, nog niet gepubliceerd**|                                                                   |                                      |
+| OGC API - Tiles - Part 1: Core [[OAPITILES1]]|                                                                   |                                      |
 | OGC 3D Tiles 1.0 [[3DTILES]]                                          |                                                                                 |                                      |
 
 Handreikingen voor implementatie:

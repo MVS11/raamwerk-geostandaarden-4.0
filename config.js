@@ -429,11 +429,11 @@ var respecConfig =
     "OAPITILES1":
       {
         title:      "OGC 20-057: OGC API - Tiles - Part 1: Core",
-        href:       "http://docs.ogc.org/DRAFTS/20-004.html",
+        href:       "https://docs.ogc.org/is/20-057/20-057.html",
         status:     "Approved",
         publisher:  "Open Geospatial Consortium (OGC)",
         editors:    ["Joan Masó", "Jérôme St-Louis"],
-        date:       "2023",
+        date:       "26-08-2022",
     },
     "I3S":
       {
