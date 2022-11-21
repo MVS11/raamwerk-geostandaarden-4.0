@@ -144,83 +144,55 @@ In het SoI wordt data verwerkt tot informatie. Data uit één of meerdere bronne
 ### Informatiemodellen
 ![Informatiemodellen](media/pacelayers_informatiemodel.png)
 
-Informatiemodellen zorgen ervoor dat iedereen elkaar begrijpt. Het begint bij een gemeenschappelijke begrippenlijst. 
+Informatiemodellen zorgen ervoor dat iedereen elkaar begrijpt. Het begint bij een gemeenschappelijke begrippenlijst. Het[ Metamodel voor Informatiemodellering (MIM)](https://docs.geostandaarden.nl/mim/mim/) beschrjft een standaard aanpak voor het modelleren van informatie. MIM onderkent 4 lagen in een informatiemodel. Het hoogste niveau is de begrippenlijst, het 'woordenboek' waarin de ondeling afgesproken begrippen staan. Daaronder komt het conceptueel infoematiemodel. Onder het conceptueel informatiemodel komt het logisch of gegevensmodel. Als onderste laag het fysiek datamodel.
 
-Lees meer over [Informatiemodellen](#informatiemodellen-0)
+Lees meer over [Informatiemodellen](#informatiemodellen-0) verderop in dit document.
 
 ### Coordinaatreferentie systemen
-![Data](media/pacelayers_crs.png)
+![Coordinaatreferentiesytemen](media/pacelayers_crs.png)
 
-Coorddinaatreferentie systemen (CRS) komen in alle 3 de pacelayers voor. Er wordt data geregistreerd in een bepaald CRS, bijvoorbeeld het RD stelsel. Data wordt getransformeerd naar een CRS, bijvoorbeeld WGS84 of ETRS89. Data wordt geserveerd in een bepaald CRS. Dát er in verschillende CRS'en wordt geregistreerd is helemaal niet erg, zolang er maar wel gebruik gemaakt wordt van een standaard omrekening. Bijvoorbeeld RDNAPTRANS.
+Coordinaat referentie systemen (CRS) komen in alle 3 de pacelayers voor. Er wordt data geregistreerd in een bepaald CRS, bijvoorbeeld het [rijksdriehoekstelsel (RD)](https://nl.wikipedia.org/wiki/Rijksdriehoeksco%C3%B6rdinaten). Data wordt getransformeerd naar een CRS, bijvoorbeeld [WGS84](https://nl.wikipedia.org/wiki/WGS_84) of [ETRS89](https://nl.wikipedia.org/wiki/Europees_Terrestrisch_Referentiesysteem_1989). Data wordt geserveerd in een bepaald CRS. Dát er in verschillende CRS'en wordt geregistreerd is helemaal niet erg, zolang er maar wel gebruik gemaakt wordt van een standaard omrekening. Bijvoorbeeld [RDNAPTRANS](https://www.nsgi.nl/rdnaptrans).
 
-Lees meer over [Coordinaatreferentie systemen](#coordinaat-referentiesystemen)
+Lees meer over [Coordinaatreferentie systemen](#coordinaat-referentiesystemen) verderop in dit document.
 
 
 ### Data
 ![Data](media/pacelayers_data.png)
 
-
+Data is een belangrijk onderdeel van een NGII. Data wordt gegenereerd in het SoR, Data is het 'erts' van de Informatieproducten. Data gaat veel langer mee dan Applicaties, en moet dus ook los van Applicaties kunnen bestaan! Daarom is een open data principe ook zo belangrijk. Aan Data die 'opgesloten' zit heeft niemand wat. Data moet een eigenaar kennen, iemand of een organisatie die bepaalt welke data wordt vastgelegd, aan welke kwaliteitseisen de data moet voldoen, én wat er met de data mag gebeuren! Data wordt voor een bepaald doel ingewonnen, en moet ook voor dat doel worden gebruikt. dat noemen we doelbinding. Data wordt in het SoI bewerkt tot informatieproducten. Typpische bewerkingen zijn: het maken van een selectie, agrregatie, combinatie of een berekening. De informatieprodcuten beantwoorden een vraag van een afnemer, dat noemen we vraagestuurd werken. Data kan statische data zijn (eenmalig ingewonnen en eenmalig vastgelegd en (bijna) nooit meer gewijzigd). Data kan transactionele data zijn (data die wordt vastgelegd als er 'iets' gebeurt, of gedaan moet worden met een object), Data kan (near)realtime zijn als het bijvoorbeeld door een sensor wordt ingewonnen en direct beschikbaar wordt gesteld. Tenslotte is het belangrijk dat er data óver de data bekend is, dat noemen we [Metadata](#metadata).
 
 ### MetaData
-![Data](media/pacelayers_metadata.png)
+![Metadata](media/pacelayers_metadata.png)
 
-Lees meer over [Metadata](#metadata-0)
+Metadata is letterlijk data die over data gaat. Het gaat dan om beschrijvingen van de betreffende data, zodat het gemakkelijk gevonden kan worden, door mensen en/of machines (denk in dit verband ook aan de F van de [FAIR](#fair-principes) Principes), of aan de [Vindbaarheid](#nora-nederlandse-overheids-referentie-architectuur) zoals [NORA](#nora-nederlandse-overheids-referentie-architectuur) definieert. Metadata is zo als het ware de 'wegwijzer' voor het vinden van data.
 
+Meatadata beschrijft ook ''wat' er met data is gebeurd om informatieproduct te worden: Hoe is de data ingewonnen, hoe is de data geregistreerd, heeft er een dataconversie plaatsgevonden, welke bewerkingen zijn er met de data gedaan, enz.  
+
+Lees meer over [Metadata](#metadata-0) verderop in dit document.
 
 ### API's
 ![API's](media/pacelayers_api.png)
+API's - Application Programming Interfaces zijn hét middel om data en applicaties te ontkoppelen. API's zitten tussen data, informatieproducten en applicaties in. De [Nederlandse API Strategie](https://www.forumstandaardisatie.nl/informatie-aanbieden-apis) beschrijft drie soorten API's. De system API's die dicht tegen de data objecten aanzitten, de orchestratation API's die meerdere system API's aan elkaar koppelen, en tenslotte de convenience API's die kunnen worden aangeroepen vanuit het [SoE](#het-3-laags-pacelayer-model). 
 
-Lees meer over [API's](#application-programming-interfaces-api-s)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Lees meer over [API's](#application-programming-interfaces-api-s) verderop in dit document.
 
 ## Verkenning NGII
 
-In de afgelopen tien jaar is duidelijk geworden dat data meer zijn dan het
-bijproduct van specifieke werkprocessen die mogelijk geschikt zijn voor
-hergebruik. Data zijn een essentiële grondstof. Dit vraagt om een frisse blik op
-de mogelijkheden van onze data-infrastructuur.
+In de afgelopen tien jaar is duidelijk geworden dat data meer zijn dan het bijproduct van specifieke werkprocessen die mogelijk geschikt zijn voor
+hergebruik. Data zijn een essentiële grondstof. Dit vraagt om een frisse blik op de mogelijkheden van onze data-infrastructuur.
 
-Wanneer we data omzetten in informatie en informatie in kennis, dan worden data
-een essentiële grondstof voor het maken van keuzes. In Europa vinden we het
-daarbij belangrijk dat keuzeprocessen transparant zijn. Betrokken burgers moeten
-overheidsbeleid kunnen controleren en er zelf actief aan kunnen bijdragen met
-nieuwe initiatieven of alternatieven. Van een infrastructuur die laagdrempelig
-toegang biedt tot individuele databronnen, verschuift de vraag naar een
-infrastructuur die het kunnen combineren van data uit verschillende bronnen
-ondersteunt. Het belang van zowel semantische als technische interoperabiliteit
+Wanneer we data omzetten in informatie en informatie in kennis, dan worden data een essentiële grondstof voor het maken van keuzes. In Europa vinden we het
+daarbij belangrijk dat keuzeprocessen transparant zijn. Betrokken burgers moeten overheidsbeleid kunnen controleren en er zelf actief aan kunnen bijdragen met
+nieuwe initiatieven of alternatieven. Van een infrastructuur die laagdrempelig toegang biedt tot individuele databronnen, verschuift de vraag naar een
+infrastructuur die het kunnen combineren van data uit verschillende bronnen ondersteunt. Het belang van zowel semantische als technische interoperabiliteit
 neemt steeds verder toe.
 
-"De Nederlandse Geo-informatie Infrastructuur is toe aan een upgrade” schreven
-we in de Geonovum meerjarenvisie 2021-2023. Hoe kan de NGII een upgrade krijgen
-richting een vraaggedreven infrastructuur, die de kracht van locatiedata
-laagdrempelig inzetbaar maakt voor de grote maatschappelijke opgaven? Welke
-(nieuwe) standaarden spelen daarbij een rol? Hoe hangen allerlei afzonderlijke
-ontwikkelingen eigenlijk met elkaar samen? En hoe verhoudt de NGII 2.0 zich
-bijvoorbeeld tot een Nationale Digital Twin Infrastructuur? En hoe verhouden die
-ontwikkelingen zich toch Europese ontwikkelingen rond data en digitalisering? In
-deze white paper zoeken we antwoorden op die vragen. En omdat die antwoorden
-meer waarde hebben, wanneer ze breed gedragen worden in het werkveld, is deze
+"De Nederlandse Geo-informatie Infrastructuur is toe aan een upgrade” schreven we in de Geonovum meerjarenvisie 2021-2023. Hoe kan de NGII een upgrade krijgen
+richting een vraaggedreven infrastructuur, die de kracht van locatiedata laagdrempelig inzetbaar maakt voor de grote maatschappelijke opgaven? Welke
+(nieuwe) standaarden spelen daarbij een rol? Hoe hangen allerlei afzonderlijke ontwikkelingen eigenlijk met elkaar samen? En hoe verhoudt de NGII 2.0 zich
+bijvoorbeeld tot een Nationale Digital Twin Infrastructuur? En hoe verhouden die ontwikkelingen zich toch Europese ontwikkelingen rond data en digitalisering? In
+deze white paper zoeken we antwoorden op die vragen. En omdat die antwoorden meer waarde hebben, wanneer ze breed gedragen worden in het werkveld, is deze
 white paper ook in publieke consulatie gebracht en vervolgens aangescherpt.
 
-Eind 2021 heeft Geonovum een visie op de Nederlandse geo-informatie
-infrastructuur geschetst: [Whitepaper Visie op upgrade Nederlandse
-Geo-informatie Infrastructuur
-(NGII)](https://docs.geostandaarden.nl/ngii/wpungii/).
+Eind 2021 heeft Geonovum een visie op de Nederlandse geo-informatie infrastructuur geschetst: [Whitepaper Visie op upgrade Nederlandse Geo-informatie Infrastructuur(NGII)](https://docs.geostandaarden.nl/ngii/wpungii/).
+
