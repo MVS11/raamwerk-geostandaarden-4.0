@@ -1,13 +1,13 @@
-# Coordinaat referentiesystemen
+# Coördinaat referentiesystemen
 
 **Geo-informatie is direct gekoppeld aan een locatie op aarde. De wijze waarop die
 koppeling wordt gelegd, wordt beschreven met het coördinaatreferentiesysteem (CRS) 
-waarin coördinaten van een locatie worden vastgelegd. Voor Nederland zijn meerdere cooordinaat 
+waarin coördinaten van een locatie worden vastgelegd. Voor Nederland zijn meerdere coördinaat 
 referentiesystemen beschikbaar. RD, ETRS89 en WGS84 zijn bekende voorbeelden van CRS-en.**
 
 ## Overzicht standaarden voor coördinaat referentiesystemen
 
-Coördinaat referentiesystemen moeten voldoen aan ISO 19111 en bestaan uit
+Coördinaat referentiesystemen moeten voldoen aan [ISO 19111](https://www.iso.org/standard/74039.html) en bestaan uit
 een horizontaal en verticaal coördinaat referentiesysteem. Een coördinaat
 referentiesysteem is op zijn beurt weer opgebouwd uit een datum (horizontaal /
 verticaal) en een coördinaat referentiesysteem.
@@ -32,7 +32,7 @@ satellietplaatsbepalingstechnieken. Het verschil in oorsprong, schaal en oriënt
 Het stelsel van de Rijksdriehoeksmeting (RD) is het landelijke CRS voor Nederland.
 
 In de onderstaande tabel zijn de standaarden en specificaties benoemd, die van
-toepassing zijn op de coordinaat referentie systemen voor Nederland.
+toepassing zijn op de coördinaat referentie systemen voor Nederland.
 
 Tabel ? - Standaarden en specificaties met betrekking coordinaat referentiesystemen
 
